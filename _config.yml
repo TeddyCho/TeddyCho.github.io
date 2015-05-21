@@ -8,7 +8,7 @@ relative_permalinks: true
 title:               Teddy
 tagline:             'says hi'
 description:         'brand new'
-#url:                 http://TeddyCho.github.io
+url:                 http://TeddyCho.github.io
 baseurl:             'http://TeddyCho.github.io'
 paginate:            5
 
