@@ -514,6 +514,7 @@ Most symbols had similar profiles in exchange market share. To illustrate, stock
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
 GOOG had an exchange market share profile which differed somewhat noticeably.
+
 <iframe srcdoc=' &lt;!doctype HTML&gt;
 &lt;meta charset = &#039;utf-8&#039;&gt;
 &lt;html&gt;
@@ -673,6 +674,7 @@ GOOG had an exchange market share profile which differed somewhat noticeably.
  ([SLV also had a slight difference, with no NYSE representation.](http://rcharts.github.io/viewer/?d28814252e7c73d50287))
 
 BRKA had the most unique exchange market share profile, with higher market share for BATS and no Arca:
+
 <iframe srcdoc=' &lt;!doctype HTML&gt;
 &lt;meta charset = &#039;utf-8&#039;&gt;
 &lt;html&gt;
