@@ -69,7 +69,7 @@ After-Hours trading has a different profile for exchange market shares:
 ![After-Hours Market Share](https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/After-Hours2014.png)
 
 ## Notes
-A trade's time of day was inferred from Sale Condition as follows:
+* A trade's time of day was inferred from Sale Condition as follows:
 <table>
   <thead>
     <tr>      <th>Time of Day</th>      <th>Sale Condition</th>    </tr>
@@ -82,4 +82,4 @@ A trade's time of day was inferred from Sale Condition as follows:
   </tbody>
 </table>
 
-Some trades had an exchange code "Q", which did not exactly correspond to anything listed in the [spec sheet](www.nyxdata.com/doc/224904). We assumed "Q" referred to the NASDAQ exchange since "T/Q" corresponded to NASDAQ and "T" corresponded to NASDAQ OMX.
+* Some trades had an exchange code "Q", which did not exactly correspond to anything listed in the [spec sheet](www.nyxdata.com/doc/224904). We assumed "Q" referred to the NASDAQ exchange since "T/Q" corresponded to NASDAQ and "T" corresponded to NASDAQ OMX.
