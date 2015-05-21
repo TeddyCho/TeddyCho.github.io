@@ -50,96 +50,96 @@ Over all trades, the volumes were distributed across exhanges as such (**Task #1
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart17c06d382d7c&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart17c0411e12c2&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart17c06d382d7c()
+      drawchart17c0411e12c2()
     });
-    function drawchart17c06d382d7c(){  
+    function drawchart17c0411e12c2(){  
       var opts = {
- &quot;dom&quot;: &quot;chart17c06d382d7c&quot;,
+ &quot;dom&quot;: &quot;chart17c0411e12c2&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Common&quot;,
 &quot;y&quot;: &quot;Volume&quot;,
 &quot;group&quot;: &quot;Exchange&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart17c06d382d7c&quot; 
+&quot;id&quot;: &quot;chart17c0411e12c2&quot; 
 },
         data = [
  {
  &quot;Exchange&quot;: &quot;BATS&quot;,
-&quot;Volume&quot;:    1569844.265,
+&quot;Volume&quot;:     1569844265,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;BATS Y&quot;,
-&quot;Volume&quot;:     922446.499,
+&quot;Volume&quot;:      922446499,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;CBOE&quot;,
-&quot;Volume&quot;:      22517.429,
+&quot;Volume&quot;:       22517429,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;Chicago&quot;,
-&quot;Volume&quot;:     181158.359,
+&quot;Volume&quot;:      181158359,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;Direct Edge A&quot;,
-&quot;Volume&quot;:     915651.685,
+&quot;Volume&quot;:      915651685,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;Direct Edge X&quot;,
-&quot;Volume&quot;:    2053407.256,
+&quot;Volume&quot;:     2053407256,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;FINRA&quot;,
-&quot;Volume&quot;:   10064238.734,
+&quot;Volume&quot;:    10064238734,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;NASDAQ&quot;,
-&quot;Volume&quot;:     148971.605,
+&quot;Volume&quot;:      148971605,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;NASDAQ OMX&quot;,
-&quot;Volume&quot;:    2522686.933,
+&quot;Volume&quot;:     2522686933,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;NASDAQ OMX BX&quot;,
-&quot;Volume&quot;:       998253.9,
+&quot;Volume&quot;:      998253900,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;NASDAQ OMX PSX&quot;,
-&quot;Volume&quot;:     136601.845,
+&quot;Volume&quot;:      136601845,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;National&quot;,
-&quot;Volume&quot;:      65506.674,
+&quot;Volume&quot;:       65506674,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;NYSE&quot;,
-&quot;Volume&quot;:    4794287.787,
+&quot;Volume&quot;:     4794287787,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;NYSE Arca SM&quot;,
-&quot;Volume&quot;:    1893378.717,
+&quot;Volume&quot;:     1893378717,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;NYSE MKT&quot;,
-&quot;Volume&quot;:       1493.112,
+&quot;Volume&quot;:        1493112,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 } 
 ]
@@ -180,8 +180,8 @@ Over all trades, the volumes were distributed across exhanges as such (**Task #1
         
         chart.yAxis
   .showMaxMin(false)
-  .tickFormat(function(d) {return d/1000000;})
-  .axisLabel(&quot;Volume, in millions&quot;)
+  .tickFormat(function(d) {return d/1000000000;})
+  .axisLabel(&quot;Volume, in billions&quot;)
   .width(    40)
       
        d3.select(&quot;#&quot; + opts.id)
@@ -198,7 +198,7 @@ Over all trades, the volumes were distributed across exhanges as such (**Task #1
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart17c06d382d7c'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart17c0411e12c2'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
  
 <table>
