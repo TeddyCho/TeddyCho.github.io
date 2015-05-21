@@ -24,7 +24,7 @@ Transforming the above data (64209422 rows) to per-timeOfDay-per-day exchange vo
 The exchanges' volumes and market shares for each epoch of each trading day can be found [here](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/taskTwo.csv) (**Task #2**).
 
 ## Overall Look at Exchange Market Shares
-[Over all trades, the volumes were distributed across exhanges as such (**Task #1**):](http://rcharts.github.io/viewer/?a2c6f9b03902566cfb76)
+[Over all trades, the volumes were distributed across exhanges as such](http://rcharts.github.io/viewer/?a2c6f9b03902566cfb76) (**Task #1**):
 <table>
   <thead>
     <tr><th>Exchange</th><th>Proportion</th></tr>
