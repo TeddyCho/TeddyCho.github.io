@@ -772,7 +772,7 @@ BRKA had the most unique exchange market share profile, with higher market share
 &quot;Volume&quot;:          15606 
 } 
 ]
-  
+
       if(!(opts.type===&quot;pieChart&quot; || opts.type===&quot;sparklinePlus&quot; || opts.type===&quot;bulletChart&quot;)) {
         var data = d3.nest()
           .key(function(d){
@@ -825,6 +825,8 @@ BRKA had the most unique exchange market share profile, with higher market share
   &lt;/body&gt;
 &lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart15041d063979'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+
+We can also look at the way volumes were spread out over exchanges based on Time of Day. We observe different dominant exchanges between Regular, After-Hours, and the two auctions.
 
 <iframe srcdoc=' &lt;!doctype HTML&gt;
 &lt;meta charset = &#039;utf-8&#039;&gt;
@@ -1280,7 +1282,7 @@ BRKA had the most unique exchange market share profile, with higher market share
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
 &lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart1504501f6739'> </iframe>
- <style>iframe.rChart{ width: 100%; height: 400px;}</style>We can also look at the way volumes were spread out over exchanges based on Time of Day. We observe different dominant exchanges between Regular, After-Hours, and the two auctions.
+ <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
 
 
