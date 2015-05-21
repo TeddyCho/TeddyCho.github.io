@@ -45,18 +45,16 @@ A trade's time of day was inferred from Sale Condition as follows:
 ## Overall Look at Exchange Market Shares
 [Over all trades, the volumes were distributed across exhanges as such.](http://rcharts.github.io/viewer/?a2c6f9b03902566cfb76)
 
-Most symbols had similar profiles in exchange market share. [The stocks BHP, FE, and XOM were chosen since they were at comparable scales.](http://rcharts.github.io/viewer/?c0e1fc17977fa20a3994)
+Most symbols had similar profiles in exchange market share. [To illustrate, stocks BHP, FE, and XOM were chosen since their volumes were at comparable scales.](http://rcharts.github.io/viewer/?c0e1fc17977fa20a3994)
 
 [Only GOOG had a exchange market share profile which differed somewhat noticeably.](
 http://rcharts.github.io/viewer/?1e2ef2392dcfe731ef83) (SLV also had a slight difference, with no NYSE representation.)
 
-We can also look at the way volumes were spread out over exchanges based on time of day.
-
-It's clear that Regular trading volume dwarfs the volume during Open, Close, and After-Hours. From now on, we will exclude volume from the Regular bucket.
-
-For the different symbols, let's take a look at how volumes were distributed across exchange per time of day.
+[We can also look at the way volumes were spread out over exchanges based on Time of Day.](http://rcharts.github.io/viewer/?ba03ed4250a3839722c5)
 
 ## Exchange Volumes and Market Shares Over 2014
+The following graphs mirror the last rChart in the above section.
+
 With so many exchanges, it may be helpful to amalgamate categories:
 ![Regular Hours Market Share](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/Regular2014.png)
 We see similar exchange market shares for both the opening and closing auctions:
