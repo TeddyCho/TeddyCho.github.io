@@ -4,7 +4,7 @@ title: Where Do Volumes Go?
 unlisted: true
 ---
 
-## Task
+## Tasks
 > 1. Using the TAQ data, compute the market shares for the different stock exchanges for a representative sample of stocks (it should include GOOG, BAC, and then a representative sample of other stocks, the size of the sample can depend on what's feasible computationally).
 > 
 > 2. Focus on calendar year 2014, and compute volumes and market shares for each exchange for each trading day, dividing the day into the opening auction, regular trading, closing auction, and after-hours trading.
