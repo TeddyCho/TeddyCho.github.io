@@ -53,6 +53,7 @@ For the different symbols, let's take a look at how volumes were distributed acr
 
 ## Exchange Volumes and Market Shares Over 2014
 This is the stacked area graph for **Regular** volume over 2014.
+
 This is the stacked area graph for **Open** volume over 2014.
 This is the stacked area graph for **Close** volume over 2014.
 This is the stacked area graph for **After-Hours** volume over 2014.
