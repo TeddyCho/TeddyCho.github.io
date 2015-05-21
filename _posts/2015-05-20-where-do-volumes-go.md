@@ -50,8 +50,10 @@ Computing per-day exchange shares on the above data, consisting of 64209422 rows
 
 Most symbols had similar profiles in exchange market share. [To illustrate, stocks BHP, FE, and XOM were chosen since their volumes were at comparable scales.](http://rcharts.github.io/viewer/?c0e1fc17977fa20a3994)
 
-[Only GOOG had a exchange market share profile which differed somewhat noticeably.](
-http://rcharts.github.io/viewer/?1e2ef2392dcfe731ef83) (SLV also had a slight difference, with no NYSE representation.)
+[GOOG had an exchange market share profile which differed somewhat noticeably.](
+http://rcharts.github.io/viewer/?1e2ef2392dcfe731ef83) ([SLV also had a slight difference, with no NYSE representation.](http://rcharts.github.io/viewer/?d28814252e7c73d50287))
+
+[BRKA had the most unique exchange market share profile.](http://rcharts.github.io/viewer/?23f2fb892ef69c371849)
 
 [We can also look at the way volumes were spread out over exchanges based on Time of Day.](http://rcharts.github.io/viewer/?ba03ed4250a3839722c5)
 
