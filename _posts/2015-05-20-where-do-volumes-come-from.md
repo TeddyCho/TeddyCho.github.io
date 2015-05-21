@@ -24,31 +24,7 @@ Transforming the above data (64209422 rows) to per-timeOfDay-per-day exchange vo
 The exchanges' volumes and market shares for each epoch of each trading day can be found [here](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/taskTwo.csv) (**Task #2**).
 
 ## Overall Look at Exchange Market Shares
-[Over all trades, the volumes were distributed across exhanges as such](http://rcharts.github.io/viewer/?a2c6f9b03902566cfb76) (**Task #1**):
-<table>
-  <thead>
-    <tr><th>Exchange</th><th>Proportion</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>BATS</td><td>.05971</td></tr>
-    <tr><td>BATS Y</td><td>.03509</td></tr>
-    <tr><td>CBOE</td><td>.0008565</td></tr>
-    <tr><td>Chicago</td><td>.006891</td></tr>
-    <tr><td>Direct Edge A</td><td>.03483</td></tr>
-    <tr><td>Direct Edge X</td><td>.07810</td></tr>
-    <tr><td>FINRA</td><td>.3828</td></tr>
-    <tr><td>NASDAQ</td><td>.005666</td></tr>
-    <tr><td>NASDAQ OMX</td><td>.0960</td></tr>
-    <tr><td>NASDAQ OMX BX</td><td>.03797</td></tr>
-    <tr><td>NASDAQ OMX PSX</td><td>.005196</td></tr>
-    <tr><td>National</td><td>.002492</td></tr>
-    <tr><td>NYSE</td><td>.1824</td></tr>
-    <tr><td>NYSE Arca SM</td><td>.07202</td></tr>
-    <tr><td>NYSE MMKT</td><td>.00005679</td></tr>
-  </tbody>
-</table>
-
-Most symbols had similar profiles in exchange market share. [To illustrate, stocks BHP, FE, and XOM were chosen since their volumes were at comparable scales.](http://rcharts.github.io/viewer/?c0e1fc17977fa20a3994)
+Over all trades, the volumes were distributed across exhanges as such (**Task #1**):
 
 <iframe srcdoc=' &lt;!doctype HTML&gt;
 &lt;meta charset = &#039;utf-8&#039;&gt;
@@ -220,6 +196,32 @@ Most symbols had similar profiles in exchange market share. [To illustrate, stoc
   &lt;/body&gt;
 &lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart1504297d158d'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+ 
+<table>
+  <thead>
+    <tr><th>Exchange</th><th>Proportion</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>BATS</td><td>.05971</td></tr>
+    <tr><td>BATS Y</td><td>.03509</td></tr>
+    <tr><td>CBOE</td><td>.0008565</td></tr>
+    <tr><td>Chicago</td><td>.006891</td></tr>
+    <tr><td>Direct Edge A</td><td>.03483</td></tr>
+    <tr><td>Direct Edge X</td><td>.07810</td></tr>
+    <tr><td>FINRA</td><td>.3828</td></tr>
+    <tr><td>NASDAQ</td><td>.005666</td></tr>
+    <tr><td>NASDAQ OMX</td><td>.0960</td></tr>
+    <tr><td>NASDAQ OMX BX</td><td>.03797</td></tr>
+    <tr><td>NASDAQ OMX PSX</td><td>.005196</td></tr>
+    <tr><td>National</td><td>.002492</td></tr>
+    <tr><td>NYSE</td><td>.1824</td></tr>
+    <tr><td>NYSE Arca SM</td><td>.07202</td></tr>
+    <tr><td>NYSE MMKT</td><td>.00005679</td></tr>
+  </tbody>
+</table>
+
+Most symbols had similar profiles in exchange market share. [To illustrate, stocks BHP, FE, and XOM were chosen since their volumes were at comparable scales.](http://rcharts.github.io/viewer/?c0e1fc17977fa20a3994)
+
 
 [GOOG had an exchange market share profile which differed somewhat noticeably.](
 http://rcharts.github.io/viewer/?1e2ef2392dcfe731ef83) ([SLV also had a slight difference, with no NYSE representation.](http://rcharts.github.io/viewer/?d28814252e7c73d50287))
