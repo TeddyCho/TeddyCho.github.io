@@ -17,30 +17,19 @@ The trades covered the symbols: **BAC, GOOG, BHP, BRKA, FE, RSH, SLV, T, XOM**.
 A trade's time of day was inferred from Sale Condition as follows:
 <table>
   <thead>
-    <tr>
-      <th>Time of Day</th>
-      <th>Sale Condition</th>
-    </tr>
+    <tr>      <th>Time of Day</th>      <th>Sale Condition</th>    </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>Open</td>
-      <td>O, Q</td>
-    </tr>
-    <tr>
-      <td>Close</td>
-      <td>M, 6</td>
-    </tr>
-    <tr>
-      <td>After-Hours</td>
-      <td>T, U</td>
-    </tr>
-    <tr>
-      <td>Regular</td>
-      <td>Everything else</td>
-    </tr>
+    <tr>      <td>Open</td>      <td>O, Q</td>    </tr>
+    <tr>      <td>Close</td>      <td>M, 6</td>    </tr>
+    <tr>      <td>After-Hours</td>      <td>T, U</td>    </tr>
+    <tr>      <td>Regular</td>      <td>Everything else</td>    </tr>
   </tbody>
 </table>
+
+Computing per-day exchange shares on the above data, consisting of 64209422 rows, took 495 seconds on a 2.4 GHz/4GB laptop.
+
+The raw output from the code is [here](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/breakdown1.csv).
 
 ## Overall Look at Exchange Market Shares
 [Over all trades, the volumes were distributed across exhanges as such.](http://rcharts.github.io/viewer/?a2c6f9b03902566cfb76)
@@ -85,7 +74,5 @@ We see similar exchange market shares for both the opening and closing auctions:
 After-Hours trading has a different profile for exchange market shares:
 ![After-Hours Market Share](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/After-Hours2014.png)
 
-## Some Notes
-Running my code on the above data, consisting 64209422 rows, took 495 seconds on a 2.4 GHz/4GB laptop.
-
+## Notes
 Some trades had an exchange code "Q", which did not exactly correspond to anything listed in the [spec sheet](www.nyxdata.com/doc/224904). We assumed "Q" referred to the NASDAQ exchange since "T/Q" corresponded to NASDAQ and "T" corresponded to NASDAQ OMX.
