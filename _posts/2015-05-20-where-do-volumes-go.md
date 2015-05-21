@@ -19,22 +19,8 @@ Attributes of the raw TAQ data:
     <tr>      <td>01-Jan-2014 to 31-Dec-2014</td>      <td>BAC, GOOG, BHP, BRKA, FE, RSH, SLV, T, XOM</td>    </tr>
   </tbody>
 </table>
-Computing per-day exchange shares on the above data, consisting of 64209422 rows, took 495 seconds on a 2.4 GHz/4GB laptop.
+Computing per-day exchange shares on the above data, consisting of 64209422 rows, took 495 seconds on a 2.4 GHz/4GB laptop. The raw output from the code is [here](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/breakdown1.csv).
 
-The raw output from the code is [here](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/breakdown1.csv).
-
-A trade's time of day was inferred from Sale Condition as follows:
-<table>
-  <thead>
-    <tr>      <th>Time of Day</th>      <th>Sale Condition</th>    </tr>
-  </thead>
-  <tbody>
-    <tr>      <td>Open</td>      <td>O, Q</td>    </tr>
-    <tr>      <td>Close</td>      <td>M, 6</td>    </tr>
-    <tr>      <td>After-Hours</td>      <td>T, U</td>    </tr>
-    <tr>      <td>Regular</td>      <td>Everything else</td>    </tr>
-  </tbody>
-</table>
 
 
 ## Overall Look at Exchange Market Shares
@@ -81,4 +67,17 @@ After-Hours trading has a different profile for exchange market shares:
 ![After-Hours Market Share](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/After-Hours2014.png)
 
 ## Notes
+A trade's time of day was inferred from Sale Condition as follows:
+<table>
+  <thead>
+    <tr>      <th>Time of Day</th>      <th>Sale Condition</th>    </tr>
+  </thead>
+  <tbody>
+    <tr>      <td>Open</td>      <td>O, Q</td>    </tr>
+    <tr>      <td>Close</td>      <td>M, 6</td>    </tr>
+    <tr>      <td>After-Hours</td>      <td>T, U</td>    </tr>
+    <tr>      <td>Regular</td>      <td>Everything else</td>    </tr>
+  </tbody>
+</table>
+
 Some trades had an exchange code "Q", which did not exactly correspond to anything listed in the [spec sheet](www.nyxdata.com/doc/224904). We assumed "Q" referred to the NASDAQ exchange since "T/Q" corresponded to NASDAQ and "T" corresponded to NASDAQ OMX.
