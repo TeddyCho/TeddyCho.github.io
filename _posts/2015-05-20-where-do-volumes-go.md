@@ -83,3 +83,5 @@ After-Hours trading has a different profile for exchange market shares:
 </table>
 
 * Some trades had an exchange code "Q", which did not exactly correspond to anything listed in the [spec sheet](www.nyxdata.com/doc/224904). We assumed "Q" referred to the NASDAQ exchange since "T/Q" corresponded to NASDAQ and "T" corresponded to NASDAQ OMX.
+
+* My laptop was faster than I had anticipated, and I am happy to run the code on more datasets.
