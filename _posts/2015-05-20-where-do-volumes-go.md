@@ -88,4 +88,4 @@ After-Hours trading has a different profile for exchange market shares:
 ## Some Notes
 Running my code on the above data, consisting 64209422 rows, took 495 seconds on a 2.4 GHz/4GB laptop.
 
-Some trades had an exchange code which did not correspond to anything listed in the [spec sheet](www.nyxdata.com/doc/224904).
+Some trades had an exchange code "Q", which did not exactly correspond to anything listed in the [spec sheet](www.nyxdata.com/doc/224904). We assumed "Q" referred to the NASDAQ exchange since "T/Q" corresponded to NASDAQ and "T" corresponded to NASDAQ OMX.
