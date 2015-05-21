@@ -53,9 +53,9 @@ Most symbols had similar profiles in exchange market share. [To illustrate, stoc
 [GOOG had an exchange market share profile which differed somewhat noticeably.](
 http://rcharts.github.io/viewer/?1e2ef2392dcfe731ef83) ([SLV also had a slight difference, with no NYSE representation.](http://rcharts.github.io/viewer/?d28814252e7c73d50287))
 
-[BRKA had the most unique exchange market share profile.](http://rcharts.github.io/viewer/?23f2fb892ef69c371849)
+[BRKA had the most unique exchange market share profile, with higher market share for BATS and no Arca.](http://rcharts.github.io/viewer/?23f2fb892ef69c371849)
 
-[We can also look at the way volumes were spread out over exchanges based on Time of Day.](http://rcharts.github.io/viewer/?ba03ed4250a3839722c5)
+[We can also look at the way volumes were spread out over exchanges based on Time of Day. We observe different dominant exchanges between Regular, After-Hours, and the two auctions.](http://rcharts.github.io/viewer/?ba03ed4250a3839722c5)
 
 ## Exchange Volumes and Market Shares Over 2014
 The following graphs illustrate the extent of day-to-day consistency for the trends in the last rChart.
@@ -85,3 +85,5 @@ After-Hours trading has a different profile for exchange market shares:
 * Some trades had an exchange code "Q", which did not exactly correspond to anything listed in the [spec sheet](www.nyxdata.com/doc/224904). We assumed "Q" referred to the NASDAQ exchange since "T/Q" corresponded to NASDAQ and "T" corresponded to NASDAQ OMX.
 
 * The laptop was faster than anticipated, and I am happy to run the code on different datasets.
+
+* In next run, make sure to include stocks with different listings (NYSE, NASDAQ, AMEX).
