@@ -513,7 +513,7 @@ Most symbols had similar profiles in exchange market share. To illustrate, stock
 &lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart150461876fa3'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
-GOOG had an exchange market share profile which differed somewhat noticeably.
+GOOG had an exchange market share profile which differed somewhat noticeably:
 
 <iframe srcdoc=' &lt;!doctype HTML&gt;
 &lt;meta charset = &#039;utf-8&#039;&gt;
@@ -671,7 +671,7 @@ GOOG had an exchange market share profile which differed somewhat noticeably.
 &lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart150422502c52'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
- ([SLV also had a slight difference, with no NYSE representation.](http://rcharts.github.io/viewer/?d28814252e7c73d50287))
+([SLV also had a slight difference, with no NYSE representation.](http://rcharts.github.io/viewer/?d28814252e7c73d50287))
 
 BRKA had the most unique exchange market share profile, with higher market share for BATS and no Arca:
 
@@ -826,7 +826,7 @@ BRKA had the most unique exchange market share profile, with higher market share
 &lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart15041d063979'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
-We can also look at the way volumes were spread out over exchanges based on Time of Day. We observe different dominant exchanges between Regular, After-Hours, and the two auctions.
+We can also look at the way volumes were spread out over exchanges based on Time of Day. We observe different dominant exchanges between Regular, After-Hours, and the two auctions:
 
 <iframe srcdoc=' &lt;!doctype HTML&gt;
 &lt;meta charset = &#039;utf-8&#039;&gt;
