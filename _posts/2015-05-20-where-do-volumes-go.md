@@ -52,11 +52,14 @@ It's clear that Regular trading volume dwarfs the volume during Open, Close, and
 For the different symbols, let's take a look at how volumes were distributed across exchange per time of day.
 
 ## Exchange Volumes and Market Shares Over 2014
-This is the stacked area graph for **Regular** volume over 2014.
-
-This is the stacked area graph for **Open** volume over 2014.
-This is the stacked area graph for **Close** volume over 2014.
-This is the stacked area graph for **After-Hours** volume over 2014.
+Exchange market shares for **Regular** volume over 2014:
+![Regular Hours Market Share](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/Regular2014.png)
+Exchange market shares for **Open** volume over 2014:
+![Regular Hours Market Share](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/Open2014.png)
+Exchange market shares for **Close** volume over 2014:
+![Regular Hours Market Share](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/Close2014.png)
+Exchange market shares for **After-Hours** volume over 2014:
+![Regular Hours Market Share](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/After-Hours2014.png)
 
 ## Some Notes
 Running my code on the above data, consisting 64209422 rows, took 495 seconds on a 2.4 GHz/4GB laptop.
