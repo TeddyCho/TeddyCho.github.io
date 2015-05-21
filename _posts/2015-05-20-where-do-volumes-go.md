@@ -10,9 +10,18 @@ unlisted: true
 > 2. Focus on calendar year 2014, and compute volumes and market shares for each exchange for each trading day, dividing the day into the opening auction, regular trading, closing auction, and after-hours trading.
 
 ## Data
-The data consisted of all trades from **01-Jan-2014 to 31-Dec-2014**.
+Attributes of the raw TAQ data:
+<table>
+  <thead>
+    <tr>      <th>Timeframe</th>      <th>Symbols</th>    </tr>
+  </thead>
+  <tbody>
+    <tr>      <td>01-Jan-2014 to 31-Dec-2014</td>      <td>BAC, GOOG, BHP, BRKA, FE, RSH, SLV, T, XOM</td>    </tr>
+  </tbody>
+</table>
+Computing per-day exchange shares on the above data, consisting of 64209422 rows, took 495 seconds on a 2.4 GHz/4GB laptop.
 
-The trades covered the symbols: **BAC, GOOG, BHP, BRKA, FE, RSH, SLV, T, XOM**.
+The raw output from the code is [here](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/breakdown1.csv).
 
 A trade's time of day was inferred from Sale Condition as follows:
 <table>
@@ -27,9 +36,6 @@ A trade's time of day was inferred from Sale Condition as follows:
   </tbody>
 </table>
 
-Computing per-day exchange shares on the above data, consisting of 64209422 rows, took 495 seconds on a 2.4 GHz/4GB laptop.
-
-The raw output from the code is [here](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/breakdown1.csv).
 
 ## Overall Look at Exchange Market Shares
 [Over all trades, the volumes were distributed across exhanges as such.](http://rcharts.github.io/viewer/?a2c6f9b03902566cfb76)
