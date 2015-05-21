@@ -4,6 +4,53 @@ title: Where Do Volumes Go?
 unlisted: true
 ---
 
+## Data
+The data consisted of all trades from **01-Jan-2014 to 31-Dec-2014**.
+
+The trades covered the symbols: **BAC, GOOG, BHP, BRKA, RSH, SLV, T**.
+
+A trade's time of day was inferred from Sale Condition as follows:
+<table>
+  <thead>
+    <tr>
+      <th>Time of Day</th>
+      <th>Sale Condition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Open</td>
+      <td>O, Q</td>
+    </tr>
+    <tr>
+      <td>Close</td>
+      <td>M, 6</td>
+    </tr>
+    <tr>
+      <td>AfterHours</td>
+      <td>T, U</td>
+    </tr>
+    <tr>
+      <td>Regular</td>
+      <td>Everything else</td>
+    </tr>
+  </tbody>
+</table>
+
+## First Glance
+Over all trades, the volumes were distributed across exhanges as such:
+
+We can also look at the way volumes were spread out over exchanges based on time of day.
+
+It's clear that Regular trading volume dwarfs the volume during Open, Close, and AfterHours. From now on, we will exclude volume from the Regular bucket.
+
+For the different symbols, let's take a look at how volumes were distributed across exchange per time of day.
+
+
+
+%% Some Notes
+Running my code on the above data, rows, took seconds on a 2.4 GHz/4GB laptop.
+Some trades had an exchange code which did not correspond to anything listed in the [spec sheet](www.nyxdata.com/doc/224904).
 
 <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
