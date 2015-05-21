@@ -61,12 +61,12 @@ http://rcharts.github.io/viewer/?1e2ef2392dcfe731ef83) ([SLV also had a slight d
 The following graphs illustrate the extent of day-to-day consistency for the trends in the last rChart.
 
 With so many exchanges, it may be helpful to amalgamate categories:
-![Regular Hours Market Share](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/Regular2014.png)
+![Regular Hours Market Share](https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/Regular2014.png)
 We see similar exchange market shares for both the opening and closing auctions:
-![Opening Auction Market Share](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/Open2014.png)
-![Closing Auction Market Share](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/Close2014.png)
+![Opening Auction Market Share](https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/Open2014.png)
+![Closing Auction Market Share](https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/Close2014.png)
 After-Hours trading has a different profile for exchange market shares:
-![After-Hours Market Share](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/After-Hours2014.png)
+![After-Hours Market Share](https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/After-Hours2014.png)
 
 ## Notes
 A trade's time of day was inferred from Sale Condition as follows:
