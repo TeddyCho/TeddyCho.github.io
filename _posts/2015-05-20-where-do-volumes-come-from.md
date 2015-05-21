@@ -194,8 +194,8 @@ Over all trades, the volumes were distributed across exhanges as such (**Task #1
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart1504297d158d'> </iframe>
- <style>iframe.rChart{ width: 10%; height: 100;}</style>
+&lt;/html&gt; ' scrolling='no' frameBorder='1' seamless class='rChart  nvd3  ' id='iframe-chart1504297d158d'> </iframe>
+ <style>iframe.rChart{ width: 100%; height: 400;}</style>
  
 <table>
   <thead>
