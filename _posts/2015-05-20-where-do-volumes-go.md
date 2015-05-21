@@ -5,9 +5,9 @@ unlisted: true
 ---
 
 ## Task
-> Using the TAQ data, compute the market shares for the different stock exchanges for a representative sample of stocks (it should include GOOG, BAC, and then a representative sample of other stocks, the size of the sample can depend on what's feasible computationally).
+> 1. Using the TAQ data, compute the market shares for the different stock exchanges for a representative sample of stocks (it should include GOOG, BAC, and then a representative sample of other stocks, the size of the sample can depend on what's feasible computationally).
 > 
-> Focus on calendar year 2014, and compute volumes and market shares for each exchange for each trading day, dividing the day into the opening auction, regular trading, closing auction, and after-hours trading.
+> 2. Focus on calendar year 2014, and compute volumes and market shares for each exchange for each trading day, dividing the day into the opening auction, regular trading, closing auction, and after-hours trading.
 
 ## Data
 The data consisted of all trades from **01-Jan-2014 to 31-Dec-2014**.
@@ -42,8 +42,15 @@ A trade's time of day was inferred from Sale Condition as follows:
   </tbody>
 </table>
 
-## First Glance
-Over all trades, the volumes were distributed across exhanges as such:
+## Overall Look at Exchange Market Shares
+Over all symbols, the volumes were distributed across exhanges as such:
+http://rcharts.github.io/viewer/?a2c6f9b03902566cfb76
+
+Most symbols had similar profiles in exchange market share. The stocks BHP, FE, and XOM were chosen since they were at comparable scales:
+http://rcharts.github.io/viewer/?c0e1fc17977fa20a3994
+
+Only GOOG had a exchange market share profile which differed somewhat noticeably. (SLV also had a slight difference, with no NYSE representation.)
+http://rcharts.github.io/viewer/?1e2ef2392dcfe731ef83
 
 We can also look at the way volumes were spread out over exchanges based on time of day.
 
