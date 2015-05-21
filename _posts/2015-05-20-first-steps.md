@@ -9,4 +9,4 @@ This post marks my first public step.
 
 So let's do this!
 
-![jump](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/IMG_7024-EFFECTS.jpg?raw=true =100x)
+![jump](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/IMG_7024-EFFECTS.jpg?raw=true =20x300)
