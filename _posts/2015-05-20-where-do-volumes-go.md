@@ -4,10 +4,15 @@ title: Where Do Volumes Go?
 unlisted: true
 ---
 
+## Task
+Using the TAQ data, compute the market shares for the different stock exchanges for a representative sample of stocks (it should include GOOG, BAC, and then a representative sample of other stocks, the size of the sample can depend on what's feasible computationally).
+
+Focus on calendar year 2014, and compute volumes and market shares for each exchange for each trading day, dividing the day into the opening auction, regular trading, closing auction, and after-hours trading.
+
 ## Data
 The data consisted of all trades from **01-Jan-2014 to 31-Dec-2014**.
 
-The trades covered the symbols: **BAC, GOOG, BHP, BRKA, RSH, SLV, T**.
+The trades covered the symbols: **BAC, GOOG, BHP, BRKA, FE, RSH, SLV, T, XOM**.
 
 A trade's time of day was inferred from Sale Condition as follows:
 <table>
@@ -27,7 +32,7 @@ A trade's time of day was inferred from Sale Condition as follows:
       <td>M, 6</td>
     </tr>
     <tr>
-      <td>AfterHours</td>
+      <td>After-Hours</td>
       <td>T, U</td>
     </tr>
     <tr>
@@ -42,14 +47,19 @@ Over all trades, the volumes were distributed across exhanges as such:
 
 We can also look at the way volumes were spread out over exchanges based on time of day.
 
-It's clear that Regular trading volume dwarfs the volume during Open, Close, and AfterHours. From now on, we will exclude volume from the Regular bucket.
+It's clear that Regular trading volume dwarfs the volume during Open, Close, and After-Hours. From now on, we will exclude volume from the Regular bucket.
 
 For the different symbols, let's take a look at how volumes were distributed across exchange per time of day.
 
+## Exchange Volumes and Market Shares Over 2014
+This is the stacked area graph for **Regular** volume over 2014.
+This is the stacked area graph for **Open** volume over 2014.
+This is the stacked area graph for **Close** volume over 2014.
+This is the stacked area graph for **After-Hours** volume over 2014.
 
+## Some Notes
+Running my code on the above data, consisting 64209422 rows, took 495 seconds on a 2.4 GHz/4GB laptop.
 
-%% Some Notes
-Running my code on the above data, rows, took seconds on a 2.4 GHz/4GB laptop.
 Some trades had an exchange code which did not correspond to anything listed in the [spec sheet](www.nyxdata.com/doc/224904).
 
 <div class="message">
