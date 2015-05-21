@@ -826,7 +826,463 @@ BRKA had the most unique exchange market share profile, with higher market share
 &lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart15041d063979'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
-[We can also look at the way volumes were spread out over exchanges based on Time of Day. We observe different dominant exchanges between Regular, After-Hours, and the two auctions.](http://rcharts.github.io/viewer/?ba03ed4250a3839722c5)
+<iframe srcdoc=' &lt;!doctype HTML&gt;
+&lt;meta charset = &#039;utf-8&#039;&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;link rel=&#039;stylesheet&#039; href=&#039;//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.css&#039;&gt;
+    
+    &lt;script src=&#039;//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
+    &lt;script src=&#039;//d3js.org/d3.v3.min.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
+    &lt;script src=&#039;//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
+    &lt;script src=&#039;//nvd3.org/assets/lib/fisheye.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
+    
+    &lt;style&gt;
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 800px;
+      height: 400px;
+    }  
+    &lt;/style&gt;
+    
+  &lt;/head&gt;
+  &lt;body &gt;
+    
+    &lt;div id = &#039;chart1504501f6739&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;script type=&#039;text/javascript&#039;&gt;
+ $(document).ready(function(){
+      drawchart1504501f6739()
+    });
+    function drawchart1504501f6739(){  
+      var opts = {
+ &quot;dom&quot;: &quot;chart1504501f6739&quot;,
+&quot;width&quot;:    800,
+&quot;height&quot;:    400,
+&quot;x&quot;: &quot;TOD&quot;,
+&quot;y&quot;: &quot;Proportion&quot;,
+&quot;group&quot;: &quot;Exchange&quot;,
+&quot;type&quot;: &quot;multiBarChart&quot;,
+&quot;id&quot;: &quot;chart1504501f6739&quot; 
+},
+        data = [
+ {
+ &quot;Exchange&quot;: &quot;BATS&quot;,
+&quot;TOD&quot;: &quot;After-Hours&quot;,
+&quot;Volume&quot;:       16954567,
+&quot;Proportion&quot;: 0.09181282083254 
+},
+{
+ &quot;Exchange&quot;: &quot;BATS Y&quot;,
+&quot;TOD&quot;: &quot;After-Hours&quot;,
+&quot;Volume&quot;:         535422,
+&quot;Proportion&quot;: 0.002899431413129 
+},
+{
+ &quot;Exchange&quot;: &quot;CBOE&quot;,
+&quot;TOD&quot;: &quot;After-Hours&quot;,
+&quot;Volume&quot;:           6938,
+&quot;Proportion&quot;: 3.757084158718e-05 
+},
+{
+ &quot;Exchange&quot;: &quot;Chicago&quot;,
+&quot;TOD&quot;: &quot;After-Hours&quot;,
+&quot;Volume&quot;:           5400,
+&quot;Proportion&quot;: 2.924222320132e-05 
+},
+{
+ &quot;Exchange&quot;: &quot;Direct Edge A&quot;,
+&quot;TOD&quot;: &quot;After-Hours&quot;,
+&quot;Volume&quot;:        1723330,
+&quot;Proportion&quot;: 0.00933222231658 
+},
+{
+ &quot;Exchange&quot;: &quot;Direct Edge X&quot;,
+&quot;TOD&quot;: &quot;After-Hours&quot;,
+&quot;Volume&quot;:       83903196,
+&quot;Proportion&quot;: 0.4543548119882 
+},
+{
+ &quot;Exchange&quot;: &quot;FINRA&quot;,
+&quot;TOD&quot;: &quot;After-Hours&quot;,
+&quot;Volume&quot;:        2392522,
+&quot;Proportion&quot;: 0.01295604858112 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ&quot;,
+&quot;TOD&quot;: &quot;After-Hours&quot;,
+&quot;Volume&quot;:         528042,
+&quot;Proportion&quot;: 0.002859467041421 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ OMX&quot;,
+&quot;TOD&quot;: &quot;After-Hours&quot;,
+&quot;Volume&quot;:       17295220,
+&quot;Proportion&quot;: 0.09365753399184 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ OMX BX&quot;,
+&quot;TOD&quot;: &quot;After-Hours&quot;,
+&quot;Volume&quot;:         359606,
+&quot;Proportion&quot;: 0.001947347947506 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ OMX PSX&quot;,
+&quot;TOD&quot;: &quot;After-Hours&quot;,
+&quot;Volume&quot;:         538520,
+&quot;Proportion&quot;: 0.002916207784884 
+},
+{
+ &quot;Exchange&quot;: &quot;National&quot;,
+&quot;TOD&quot;: &quot;After-Hours&quot;,
+&quot;Volume&quot;:           2000,
+&quot;Proportion&quot;: 1.083045303753e-05 
+},
+{
+ &quot;Exchange&quot;: &quot;NYSE&quot;,
+&quot;TOD&quot;: &quot;After-Hours&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;NYSE Arca SM&quot;,
+&quot;TOD&quot;: &quot;After-Hours&quot;,
+&quot;Volume&quot;:       60419719,
+&quot;Proportion&quot;: 0.327186464585 
+},
+{
+ &quot;Exchange&quot;: &quot;NYSE MKT&quot;,
+&quot;TOD&quot;: &quot;After-Hours&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;BATS&quot;,
+&quot;TOD&quot;: &quot;Close&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;BATS Y&quot;,
+&quot;TOD&quot;: &quot;Close&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;CBOE&quot;,
+&quot;TOD&quot;: &quot;Close&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;Chicago&quot;,
+&quot;TOD&quot;: &quot;Close&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;Direct Edge A&quot;,
+&quot;TOD&quot;: &quot;Close&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;Direct Edge X&quot;,
+&quot;TOD&quot;: &quot;Close&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;FINRA&quot;,
+&quot;TOD&quot;: &quot;Close&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ&quot;,
+&quot;TOD&quot;: &quot;Close&quot;,
+&quot;Volume&quot;:       16582146,
+&quot;Proportion&quot;: 0.01361031266981 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ OMX&quot;,
+&quot;TOD&quot;: &quot;Close&quot;,
+&quot;Volume&quot;:         703373,
+&quot;Proportion&quot;: 0.0005773152916096 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ OMX BX&quot;,
+&quot;TOD&quot;: &quot;Close&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ OMX PSX&quot;,
+&quot;TOD&quot;: &quot;Close&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;National&quot;,
+&quot;TOD&quot;: &quot;Close&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;NYSE&quot;,
+&quot;TOD&quot;: &quot;Close&quot;,
+&quot;Volume&quot;:     1179426151,
+&quot;Proportion&quot;: 0.9680507387923 
+},
+{
+ &quot;Exchange&quot;: &quot;NYSE Arca SM&quot;,
+&quot;TOD&quot;: &quot;Close&quot;,
+&quot;Volume&quot;:       21639914,
+&quot;Proportion&quot;: 0.01776163324625 
+},
+{
+ &quot;Exchange&quot;: &quot;NYSE MKT&quot;,
+&quot;TOD&quot;: &quot;Close&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;BATS&quot;,
+&quot;TOD&quot;: &quot;Open&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;BATS Y&quot;,
+&quot;TOD&quot;: &quot;Open&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;CBOE&quot;,
+&quot;TOD&quot;: &quot;Open&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;Chicago&quot;,
+&quot;TOD&quot;: &quot;Open&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;Direct Edge A&quot;,
+&quot;TOD&quot;: &quot;Open&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;Direct Edge X&quot;,
+&quot;TOD&quot;: &quot;Open&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;FINRA&quot;,
+&quot;TOD&quot;: &quot;Open&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ&quot;,
+&quot;TOD&quot;: &quot;Open&quot;,
+&quot;Volume&quot;:        7444762,
+&quot;Proportion&quot;: 0.01857494304589 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ OMX&quot;,
+&quot;TOD&quot;: &quot;Open&quot;,
+&quot;Volume&quot;:         527004,
+&quot;Proportion&quot;: 0.001314893516402 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ OMX BX&quot;,
+&quot;TOD&quot;: &quot;Open&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ OMX PSX&quot;,
+&quot;TOD&quot;: &quot;Open&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;National&quot;,
+&quot;TOD&quot;: &quot;Open&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;NYSE&quot;,
+&quot;TOD&quot;: &quot;Open&quot;,
+&quot;Volume&quot;:      377198077,
+&quot;Proportion&quot;: 0.9411224693678 
+},
+{
+ &quot;Exchange&quot;: &quot;NYSE Arca SM&quot;,
+&quot;TOD&quot;: &quot;Open&quot;,
+&quot;Volume&quot;:       15626110,
+&quot;Proportion&quot;: 0.03898769406986 
+},
+{
+ &quot;Exchange&quot;: &quot;NYSE MKT&quot;,
+&quot;TOD&quot;: &quot;Open&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;BATS&quot;,
+&quot;TOD&quot;: &quot;Regular&quot;,
+&quot;Volume&quot;:     1552889698,
+&quot;Proportion&quot;: 0.06341785380981 
+},
+{
+ &quot;Exchange&quot;: &quot;BATS Y&quot;,
+&quot;TOD&quot;: &quot;Regular&quot;,
+&quot;Volume&quot;:      921911077,
+&quot;Proportion&quot;: 0.03764956518298 
+},
+{
+ &quot;Exchange&quot;: &quot;CBOE&quot;,
+&quot;TOD&quot;: &quot;Regular&quot;,
+&quot;Volume&quot;:       22510491,
+&quot;Proportion&quot;: 0.0009192971202421 
+},
+{
+ &quot;Exchange&quot;: &quot;Chicago&quot;,
+&quot;TOD&quot;: &quot;Regular&quot;,
+&quot;Volume&quot;:      181152959,
+&quot;Proportion&quot;:   0.0073980347 
+},
+{
+ &quot;Exchange&quot;: &quot;Direct Edge A&quot;,
+&quot;TOD&quot;: &quot;Regular&quot;,
+&quot;Volume&quot;:      913928355,
+&quot;Proportion&quot;: 0.0373235619276 
+},
+{
+ &quot;Exchange&quot;: &quot;Direct Edge X&quot;,
+&quot;TOD&quot;: &quot;Regular&quot;,
+&quot;Volume&quot;:     1969504060,
+&quot;Proportion&quot;: 0.08043180447122 
+},
+{
+ &quot;Exchange&quot;: &quot;FINRA&quot;,
+&quot;TOD&quot;: &quot;Regular&quot;,
+&quot;Volume&quot;:    10061846212,
+&quot;Proportion&quot;: 0.4109117942834 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ&quot;,
+&quot;TOD&quot;: &quot;Regular&quot;,
+&quot;Volume&quot;:      124416655,
+&quot;Proportion&quot;: 0.005081003015512 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ OMX&quot;,
+&quot;TOD&quot;: &quot;Regular&quot;,
+&quot;Volume&quot;:     2504161336,
+&quot;Proportion&quot;: 0.1022664634373 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ OMX BX&quot;,
+&quot;TOD&quot;: &quot;Regular&quot;,
+&quot;Volume&quot;:      997894294,
+&quot;Proportion&quot;: 0.04075261400474 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ OMX PSX&quot;,
+&quot;TOD&quot;: &quot;Regular&quot;,
+&quot;Volume&quot;:      136063325,
+&quot;Proportion&quot;: 0.005556636807392 
+},
+{
+ &quot;Exchange&quot;: &quot;National&quot;,
+&quot;TOD&quot;: &quot;Regular&quot;,
+&quot;Volume&quot;:       65504674,
+&quot;Proportion&quot;: 0.002675119710654 
+},
+{
+ &quot;Exchange&quot;: &quot;NYSE&quot;,
+&quot;TOD&quot;: &quot;Regular&quot;,
+&quot;Volume&quot;:     3237663559,
+&quot;Proportion&quot;: 0.1322216732679 
+},
+{
+ &quot;Exchange&quot;: &quot;NYSE Arca SM&quot;,
+&quot;TOD&quot;: &quot;Regular&quot;,
+&quot;Volume&quot;:     1795692974,
+&quot;Proportion&quot;: 0.07333360164544 
+},
+{
+ &quot;Exchange&quot;: &quot;NYSE MKT&quot;,
+&quot;TOD&quot;: &quot;Regular&quot;,
+&quot;Volume&quot;:        1493112,
+&quot;Proportion&quot;: 6.097661582766e-05 
+} 
+]
+  
+      if(!(opts.type===&quot;pieChart&quot; || opts.type===&quot;sparklinePlus&quot; || opts.type===&quot;bulletChart&quot;)) {
+        var data = d3.nest()
+          .key(function(d){
+            //return opts.group === undefined ? &#039;main&#039; : d[opts.group]
+            //instead of main would think a better default is opts.x
+            return opts.group === undefined ? opts.y : d[opts.group];
+          })
+          .entries(data);
+      }
+      
+      if (opts.disabled != undefined){
+        data.map(function(d, i){
+          d.disabled = opts.disabled[i]
+        })
+      }
+      
+      nv.addGraph(function() {
+        var chart = nv.models[opts.type]()
+          .width(opts.width)
+          .height(opts.height)
+          
+        if (opts.type != &quot;bulletChart&quot;){
+          chart
+            .x(function(d) { return d[opts.x] })
+            .y(function(d) { return d[opts.y] })
+        }
+          
+         
+        
+          
+        
+
+        
+        
+        
+      
+       d3.select(&quot;#&quot; + opts.id)
+        .append(&#039;svg&#039;)
+        .datum(data)
+        .transition().duration(500)
+        .call(chart);
+
+       nv.utils.windowResize(chart.update);
+       return chart;
+      });
+    };
+&lt;/script&gt;
+    
+    &lt;script&gt;&lt;/script&gt;    
+  &lt;/body&gt;
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart1504501f6739'> </iframe>
+ <style>iframe.rChart{ width: 100%; height: 400px;}</style>We can also look at the way volumes were spread out over exchanges based on Time of Day. We observe different dominant exchanges between Regular, After-Hours, and the two auctions.
+
+
 
 ## Exchange Volumes and Market Shares Over 2014
 The following graphs illustrate the extent of day-to-day consistency for the trends in the last rChart.
