@@ -43,14 +43,12 @@ A trade's time of day was inferred from Sale Condition as follows:
 </table>
 
 ## Overall Look at Exchange Market Shares
-Over all symbols, the volumes were distributed across exhanges as such:
-http://rcharts.github.io/viewer/?a2c6f9b03902566cfb76
+[Over all trades, the volumes were distributed across exhanges as such.](http://rcharts.github.io/viewer/?a2c6f9b03902566cfb76)
 
-Most symbols had similar profiles in exchange market share. The stocks BHP, FE, and XOM were chosen since they were at comparable scales:
-http://rcharts.github.io/viewer/?c0e1fc17977fa20a3994
+Most symbols had similar profiles in exchange market share. [The stocks BHP, FE, and XOM were chosen since they were at comparable scales.](http://rcharts.github.io/viewer/?c0e1fc17977fa20a3994)
 
-Only GOOG had a exchange market share profile which differed somewhat noticeably. (SLV also had a slight difference, with no NYSE representation.)
-http://rcharts.github.io/viewer/?1e2ef2392dcfe731ef83
+[Only GOOG had a exchange market share profile which differed somewhat noticeably.](
+http://rcharts.github.io/viewer/?1e2ef2392dcfe731ef83) (SLV also had a slight difference, with no NYSE representation.)
 
 We can also look at the way volumes were spread out over exchanges based on time of day.
 
