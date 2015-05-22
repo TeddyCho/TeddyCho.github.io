@@ -26,7 +26,7 @@ Transforming the above data (129M rows) to per-day-per-timeOfDay exchange volume
 
 The exchanges' volumes and market shares for each epoch of each trading day can be found [here](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/taskTwo.csv).
 
-# Regular Trading
+# Exchange Market Shares During Regular Trading
 
 When trades are grouped by their symbols' listing exchanges, we observe differences across their exchange market share profiles during regular hours. Notably, exchanges held higher market share for their "home" stocks:
 
@@ -2376,7 +2376,7 @@ Consistency was found between our two Arca symbols, save for BATS Y, Direct Edge
 &lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart1b38627110c8'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
-# Open and Close Auction
+# Exchange Market Shares During Open and Close Auction
 
 In both the Open and Close epochs, exchange market shares were clearly different based on home exchange. The following graph aggregates stocks by listing exchange and shows volume share for both Open and Close combined:
 
@@ -2839,7 +2839,7 @@ In both the Open and Close epochs, exchange market shares were clearly different
 &lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart1b38233a3675'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
-# After-Hours Exchange Shares
+# Exchange Market Shares During After-Hours
 
 When grouped by home exchange, we observe stark differences in the exchange share profiles:
 
