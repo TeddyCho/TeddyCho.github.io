@@ -2,6 +2,7 @@
 layout: post
 title: First Steps
 ---
+ 
 <iframe src = ' https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/nyseReg.html ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart1b3823a857f0'> </iframe>
 
 Back in the US from [hiking about](http://LegDays.com), I am on a new journey towards becoming an academic.
