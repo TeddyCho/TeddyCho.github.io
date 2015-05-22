@@ -2581,7 +2581,9 @@ In both the Open and Close epochs, exchange market shares were clearly different
 &lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart1b38233a3675'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
-GOOG had an exchange market share profile which differed somewhat noticeably:
+# After-Hours Exchange Shares
+
+When grouped by home exchange, we observe stark differences in the exchange share profiles:
 
 <iframe srcdoc=' &lt;!doctype HTML&gt;
 &lt;meta charset = &#039;utf-8&#039;&gt;
@@ -2607,241 +2609,382 @@ GOOG had an exchange market share profile which differed somewhat noticeably:
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart17c0622860c5&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart1b3810b61b8&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart17c0622860c5()
+      drawchart1b3810b61b8()
     });
-    function drawchart17c0622860c5(){  
+    function drawchart1b3810b61b8(){  
       var opts = {
- &quot;dom&quot;: &quot;chart17c0622860c5&quot;,
+ &quot;dom&quot;: &quot;chart1b3810b61b8&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
-&quot;x&quot;: &quot;Symbol&quot;,
-&quot;y&quot;: &quot;Volume&quot;,
+&quot;x&quot;: &quot;ListedExchange&quot;,
+&quot;y&quot;: &quot;Proportion&quot;,
 &quot;group&quot;: &quot;Exchange&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart17c0622860c5&quot; 
+&quot;id&quot;: &quot;chart1b3810b61b8&quot; 
 },
         data = [
  {
  &quot;Exchange&quot;: &quot;BATS&quot;,
-&quot;Symbol&quot;: &quot;GOOG&quot;,
-&quot;Volume&quot;:       20409524 
+&quot;ListedExchange&quot;: &quot;Arca&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;: null 
 },
 {
  &quot;Exchange&quot;: &quot;BATS Y&quot;,
-&quot;Symbol&quot;: &quot;GOOG&quot;,
-&quot;Volume&quot;:        7946141 
+&quot;ListedExchange&quot;: &quot;Arca&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;: null 
 },
 {
  &quot;Exchange&quot;: &quot;CBOE&quot;,
-&quot;Symbol&quot;: &quot;GOOG&quot;,
-&quot;Volume&quot;:         209124 
+&quot;ListedExchange&quot;: &quot;Arca&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;: null 
 },
 {
  &quot;Exchange&quot;: &quot;Chicago&quot;,
-&quot;Symbol&quot;: &quot;GOOG&quot;,
-&quot;Volume&quot;:        1545845 
+&quot;ListedExchange&quot;: &quot;Arca&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;: null 
 },
 {
  &quot;Exchange&quot;: &quot;Direct Edge A&quot;,
-&quot;Symbol&quot;: &quot;GOOG&quot;,
-&quot;Volume&quot;:        8057804 
+&quot;ListedExchange&quot;: &quot;Arca&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;: null 
 },
 {
  &quot;Exchange&quot;: &quot;Direct Edge X&quot;,
-&quot;Symbol&quot;: &quot;GOOG&quot;,
-&quot;Volume&quot;:       33457970 
+&quot;ListedExchange&quot;: &quot;Arca&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;: null 
 },
 {
  &quot;Exchange&quot;: &quot;FINRA&quot;,
-&quot;Symbol&quot;: &quot;GOOG&quot;,
-&quot;Volume&quot;:      127581450 
+&quot;ListedExchange&quot;: &quot;Arca&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;: null 
 },
 {
  &quot;Exchange&quot;: &quot;NASDAQ&quot;,
-&quot;Symbol&quot;: &quot;GOOG&quot;,
-&quot;Volume&quot;:      148971605 
-},
-{
- &quot;Exchange&quot;: &quot;NASDAQ OMX BX&quot;,
-&quot;Symbol&quot;: &quot;GOOG&quot;,
-&quot;Volume&quot;:       13119403 
-},
-{
- &quot;Exchange&quot;: &quot;NASDAQ OMX PSX&quot;,
-&quot;Symbol&quot;: &quot;GOOG&quot;,
-&quot;Volume&quot;:        1170308 
-},
-{
- &quot;Exchange&quot;: &quot;National&quot;,
-&quot;Symbol&quot;: &quot;GOOG&quot;,
-&quot;Volume&quot;:         597681 
-},
-{
- &quot;Exchange&quot;: &quot;NYSE Arca SM&quot;,
-&quot;Symbol&quot;: &quot;GOOG&quot;,
-&quot;Volume&quot;:       43342030 
-} 
-]
-  
-      if(!(opts.type===&quot;pieChart&quot; || opts.type===&quot;sparklinePlus&quot; || opts.type===&quot;bulletChart&quot;)) {
-        var data = d3.nest()
-          .key(function(d){
-            //return opts.group === undefined ? &#039;main&#039; : d[opts.group]
-            //instead of main would think a better default is opts.x
-            return opts.group === undefined ? opts.y : d[opts.group];
-          })
-          .entries(data);
-      }
-      
-      if (opts.disabled != undefined){
-        data.map(function(d, i){
-          d.disabled = opts.disabled[i]
-        })
-      }
-      
-      nv.addGraph(function() {
-        var chart = nv.models[opts.type]()
-          .width(opts.width)
-          .height(opts.height)
-          
-        if (opts.type != &quot;bulletChart&quot;){
-          chart
-            .x(function(d) { return d[opts.x] })
-            .y(function(d) { return d[opts.y] })
-        }
-          
-         
-        
-          
-        
-
-        
-        
-        chart.yAxis
-  .showMaxMin(false)
-  .tickFormat(function(d) {return d/1000000;})
-  .axisLabel(&quot;Volume, in millions&quot;)
-  .width(    40)
-      
-       d3.select(&quot;#&quot; + opts.id)
-        .append(&#039;svg&#039;)
-        .datum(data)
-        .transition().duration(500)
-        .call(chart);
-
-       nv.utils.windowResize(chart.update);
-       return chart;
-      });
-    };
-&lt;/script&gt;
-    
-    &lt;script&gt;&lt;/script&gt;    
-  &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart17c0622860c5'> </iframe>
- <style>iframe.rChart{ width: 100%; height: 400px;}</style>
-
-([SLV also had a slight difference, with no NYSE representation.](http://rcharts.github.io/viewer/?d28814252e7c73d50287))
-
-BRKA had the most unique exchange market share profile, with higher market share for BATS and no Arca:
-
-<iframe srcdoc=' &lt;!doctype HTML&gt;
-&lt;meta charset = &#039;utf-8&#039;&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;link rel=&#039;stylesheet&#039; href=&#039;//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.css&#039;&gt;
-    
-    &lt;script src=&#039;//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
-    &lt;script src=&#039;//d3js.org/d3.v3.min.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
-    &lt;script src=&#039;//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
-    &lt;script src=&#039;//nvd3.org/assets/lib/fisheye.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
-    
-    &lt;style&gt;
-    .rChart {
-      display: block;
-      margin-left: auto; 
-      margin-right: auto;
-      width: 800px;
-      height: 400px;
-    }  
-    &lt;/style&gt;
-    
-  &lt;/head&gt;
-  &lt;body &gt;
-    
-    &lt;div id = &#039;chart17c049c03ce&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
-    &lt;script type=&#039;text/javascript&#039;&gt;
- $(document).ready(function(){
-      drawchart17c049c03ce()
-    });
-    function drawchart17c049c03ce(){  
-      var opts = {
- &quot;dom&quot;: &quot;chart17c049c03ce&quot;,
-&quot;width&quot;:    800,
-&quot;height&quot;:    400,
-&quot;x&quot;: &quot;Symbol&quot;,
-&quot;y&quot;: &quot;Volume&quot;,
-&quot;group&quot;: &quot;Exchange&quot;,
-&quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart17c049c03ce&quot; 
-},
-        data = [
- {
- &quot;Exchange&quot;: &quot;BATS&quot;,
-&quot;Symbol&quot;: &quot;BRKA&quot;,
-&quot;Volume&quot;:          17725 
-},
-{
- &quot;Exchange&quot;: &quot;BATS Y&quot;,
-&quot;Symbol&quot;: &quot;BRKA&quot;,
-&quot;Volume&quot;:           1460 
-},
-{
- &quot;Exchange&quot;: &quot;Chicago&quot;,
-&quot;Symbol&quot;: &quot;BRKA&quot;,
-&quot;Volume&quot;:              1 
-},
-{
- &quot;Exchange&quot;: &quot;Direct Edge A&quot;,
-&quot;Symbol&quot;: &quot;BRKA&quot;,
-&quot;Volume&quot;:            320 
-},
-{
- &quot;Exchange&quot;: &quot;Direct Edge X&quot;,
-&quot;Symbol&quot;: &quot;BRKA&quot;,
-&quot;Volume&quot;:           1952 
-},
-{
- &quot;Exchange&quot;: &quot;FINRA&quot;,
-&quot;Symbol&quot;: &quot;BRKA&quot;,
-&quot;Volume&quot;:          16246 
+&quot;ListedExchange&quot;: &quot;Arca&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;: null 
 },
 {
  &quot;Exchange&quot;: &quot;NASDAQ OMX&quot;,
-&quot;Symbol&quot;: &quot;BRKA&quot;,
-&quot;Volume&quot;:           9330 
+&quot;ListedExchange&quot;: &quot;Arca&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;: null 
 },
 {
  &quot;Exchange&quot;: &quot;NASDAQ OMX BX&quot;,
-&quot;Symbol&quot;: &quot;BRKA&quot;,
-&quot;Volume&quot;:            242 
+&quot;ListedExchange&quot;: &quot;Arca&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;: null 
 },
 {
  &quot;Exchange&quot;: &quot;NASDAQ OMX PSX&quot;,
-&quot;Symbol&quot;: &quot;BRKA&quot;,
-&quot;Volume&quot;:             81 
+&quot;ListedExchange&quot;: &quot;Arca&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;: null 
 },
 {
  &quot;Exchange&quot;: &quot;National&quot;,
-&quot;Symbol&quot;: &quot;BRKA&quot;,
-&quot;Volume&quot;:            415 
+&quot;ListedExchange&quot;: &quot;Arca&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;: null 
 },
 {
  &quot;Exchange&quot;: &quot;NYSE&quot;,
-&quot;Symbol&quot;: &quot;BRKA&quot;,
-&quot;Volume&quot;:          15606 
+&quot;ListedExchange&quot;: &quot;Arca&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;: null 
+},
+{
+ &quot;Exchange&quot;: &quot;NYSE Arca SM&quot;,
+&quot;ListedExchange&quot;: &quot;Arca&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;: null 
+},
+{
+ &quot;Exchange&quot;: &quot;NYSE MKT&quot;,
+&quot;ListedExchange&quot;: &quot;Arca&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;: null 
+},
+{
+ &quot;Exchange&quot;: &quot;BATS&quot;,
+&quot;ListedExchange&quot;: &quot;NASDAQ&quot;,
+&quot;Volume&quot;:         299989,
+&quot;Proportion&quot;: 0.006189770805841 
+},
+{
+ &quot;Exchange&quot;: &quot;BATS Y&quot;,
+&quot;ListedExchange&quot;: &quot;NASDAQ&quot;,
+&quot;Volume&quot;:          85558,
+&quot;Proportion&quot;: 0.001765346098044 
+},
+{
+ &quot;Exchange&quot;: &quot;CBOE&quot;,
+&quot;ListedExchange&quot;: &quot;NASDAQ&quot;,
+&quot;Volume&quot;:           7070,
+&quot;Proportion&quot;: 0.0001458776141702 
+},
+{
+ &quot;Exchange&quot;: &quot;Chicago&quot;,
+&quot;ListedExchange&quot;: &quot;NASDAQ&quot;,
+&quot;Volume&quot;:           7200,
+&quot;Proportion&quot;: 0.0001485599465382 
+},
+{
+ &quot;Exchange&quot;: &quot;Direct Edge A&quot;,
+&quot;ListedExchange&quot;: &quot;NASDAQ&quot;,
+&quot;Volume&quot;:         374392,
+&quot;Proportion&quot;: 0.007724952153381 
+},
+{
+ &quot;Exchange&quot;: &quot;Direct Edge X&quot;,
+&quot;ListedExchange&quot;: &quot;NASDAQ&quot;,
+&quot;Volume&quot;:       12129527,
+&quot;Proportion&quot;: 0.2502724837019 
+},
+{
+ &quot;Exchange&quot;: &quot;FINRA&quot;,
+&quot;ListedExchange&quot;: &quot;NASDAQ&quot;,
+&quot;Volume&quot;:       23508813,
+&quot;Proportion&quot;: 0.4850650003413 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ&quot;,
+&quot;ListedExchange&quot;: &quot;NASDAQ&quot;,
+&quot;Volume&quot;:        3480932,
+&quot;Proportion&quot;: 0.07182320441989 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ OMX&quot;,
+&quot;ListedExchange&quot;: &quot;NASDAQ&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ OMX BX&quot;,
+&quot;ListedExchange&quot;: &quot;NASDAQ&quot;,
+&quot;Volume&quot;:         150346,
+&quot;Proportion&quot;: 0.003102138016977 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ OMX PSX&quot;,
+&quot;ListedExchange&quot;: &quot;NASDAQ&quot;,
+&quot;Volume&quot;:           2900,
+&quot;Proportion&quot;: 5.983664513345e-05 
+},
+{
+ &quot;Exchange&quot;: &quot;National&quot;,
+&quot;ListedExchange&quot;: &quot;NASDAQ&quot;,
+&quot;Volume&quot;:            700,
+&quot;Proportion&quot;: 1.444332813566e-05 
+},
+{
+ &quot;Exchange&quot;: &quot;NYSE&quot;,
+&quot;ListedExchange&quot;: &quot;NASDAQ&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;NYSE Arca SM&quot;,
+&quot;ListedExchange&quot;: &quot;NASDAQ&quot;,
+&quot;Volume&quot;:        8417857,
+&quot;Proportion&quot;: 0.1736883869287 
+},
+{
+ &quot;Exchange&quot;: &quot;NYSE MKT&quot;,
+&quot;ListedExchange&quot;: &quot;NASDAQ&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;BATS&quot;,
+&quot;ListedExchange&quot;: &quot;NYSE&quot;,
+&quot;Volume&quot;:       18277810,
+&quot;Proportion&quot;: 0.08037021302254 
+},
+{
+ &quot;Exchange&quot;: &quot;BATS Y&quot;,
+&quot;ListedExchange&quot;: &quot;NYSE&quot;,
+&quot;Volume&quot;:         571965,
+&quot;Proportion&quot;: 0.002515014046619 
+},
+{
+ &quot;Exchange&quot;: &quot;CBOE&quot;,
+&quot;ListedExchange&quot;: &quot;NYSE&quot;,
+&quot;Volume&quot;:           5300,
+&quot;Proportion&quot;: 2.330487782833e-05 
+},
+{
+ &quot;Exchange&quot;: &quot;Chicago&quot;,
+&quot;ListedExchange&quot;: &quot;NYSE&quot;,
+&quot;Volume&quot;:           5400,
+&quot;Proportion&quot;: 2.374459250434e-05 
+},
+{
+ &quot;Exchange&quot;: &quot;Direct Edge A&quot;,
+&quot;ListedExchange&quot;: &quot;NYSE&quot;,
+&quot;Volume&quot;:        1938175,
+&quot;Proportion&quot;: 0.008522439921685 
+},
+{
+ &quot;Exchange&quot;: &quot;Direct Edge X&quot;,
+&quot;ListedExchange&quot;: &quot;NYSE&quot;,
+&quot;Volume&quot;:      108770045,
+&quot;Proportion&quot;: 0.4782778509636 
+},
+{
+ &quot;Exchange&quot;: &quot;FINRA&quot;,
+&quot;ListedExchange&quot;: &quot;NYSE&quot;,
+&quot;Volume&quot;:         171924,
+&quot;Proportion&quot;: 0.0007559750595771 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ&quot;,
+&quot;ListedExchange&quot;: &quot;NYSE&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ OMX&quot;,
+&quot;ListedExchange&quot;: &quot;NYSE&quot;,
+&quot;Volume&quot;:       20341139,
+&quot;Proportion&quot;: 0.08944297344984 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ OMX BX&quot;,
+&quot;ListedExchange&quot;: &quot;NYSE&quot;,
+&quot;Volume&quot;:         387688,
+&quot;Proportion&quot;: 0.001704721033115 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ OMX PSX&quot;,
+&quot;ListedExchange&quot;: &quot;NYSE&quot;,
+&quot;Volume&quot;:         612320,
+&quot;Proportion&quot;: 0.002692460904122 
+},
+{
+ &quot;Exchange&quot;: &quot;National&quot;,
+&quot;ListedExchange&quot;: &quot;NYSE&quot;,
+&quot;Volume&quot;:           1800,
+&quot;Proportion&quot;: 7.914864168113e-06 
+},
+{
+ &quot;Exchange&quot;: &quot;NYSE&quot;,
+&quot;ListedExchange&quot;: &quot;NYSE&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;NYSE Arca SM&quot;,
+&quot;ListedExchange&quot;: &quot;NYSE&quot;,
+&quot;Volume&quot;:       76336635,
+&quot;Proportion&quot;: 0.3356633872644 
+},
+{
+ &quot;Exchange&quot;: &quot;NYSE MKT&quot;,
+&quot;ListedExchange&quot;: &quot;NYSE&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;BATS&quot;,
+&quot;ListedExchange&quot;: &quot;NYSEMKT&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;BATS Y&quot;,
+&quot;ListedExchange&quot;: &quot;NYSEMKT&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;CBOE&quot;,
+&quot;ListedExchange&quot;: &quot;NYSEMKT&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;Chicago&quot;,
+&quot;ListedExchange&quot;: &quot;NYSEMKT&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;Direct Edge A&quot;,
+&quot;ListedExchange&quot;: &quot;NYSEMKT&quot;,
+&quot;Volume&quot;:            652,
+&quot;Proportion&quot;: 0.08047395704764 
+},
+{
+ &quot;Exchange&quot;: &quot;Direct Edge X&quot;,
+&quot;ListedExchange&quot;: &quot;NYSEMKT&quot;,
+&quot;Volume&quot;:           2000,
+&quot;Proportion&quot;: 0.2468526289805 
+},
+{
+ &quot;Exchange&quot;: &quot;FINRA&quot;,
+&quot;ListedExchange&quot;: &quot;NYSEMKT&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ&quot;,
+&quot;ListedExchange&quot;: &quot;NYSEMKT&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ OMX&quot;,
+&quot;ListedExchange&quot;: &quot;NYSEMKT&quot;,
+&quot;Volume&quot;:           1200,
+&quot;Proportion&quot;: 0.1481115773883 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ OMX BX&quot;,
+&quot;ListedExchange&quot;: &quot;NYSEMKT&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ OMX PSX&quot;,
+&quot;ListedExchange&quot;: &quot;NYSEMKT&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;National&quot;,
+&quot;ListedExchange&quot;: &quot;NYSEMKT&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;NYSE&quot;,
+&quot;ListedExchange&quot;: &quot;NYSEMKT&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
+},
+{
+ &quot;Exchange&quot;: &quot;NYSE Arca SM&quot;,
+&quot;ListedExchange&quot;: &quot;NYSEMKT&quot;,
+&quot;Volume&quot;:           4250,
+&quot;Proportion&quot;: 0.5245618365836 
+},
+{
+ &quot;Exchange&quot;: &quot;NYSE MKT&quot;,
+&quot;ListedExchange&quot;: &quot;NYSEMKT&quot;,
+&quot;Volume&quot;:              0,
+&quot;Proportion&quot;:              0 
 } 
 ]
   
@@ -2873,17 +3016,16 @@ BRKA had the most unique exchange market share profile, with higher market share
         }
           
          
-        
+        chart
+  .reduceXTicks(false)
           
-        
+        chart.xAxis
+  .rotateLabels(    34)
 
         
         
         chart.yAxis
   .showMaxMin(false)
-  .tickFormat(function(d) {return d/1000;})
-  .axisLabel(&quot;Volume, in thousands&quot;)
-  .width(    40)
       
        d3.select(&quot;#&quot; + opts.id)
         .append(&#039;svg&#039;)
@@ -2899,8 +3041,9 @@ BRKA had the most unique exchange market share profile, with higher market share
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart17c049c03ce'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart1b3810b61b8'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+ 
 
 We can also look at the way volumes were spread out over exchanges based on Time of Day. We observe different dominant exchanges between Regular, After-Hours, and the two auctions. Recommended to view in Stacked mode:
 
