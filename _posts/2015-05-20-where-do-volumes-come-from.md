@@ -31,10 +31,6 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
 ## Overall Look at Exchange Market Shares
 Over all trades, the volumes were distributed across exhanges as such (**Task #1**):
 
-<iframe src = 'https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/nyseReg.html' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart1b3824ca2f7d'> </iframe>
- <style>iframe.rChart{ width: 100%; height: 400px;}</style>
-
-
 <iframe srcdoc=' &lt;!doctype HTML&gt;
 &lt;meta charset = &#039;utf-8&#039;&gt;
 &lt;html&gt;
@@ -802,6 +798,180 @@ Within NASDAQ listed stocks, exchange shares were consistent.
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
 &lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart1b3824ca2f7d'> </iframe>
+ <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+ 
+ Same goes for NYSE:
+<iframe srcdoc=' &lt;!doctype HTML&gt;
+&lt;meta charset = &#039;utf-8&#039;&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;link rel=&#039;stylesheet&#039; href=&#039;//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.css&#039;&gt;
+    
+    &lt;script src=&#039;//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
+    &lt;script src=&#039;//d3js.org/d3.v3.min.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
+    &lt;script src=&#039;//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
+    &lt;script src=&#039;//nvd3.org/assets/lib/fisheye.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
+    
+    &lt;style&gt;
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 800px;
+      height: 400px;
+    }  
+    &lt;/style&gt;
+    
+  &lt;/head&gt;
+  &lt;body &gt;
+    
+    &lt;div id = &#039;chart17c0411e12c2&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;script type=&#039;text/javascript&#039;&gt;
+ $(document).ready(function(){
+      drawchart17c0411e12c2()
+    });
+    function drawchart17c0411e12c2(){  
+      var opts = {
+ 'dom': 'chart17c0411e12c2',
+'width':    800,
+'height':    400,
+'x': 'Common',
+'y': 'Volume',
+'group': 'Exchange',
+'type': 'multiBarChart',
+'id': 'chart17c0411e12c2' 
+},
+        data = [
+ {
+ 'Exchange': 'BATS',
+'Volume':     1569844265,
+'Common': 'Aggregate' 
+},
+{
+ 'Exchange': 'BATS Y',
+'Volume':      922446499,
+'Common': 'Aggregate' 
+},
+{
+ 'Exchange': 'CBOE',
+'Volume':       22517429,
+'Common': 'Aggregate' 
+},
+{
+ 'Exchange': 'Chicago',
+'Volume':      181158359,
+'Common': 'Aggregate' 
+},
+{
+ 'Exchange': 'Direct Edge A',
+'Volume':      915651685,
+'Common': 'Aggregate' 
+},
+{
+ 'Exchange': 'Direct Edge X',
+'Volume':     2053407256,
+'Common': 'Aggregate' 
+},
+{
+ 'Exchange': 'FINRA',
+'Volume':    10064238734,
+'Common': 'Aggregate' 
+},
+{
+ 'Exchange': 'NASDAQ',
+'Volume':      148971605,
+'Common': 'Aggregate' 
+},
+{
+ 'Exchange': 'NASDAQ OMX',
+'Volume':     2522686933,
+'Common': 'Aggregate' 
+},
+{
+ 'Exchange': 'NASDAQ OMX BX',
+'Volume':      998253900,
+'Common': 'Aggregate' 
+},
+{
+ 'Exchange': 'NASDAQ OMX PSX',
+'Volume':      136601845,
+'Common': 'Aggregate' 
+},
+{
+ 'Exchange': 'National',
+'Volume':       65506674,
+'Common': 'Aggregate' 
+},
+{
+ 'Exchange': 'NYSE',
+'Volume':     4794287787,
+'Common': 'Aggregate' 
+},
+{
+ 'Exchange': 'NYSE Arca SM',
+'Volume':     1893378717,
+'Common': 'Aggregate' 
+},
+{
+ 'Exchange': 'NYSE MKT',
+'Volume':        1493112,
+'Common': 'Aggregate' 
+} 
+]
+  
+      if(!(opts.type==='pieChart' || opts.type==='sparklinePlus' || opts.type==='bulletChart')) {
+        var data = d3.nest()
+          .key(function(d){
+            //return opts.group === undefined ? &#039;main&#039; : d[opts.group]
+            //instead of main would think a better default is opts.x
+            return opts.group === undefined ? opts.y : d[opts.group];
+          })
+          .entries(data);
+      }
+      
+      if (opts.disabled != undefined){
+        data.map(function(d, i){
+          d.disabled = opts.disabled[i]
+        })
+      }
+      
+      nv.addGraph(function() {
+        var chart = nv.models[opts.type]()
+          .width(opts.width)
+          .height(opts.height)
+          
+        if (opts.type != 'bulletChart'){
+          chart
+            .x(function(d) { return d[opts.x] })
+            .y(function(d) { return d[opts.y] })
+        }
+          
+         
+        
+          
+        
+        
+        
+        chart.yAxis
+  .showMaxMin(false)
+  .tickFormat(function(d) {return d/1000000000;})
+  .axisLabel('Volume, in billions')
+  .width(    40)
+      
+       d3.select('#' + opts.id)
+        .append(&#039;svg&#039;)
+        .datum(data)
+        .transition().duration(500)
+        .call(chart);
+       nv.utils.windowResize(chart.update);
+       return chart;
+      });
+    };
+&lt;/script&gt;
+    
+    &lt;script&gt;&lt;/script&gt;    
+  &lt;/body&gt;
+&lt;/html&gt;  ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-iframesrc'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
 Most symbols had similar profiles in exchange market share. To illustrate, stocks BHP, FE, and XOM were chosen since their volumes were at comparable scales:
