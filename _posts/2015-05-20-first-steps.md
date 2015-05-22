@@ -467,6 +467,7 @@ hi
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
 &lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart1b3823a857f0'> </iframe>
+
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
 Back in the US from [hiking about](http://LegDays.com), I am on a new journey towards becoming an academic.
