@@ -26,7 +26,7 @@ Transforming the above data (129M rows) to per-day-per-timeOfDay exchange volume
 
 The exchanges' volumes and market shares for each epoch of each trading day can be found [here](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/taskTwo.csv) (**Task #2**).
 
-## Overall Look at Exchange Market Shares
+# Overall Look at Exchange Market Shares
 Over all trades, the volumes were distributed across exhanges as such (**Task #1**):
 
 <iframe srcdoc=' &lt;!doctype HTML&gt;
@@ -5132,7 +5132,7 @@ Among NASDAQ listed stocks, we do see variability in their exchange share profil
 &lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart1b3835735e15'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
-## Exchange Volumes and Market Shares Over 2014
+# Exchange Volumes and Market Shares Over 2014
 The following graphs illustrate the extent of day-to-day consistency for the trends in the last rChart.
 
 With so many exchanges, it may be helpful to amalgamate categories:
@@ -5143,7 +5143,7 @@ We see similar exchange market share profiles for both the opening and closing a
 After-Hours trading has a different profile for exchange market shares:
 ![After-Hours Market Share](https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/After-Hours2014.png)
 
-## Notes
+# Notes
 * A trade's time of day was inferred from Sale Condition as follows:
 <table>
   <thead>
