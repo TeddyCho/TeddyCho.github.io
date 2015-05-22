@@ -801,6 +801,7 @@ Within NASDAQ listed stocks, exchange shares were consistent.
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
  
  Same goes for NYSE:
+ 
 <iframe srcdoc=' &lt;!doctype HTML&gt;
 &lt;meta charset = &#039;utf-8&#039;&gt;
 &lt;html&gt;
