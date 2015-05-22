@@ -4941,6 +4941,7 @@ We see similar exchange market share profiles for both the opening and closing a
 ![Closing Auction Market Share](https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/Close2014.png)
 After-Hours trading has a different profile for exchange market shares:
 ![After-Hours Market Share](https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/After-Hours2014.png)
+
 # Overall Look at Exchange Market Shares
 Over all trades, the volumes were distributed across exhanges as such:
 
