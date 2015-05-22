@@ -31,7 +31,7 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
 ## Overall Look at Exchange Market Shares
 Over all trades, the volumes were distributed across exhanges as such (**Task #1**):
 
-<iframe srcdoc = "https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/nyseReg.htm" scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart1b3824ca2f7d'> </iframe>
+<iframe srcdoc = "https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/nyseReg.html" scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart1b3824ca2f7d'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
 
