@@ -30,7 +30,9 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
 
 ## Overall Look at Exchange Market Shares
 Over all trades, the volumes were distributed across exhanges as such (**Task #1**):
-
+ <iframe src="/img/demo_iframe.htm" scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart17c0411e12c2'> </iframe>
+ <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+ 
 <iframe srcdoc=' &lt;!doctype HTML&gt;
 &lt;meta charset = &#039;utf-8&#039;&gt;
 &lt;html&gt;
