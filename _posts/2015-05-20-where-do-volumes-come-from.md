@@ -24,208 +24,7 @@ The TAQ data covered the following time frame and symbols:
 </table>
 Transforming the above data (129M rows) to per-day-per-timeOfDay exchange volumes took 991 seconds on a 2.4 GHz/4GB laptop. The raw output from the code is [here](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/breakdown5aa0ce4b018e0067.csv).
 
-The exchanges' volumes and market shares for each epoch of each trading day can be found [here](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/taskTwo.csv) (**Task #2**).
-
-# Overall Look at Exchange Market Shares
-Over all trades, the volumes were distributed across exhanges as such (**Task #1**):
-
-<iframe srcdoc=' &lt;!doctype HTML&gt;
-&lt;meta charset = &#039;utf-8&#039;&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;link rel=&#039;stylesheet&#039; href=&#039;//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.css&#039;&gt;
-    
-    &lt;script src=&#039;//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
-    &lt;script src=&#039;//d3js.org/d3.v3.min.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
-    &lt;script src=&#039;//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
-    &lt;script src=&#039;//nvd3.org/assets/lib/fisheye.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
-    
-    &lt;style&gt;
-    .rChart {
-      display: block;
-      margin-left: auto; 
-      margin-right: auto;
-      width: 800px;
-      height: 400px;
-    }  
-    &lt;/style&gt;
-    
-  &lt;/head&gt;
-  &lt;body &gt;
-    
-    &lt;div id = &#039;chart1b382a6b5df9&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
-    &lt;script type=&#039;text/javascript&#039;&gt;
- $(document).ready(function(){
-      drawchart1b382a6b5df9()
-    });
-    function drawchart1b382a6b5df9(){  
-      var opts = {
- &quot;dom&quot;: &quot;chart1b382a6b5df9&quot;,
-&quot;width&quot;:    800,
-&quot;height&quot;:    400,
-&quot;x&quot;: &quot;Common&quot;,
-&quot;y&quot;: &quot;Volume&quot;,
-&quot;group&quot;: &quot;Exchange&quot;,
-&quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart1b382a6b5df9&quot; 
-},
-        data = [
- {
- &quot;Exchange&quot;: &quot;BATS&quot;,
-&quot;Volume&quot;:     2677324979,
-&quot;Common&quot;: &quot;Aggregate&quot; 
-},
-{
- &quot;Exchange&quot;: &quot;BATS Y&quot;,
-&quot;Volume&quot;:     1419907352,
-&quot;Common&quot;: &quot;Aggregate&quot; 
-},
-{
- &quot;Exchange&quot;: &quot;CBOE&quot;,
-&quot;Volume&quot;:       38740177,
-&quot;Common&quot;: &quot;Aggregate&quot; 
-},
-{
- &quot;Exchange&quot;: &quot;Chicago&quot;,
-&quot;Volume&quot;:      240116014,
-&quot;Common&quot;: &quot;Aggregate&quot; 
-},
-{
- &quot;Exchange&quot;: &quot;Direct Edge A&quot;,
-&quot;Volume&quot;:     1431592980,
-&quot;Common&quot;: &quot;Aggregate&quot; 
-},
-{
- &quot;Exchange&quot;: &quot;Direct Edge X&quot;,
-&quot;Volume&quot;:     3457644458,
-&quot;Common&quot;: &quot;Aggregate&quot; 
-},
-{
- &quot;Exchange&quot;: &quot;FINRA&quot;,
-&quot;Volume&quot;:    17057752606,
-&quot;Common&quot;: &quot;Aggregate&quot; 
-},
-{
- &quot;Exchange&quot;: &quot;NASDAQ&quot;,
-&quot;Volume&quot;:     1396056128,
-&quot;Common&quot;: &quot;Aggregate&quot; 
-},
-{
- &quot;Exchange&quot;: &quot;NASDAQ OMX&quot;,
-&quot;Volume&quot;:     3830994390,
-&quot;Common&quot;: &quot;Aggregate&quot; 
-},
-{
- &quot;Exchange&quot;: &quot;NASDAQ OMX BX&quot;,
-&quot;Volume&quot;:     1542600466,
-&quot;Common&quot;: &quot;Aggregate&quot; 
-},
-{
- &quot;Exchange&quot;: &quot;NASDAQ OMX PSX&quot;,
-&quot;Volume&quot;:      215352909,
-&quot;Common&quot;: &quot;Aggregate&quot; 
-},
-{
- &quot;Exchange&quot;: &quot;National&quot;,
-&quot;Volume&quot;:      102979263,
-&quot;Common&quot;: &quot;Aggregate&quot; 
-},
-{
- &quot;Exchange&quot;: &quot;NYSE&quot;,
-&quot;Volume&quot;:     7553778146,
-&quot;Common&quot;: &quot;Aggregate&quot; 
-},
-{
- &quot;Exchange&quot;: &quot;NYSE Arca SM&quot;,
-&quot;Volume&quot;:     3146350415,
-&quot;Common&quot;: &quot;Aggregate&quot; 
-},
-{
- &quot;Exchange&quot;: &quot;NYSE MKT&quot;,
-&quot;Volume&quot;:       47760648,
-&quot;Common&quot;: &quot;Aggregate&quot; 
-} 
-]
-  
-      if(!(opts.type===&quot;pieChart&quot; || opts.type===&quot;sparklinePlus&quot; || opts.type===&quot;bulletChart&quot;)) {
-        var data = d3.nest()
-          .key(function(d){
-            //return opts.group === undefined ? &#039;main&#039; : d[opts.group]
-            //instead of main would think a better default is opts.x
-            return opts.group === undefined ? opts.y : d[opts.group];
-          })
-          .entries(data);
-      }
-      
-      if (opts.disabled != undefined){
-        data.map(function(d, i){
-          d.disabled = opts.disabled[i]
-        })
-      }
-      
-      nv.addGraph(function() {
-        var chart = nv.models[opts.type]()
-          .width(opts.width)
-          .height(opts.height)
-          
-        if (opts.type != &quot;bulletChart&quot;){
-          chart
-            .x(function(d) { return d[opts.x] })
-            .y(function(d) { return d[opts.y] })
-        }
-          
-         
-        
-          
-        
-
-        
-        
-        chart.yAxis
-  .showMaxMin(false)
-  .tickFormat(function(d) {return d/1000000000;})
-  .axisLabel(&quot;Volume, in billions&quot;)
-  .width(    40)
-      
-       d3.select(&quot;#&quot; + opts.id)
-        .append(&#039;svg&#039;)
-        .datum(data)
-        .transition().duration(500)
-        .call(chart);
-
-       nv.utils.windowResize(chart.update);
-       return chart;
-      });
-    };
-&lt;/script&gt;
-    
-    &lt;script&gt;&lt;/script&gt;    
-  &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart1b382a6b5df9'> </iframe>
- <style>iframe.rChart{ width: 100%; height: 400px;}</style>
- 
-<table>
-  <thead>
-    <tr><th>Exchange</th><th>Percentage</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>BATS</td><td>6.0629</td></tr>
-    <tr><td>BATS Y</td><td>3.2154</td></tr>
-    <tr><td>CBOE</td><td>0.0877</td></tr>
-    <tr><td>Chicago</td><td>0.5438</td></tr>
-    <tr><td>Direct Edge A</td><td>3.2419</td></tr>
-    <tr><td>Direct Edge X</td><td>7.8300</td></tr>
-    <tr><td>FINRA</td><td>38.6281</td></tr>
-    <tr><td>NASDAQ</td><td>3.1614</td></tr>
-    <tr><td>NASDAQ OMX</td><td>8.6755</td></tr>
-    <tr><td>NASDAQ OMX BX</td><td>3.4933</td></tr>
-    <tr><td>NASDAQ OMX PSX</td><td>0.4877</td></tr>
-    <tr><td>National</td><td>0.2332</td></tr>
-    <tr><td>NYSE</td><td>17.1059</td></tr>
-    <tr><td>NYSE Arca SM</td><td>7.1251</td></tr>
-    <tr><td>NYSE MMKT</td><td>0.1082</td></tr>
-  </tbody>
-</table>
+The exchanges' volumes and market shares for each epoch of each trading day can be found [here](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/taskTwo.csv).
 
 # Regular Trading
 
@@ -5142,6 +4941,206 @@ We see similar exchange market share profiles for both the opening and closing a
 ![Closing Auction Market Share](https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/Close2014.png)
 After-Hours trading has a different profile for exchange market shares:
 ![After-Hours Market Share](https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/After-Hours2014.png)
+# Overall Look at Exchange Market Shares
+Over all trades, the volumes were distributed across exhanges as such:
+
+<iframe srcdoc=' &lt;!doctype HTML&gt;
+&lt;meta charset = &#039;utf-8&#039;&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;link rel=&#039;stylesheet&#039; href=&#039;//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.css&#039;&gt;
+    
+    &lt;script src=&#039;//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
+    &lt;script src=&#039;//d3js.org/d3.v3.min.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
+    &lt;script src=&#039;//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
+    &lt;script src=&#039;//nvd3.org/assets/lib/fisheye.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
+    
+    &lt;style&gt;
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 800px;
+      height: 400px;
+    }  
+    &lt;/style&gt;
+    
+  &lt;/head&gt;
+  &lt;body &gt;
+    
+    &lt;div id = &#039;chart1b382a6b5df9&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;script type=&#039;text/javascript&#039;&gt;
+ $(document).ready(function(){
+      drawchart1b382a6b5df9()
+    });
+    function drawchart1b382a6b5df9(){  
+      var opts = {
+ &quot;dom&quot;: &quot;chart1b382a6b5df9&quot;,
+&quot;width&quot;:    800,
+&quot;height&quot;:    400,
+&quot;x&quot;: &quot;Common&quot;,
+&quot;y&quot;: &quot;Volume&quot;,
+&quot;group&quot;: &quot;Exchange&quot;,
+&quot;type&quot;: &quot;multiBarChart&quot;,
+&quot;id&quot;: &quot;chart1b382a6b5df9&quot; 
+},
+        data = [
+ {
+ &quot;Exchange&quot;: &quot;BATS&quot;,
+&quot;Volume&quot;:     2677324979,
+&quot;Common&quot;: &quot;Aggregate&quot; 
+},
+{
+ &quot;Exchange&quot;: &quot;BATS Y&quot;,
+&quot;Volume&quot;:     1419907352,
+&quot;Common&quot;: &quot;Aggregate&quot; 
+},
+{
+ &quot;Exchange&quot;: &quot;CBOE&quot;,
+&quot;Volume&quot;:       38740177,
+&quot;Common&quot;: &quot;Aggregate&quot; 
+},
+{
+ &quot;Exchange&quot;: &quot;Chicago&quot;,
+&quot;Volume&quot;:      240116014,
+&quot;Common&quot;: &quot;Aggregate&quot; 
+},
+{
+ &quot;Exchange&quot;: &quot;Direct Edge A&quot;,
+&quot;Volume&quot;:     1431592980,
+&quot;Common&quot;: &quot;Aggregate&quot; 
+},
+{
+ &quot;Exchange&quot;: &quot;Direct Edge X&quot;,
+&quot;Volume&quot;:     3457644458,
+&quot;Common&quot;: &quot;Aggregate&quot; 
+},
+{
+ &quot;Exchange&quot;: &quot;FINRA&quot;,
+&quot;Volume&quot;:    17057752606,
+&quot;Common&quot;: &quot;Aggregate&quot; 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ&quot;,
+&quot;Volume&quot;:     1396056128,
+&quot;Common&quot;: &quot;Aggregate&quot; 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ OMX&quot;,
+&quot;Volume&quot;:     3830994390,
+&quot;Common&quot;: &quot;Aggregate&quot; 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ OMX BX&quot;,
+&quot;Volume&quot;:     1542600466,
+&quot;Common&quot;: &quot;Aggregate&quot; 
+},
+{
+ &quot;Exchange&quot;: &quot;NASDAQ OMX PSX&quot;,
+&quot;Volume&quot;:      215352909,
+&quot;Common&quot;: &quot;Aggregate&quot; 
+},
+{
+ &quot;Exchange&quot;: &quot;National&quot;,
+&quot;Volume&quot;:      102979263,
+&quot;Common&quot;: &quot;Aggregate&quot; 
+},
+{
+ &quot;Exchange&quot;: &quot;NYSE&quot;,
+&quot;Volume&quot;:     7553778146,
+&quot;Common&quot;: &quot;Aggregate&quot; 
+},
+{
+ &quot;Exchange&quot;: &quot;NYSE Arca SM&quot;,
+&quot;Volume&quot;:     3146350415,
+&quot;Common&quot;: &quot;Aggregate&quot; 
+},
+{
+ &quot;Exchange&quot;: &quot;NYSE MKT&quot;,
+&quot;Volume&quot;:       47760648,
+&quot;Common&quot;: &quot;Aggregate&quot; 
+} 
+]
+  
+      if(!(opts.type===&quot;pieChart&quot; || opts.type===&quot;sparklinePlus&quot; || opts.type===&quot;bulletChart&quot;)) {
+        var data = d3.nest()
+          .key(function(d){
+            //return opts.group === undefined ? &#039;main&#039; : d[opts.group]
+            //instead of main would think a better default is opts.x
+            return opts.group === undefined ? opts.y : d[opts.group];
+          })
+          .entries(data);
+      }
+      
+      if (opts.disabled != undefined){
+        data.map(function(d, i){
+          d.disabled = opts.disabled[i]
+        })
+      }
+      
+      nv.addGraph(function() {
+        var chart = nv.models[opts.type]()
+          .width(opts.width)
+          .height(opts.height)
+          
+        if (opts.type != &quot;bulletChart&quot;){
+          chart
+            .x(function(d) { return d[opts.x] })
+            .y(function(d) { return d[opts.y] })
+        }
+          
+         
+        
+          
+        
+
+        
+        
+        chart.yAxis
+  .showMaxMin(false)
+  .tickFormat(function(d) {return d/1000000000;})
+  .axisLabel(&quot;Volume, in billions&quot;)
+  .width(    40)
+      
+       d3.select(&quot;#&quot; + opts.id)
+        .append(&#039;svg&#039;)
+        .datum(data)
+        .transition().duration(500)
+        .call(chart);
+
+       nv.utils.windowResize(chart.update);
+       return chart;
+      });
+    };
+&lt;/script&gt;
+    
+    &lt;script&gt;&lt;/script&gt;    
+  &lt;/body&gt;
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart1b382a6b5df9'> </iframe>
+ <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+ 
+<table>
+  <thead>
+    <tr><th>Exchange</th><th>Percentage</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>BATS</td><td>6.0629</td></tr>
+    <tr><td>BATS Y</td><td>3.2154</td></tr>
+    <tr><td>CBOE</td><td>0.0877</td></tr>
+    <tr><td>Chicago</td><td>0.5438</td></tr>
+    <tr><td>Direct Edge A</td><td>3.2419</td></tr>
+    <tr><td>Direct Edge X</td><td>7.8300</td></tr>
+    <tr><td>FINRA</td><td>38.6281</td></tr>
+    <tr><td>NASDAQ</td><td>3.1614</td></tr>
+    <tr><td>NASDAQ OMX</td><td>8.6755</td></tr>
+    <tr><td>NASDAQ OMX BX</td><td>3.4933</td></tr>
+    <tr><td>NASDAQ OMX PSX</td><td>0.4877</td></tr>
+    <tr><td>National</td><td>0.2332</td></tr>
+    <tr><td>NYSE</td><td>17.1059</td></tr>
+    <tr><td>NYSE Arca SM</td><td>7.1251</td></tr>
+    <tr><td>NYSE MMKT</td><td>0.1082</td></tr>
+  </tbody>
+</table>
 
 # Notes
 * A trade's time of day was inferred from Sale Condition as follows:
