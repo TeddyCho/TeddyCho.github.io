@@ -30,10 +30,6 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
 
 ## Overall Look at Exchange Market Shares
 Over all trades, the volumes were distributed across exhanges as such (**Task #1**):
-
-<iframe src="{{ site.githubrawcontent }}/_posts/img/aggregGraph.html" scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart17c0411e12c2'> </iframe>
-<style>iframe.rChart{ width: 100%; height: 400px;}</style>
- 
 <iframe srcdoc=' &lt;!doctype HTML&gt;
 &lt;meta charset = &#039;utf-8&#039;&gt;
 &lt;html&gt;
@@ -58,96 +54,96 @@ Over all trades, the volumes were distributed across exhanges as such (**Task #1
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart17c0411e12c2&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart198827a21fba&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart17c0411e12c2()
+      drawchart198827a21fba()
     });
-    function drawchart17c0411e12c2(){  
+    function drawchart198827a21fba(){  
       var opts = {
- &quot;dom&quot;: &quot;chart17c0411e12c2&quot;,
+ &quot;dom&quot;: &quot;chart198827a21fba&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Common&quot;,
 &quot;y&quot;: &quot;Volume&quot;,
 &quot;group&quot;: &quot;Exchange&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart17c0411e12c2&quot; 
+&quot;id&quot;: &quot;chart198827a21fba&quot; 
 },
         data = [
  {
  &quot;Exchange&quot;: &quot;BATS&quot;,
-&quot;Volume&quot;:     1569844265,
+&quot;Volume&quot;:     2677324979,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;BATS Y&quot;,
-&quot;Volume&quot;:      922446499,
+&quot;Volume&quot;:     1419907352,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;CBOE&quot;,
-&quot;Volume&quot;:       22517429,
+&quot;Volume&quot;:       38740177,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;Chicago&quot;,
-&quot;Volume&quot;:      181158359,
+&quot;Volume&quot;:      240116014,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;Direct Edge A&quot;,
-&quot;Volume&quot;:      915651685,
+&quot;Volume&quot;:     1431592980,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;Direct Edge X&quot;,
-&quot;Volume&quot;:     2053407256,
+&quot;Volume&quot;:     3457644458,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;FINRA&quot;,
-&quot;Volume&quot;:    10064238734,
+&quot;Volume&quot;:    17057752606,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;NASDAQ&quot;,
-&quot;Volume&quot;:      148971605,
+&quot;Volume&quot;:     1396056128,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;NASDAQ OMX&quot;,
-&quot;Volume&quot;:     2522686933,
+&quot;Volume&quot;:     3830994390,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;NASDAQ OMX BX&quot;,
-&quot;Volume&quot;:      998253900,
+&quot;Volume&quot;:     1542600466,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;NASDAQ OMX PSX&quot;,
-&quot;Volume&quot;:      136601845,
+&quot;Volume&quot;:      215352909,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;National&quot;,
-&quot;Volume&quot;:       65506674,
+&quot;Volume&quot;:      102979263,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;NYSE&quot;,
-&quot;Volume&quot;:     4794287787,
+&quot;Volume&quot;:     7553778146,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;NYSE Arca SM&quot;,
-&quot;Volume&quot;:     1893378717,
+&quot;Volume&quot;:     3146350415,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 },
 {
  &quot;Exchange&quot;: &quot;NYSE MKT&quot;,
-&quot;Volume&quot;:        1493112,
+&quot;Volume&quot;:       47760648,
 &quot;Common&quot;: &quot;Aggregate&quot; 
 } 
 ]
@@ -206,7 +202,7 @@ Over all trades, the volumes were distributed across exhanges as such (**Task #1
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart17c0411e12c2'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart198827a21fba'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
  
 <table>
