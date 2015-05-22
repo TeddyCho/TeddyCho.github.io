@@ -16,7 +16,7 @@ Attributes of the raw TAQ data:
     <tr>      <th>Timeframe</th>      <th>Symbols</th>    </tr>
   </thead>
   <tbody>
-    <tr>      <td>01-Jan-2014 to 31-Dec-2014</td>      <td>BAC, GOOG, BHP,\BRKA, FE,/RSH, SLV, T, XOM</td>    </tr>
+    <tr>      <td>01-Jan-2014 to 31-Dec-2014</td>      <td>BAC, GOOG, BHP, BRKA, FE, \n RSH, SLV, T, XOM</td>    </tr>
   </tbody>
 </table>
 Transforming the above data (64209422 rows) to per-timeOfDay-per-day exchange volumes took 495 seconds on a 2.4 GHz/4GB laptop. The raw output from the code is [here](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/breakdown1.csv).
