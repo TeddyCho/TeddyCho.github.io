@@ -55,21 +55,21 @@ Over all trades, the volumes were distributed across exhanges as such (**Task #1
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chart198827a21fba&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chart1b382a6b5df9&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchart198827a21fba()
+      drawchart1b382a6b5df9()
     });
-    function drawchart198827a21fba(){  
+    function drawchart1b382a6b5df9(){  
       var opts = {
- &quot;dom&quot;: &quot;chart198827a21fba&quot;,
+ &quot;dom&quot;: &quot;chart1b382a6b5df9&quot;,
 &quot;width&quot;:    800,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Common&quot;,
 &quot;y&quot;: &quot;Volume&quot;,
 &quot;group&quot;: &quot;Exchange&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart198827a21fba&quot; 
+&quot;id&quot;: &quot;chart1b382a6b5df9&quot; 
 },
         data = [
  {
@@ -203,29 +203,29 @@ Over all trades, the volumes were distributed across exhanges as such (**Task #1
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart198827a21fba'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart1b382a6b5df9'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
  
 <table>
   <thead>
-    <tr><th>Exchange</th><th>Proportion</th></tr>
+    <tr><th>Exchange</th><th>Percentage</th></tr>
   </thead>
   <tbody>
-    <tr><td>BATS</td><td>.05971</td></tr>
-    <tr><td>BATS Y</td><td>.03509</td></tr>
-    <tr><td>CBOE</td><td>.0008565</td></tr>
-    <tr><td>Chicago</td><td>.006891</td></tr>
-    <tr><td>Direct Edge A</td><td>.03483</td></tr>
-    <tr><td>Direct Edge X</td><td>.07810</td></tr>
-    <tr><td>FINRA</td><td>.3828</td></tr>
-    <tr><td>NASDAQ</td><td>.005666</td></tr>
-    <tr><td>NASDAQ OMX</td><td>.0960</td></tr>
-    <tr><td>NASDAQ OMX BX</td><td>.03797</td></tr>
-    <tr><td>NASDAQ OMX PSX</td><td>.005196</td></tr>
-    <tr><td>National</td><td>.002492</td></tr>
-    <tr><td>NYSE</td><td>.1824</td></tr>
-    <tr><td>NYSE Arca SM</td><td>.07202</td></tr>
-    <tr><td>NYSE MMKT</td><td>.00005679</td></tr>
+    <tr><td>BATS</td><td>6.0629</td></tr>
+    <tr><td>BATS Y</td><td>3.2154</td></tr>
+    <tr><td>CBOE</td><td>0.0877</td></tr>
+    <tr><td>Chicago</td><td>0.5438</td></tr>
+    <tr><td>Direct Edge A</td><td>3.2419</td></tr>
+    <tr><td>Direct Edge X</td><td>7.8300</td></tr>
+    <tr><td>FINRA</td><td>38.6281</td></tr>
+    <tr><td>NASDAQ</td><td>3.1614</td></tr>
+    <tr><td>NASDAQ OMX</td><td>8.6755</td></tr>
+    <tr><td>NASDAQ OMX BX</td><td>3.4933</td></tr>
+    <tr><td>NASDAQ OMX PSX</td><td>0.4877</td></tr>
+    <tr><td>National</td><td>0.2332</td></tr>
+    <tr><td>NYSE</td><td>17.1059</td></tr>
+    <tr><td>NYSE Arca SM</td><td>7.1251</td></tr>
+    <tr><td>NYSE MMKT</td><td>0.1082</td></tr>
   </tbody>
 </table>
 
