@@ -10,7 +10,7 @@ tagline:             'says hi'
 description:         'brand new'
 url:                 http://TeddyCho.github.io
 baseurl:             'http://TeddyCho.github.io'
-githubrepo:         'https://github.com/TeddyCho/TeddyCho.github.io/'
+githubrepo:         'https://github.com/TeddyCho/TeddyCho.github.io/tree/master'
 paginate:            5
 
 # About/contact
