@@ -1,15 +1,15 @@
-'&lt;!doctype HTML&gt;
-&lt;meta charset = &#039;utf-8&#039;&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;link rel=&#039;stylesheet&#039; href=&#039;//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.css&#039;&gt;
+<!doctype HTML>
+<meta charset = &#039;utf-8&#039;>
+<html>
+  <head>
+    <link rel=&#039;stylesheet&#039; href=&#039;//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.css&#039;>
     
-    &lt;script src=&#039;//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
-    &lt;script src=&#039;//d3js.org/d3.v3.min.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
-    &lt;script src=&#039;//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
-    &lt;script src=&#039;//nvd3.org/assets/lib/fisheye.js&#039; type=&#039;text/javascript&#039;&gt;&lt;/script&gt;
+    <script src=&#039;//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js&#039; type=&#039;text/javascript&#039;></script>
+    <script src=&#039;//d3js.org/d3.v3.min.js&#039; type=&#039;text/javascript&#039;></script>
+    <script src=&#039;//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.js&#039; type=&#039;text/javascript&#039;></script>
+    <script src=&#039;//nvd3.org/assets/lib/fisheye.js&#039; type=&#039;text/javascript&#039;></script>
     
-    &lt;style&gt;
+    <style>
     .rChart {
       display: block;
       margin-left: auto; 
@@ -17,106 +17,106 @@
       width: 800px;
       height: 400px;
     }  
-    &lt;/style&gt;
+    </style>
     
-  &lt;/head&gt;
-  &lt;body &gt;
+  </head>
+  <body >
     
-    &lt;div id = &#039;chart17c0411e12c2&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
-    &lt;script type=&#039;text/javascript&#039;&gt;
+    <div id = &#039;chart17c0411e12c2&#039; class = &#039;rChart nvd3&#039;></div>    
+    <script type=&#039;text/javascript&#039;>
  $(document).ready(function(){
       drawchart17c0411e12c2()
     });
     function drawchart17c0411e12c2(){  
       var opts = {
- &quot;dom&quot;: &quot;chart17c0411e12c2&quot;,
-&quot;width&quot;:    800,
-&quot;height&quot;:    400,
-&quot;x&quot;: &quot;Common&quot;,
-&quot;y&quot;: &quot;Volume&quot;,
-&quot;group&quot;: &quot;Exchange&quot;,
-&quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chart17c0411e12c2&quot; 
+ 'dom': 'chart17c0411e12c2',
+'width':    800,
+'height':    400,
+'x': 'Common',
+'y': 'Volume',
+'group': 'Exchange',
+'type': 'multiBarChart',
+'id': 'chart17c0411e12c2' 
 },
         data = [
  {
- &quot;Exchange&quot;: &quot;BATS&quot;,
-&quot;Volume&quot;:     1569844265,
-&quot;Common&quot;: &quot;Aggregate&quot; 
+ 'Exchange': 'BATS',
+'Volume':     1569844265,
+'Common': 'Aggregate' 
 },
 {
- &quot;Exchange&quot;: &quot;BATS Y&quot;,
-&quot;Volume&quot;:      922446499,
-&quot;Common&quot;: &quot;Aggregate&quot; 
+ 'Exchange': 'BATS Y',
+'Volume':      922446499,
+'Common': 'Aggregate' 
 },
 {
- &quot;Exchange&quot;: &quot;CBOE&quot;,
-&quot;Volume&quot;:       22517429,
-&quot;Common&quot;: &quot;Aggregate&quot; 
+ 'Exchange': 'CBOE',
+'Volume':       22517429,
+'Common': 'Aggregate' 
 },
 {
- &quot;Exchange&quot;: &quot;Chicago&quot;,
-&quot;Volume&quot;:      181158359,
-&quot;Common&quot;: &quot;Aggregate&quot; 
+ 'Exchange': 'Chicago',
+'Volume':      181158359,
+'Common': 'Aggregate' 
 },
 {
- &quot;Exchange&quot;: &quot;Direct Edge A&quot;,
-&quot;Volume&quot;:      915651685,
-&quot;Common&quot;: &quot;Aggregate&quot; 
+ 'Exchange': 'Direct Edge A',
+'Volume':      915651685,
+'Common': 'Aggregate' 
 },
 {
- &quot;Exchange&quot;: &quot;Direct Edge X&quot;,
-&quot;Volume&quot;:     2053407256,
-&quot;Common&quot;: &quot;Aggregate&quot; 
+ 'Exchange': 'Direct Edge X',
+'Volume':     2053407256,
+'Common': 'Aggregate' 
 },
 {
- &quot;Exchange&quot;: &quot;FINRA&quot;,
-&quot;Volume&quot;:    10064238734,
-&quot;Common&quot;: &quot;Aggregate&quot; 
+ 'Exchange': 'FINRA',
+'Volume':    10064238734,
+'Common': 'Aggregate' 
 },
 {
- &quot;Exchange&quot;: &quot;NASDAQ&quot;,
-&quot;Volume&quot;:      148971605,
-&quot;Common&quot;: &quot;Aggregate&quot; 
+ 'Exchange': 'NASDAQ',
+'Volume':      148971605,
+'Common': 'Aggregate' 
 },
 {
- &quot;Exchange&quot;: &quot;NASDAQ OMX&quot;,
-&quot;Volume&quot;:     2522686933,
-&quot;Common&quot;: &quot;Aggregate&quot; 
+ 'Exchange': 'NASDAQ OMX',
+'Volume':     2522686933,
+'Common': 'Aggregate' 
 },
 {
- &quot;Exchange&quot;: &quot;NASDAQ OMX BX&quot;,
-&quot;Volume&quot;:      998253900,
-&quot;Common&quot;: &quot;Aggregate&quot; 
+ 'Exchange': 'NASDAQ OMX BX',
+'Volume':      998253900,
+'Common': 'Aggregate' 
 },
 {
- &quot;Exchange&quot;: &quot;NASDAQ OMX PSX&quot;,
-&quot;Volume&quot;:      136601845,
-&quot;Common&quot;: &quot;Aggregate&quot; 
+ 'Exchange': 'NASDAQ OMX PSX',
+'Volume':      136601845,
+'Common': 'Aggregate' 
 },
 {
- &quot;Exchange&quot;: &quot;National&quot;,
-&quot;Volume&quot;:       65506674,
-&quot;Common&quot;: &quot;Aggregate&quot; 
+ 'Exchange': 'National',
+'Volume':       65506674,
+'Common': 'Aggregate' 
 },
 {
- &quot;Exchange&quot;: &quot;NYSE&quot;,
-&quot;Volume&quot;:     4794287787,
-&quot;Common&quot;: &quot;Aggregate&quot; 
+ 'Exchange': 'NYSE',
+'Volume':     4794287787,
+'Common': 'Aggregate' 
 },
 {
- &quot;Exchange&quot;: &quot;NYSE Arca SM&quot;,
-&quot;Volume&quot;:     1893378717,
-&quot;Common&quot;: &quot;Aggregate&quot; 
+ 'Exchange': 'NYSE Arca SM',
+'Volume':     1893378717,
+'Common': 'Aggregate' 
 },
 {
- &quot;Exchange&quot;: &quot;NYSE MKT&quot;,
-&quot;Volume&quot;:        1493112,
-&quot;Common&quot;: &quot;Aggregate&quot; 
+ 'Exchange': 'NYSE MKT',
+'Volume':        1493112,
+'Common': 'Aggregate' 
 } 
 ]
   
-      if(!(opts.type===&quot;pieChart&quot; || opts.type===&quot;sparklinePlus&quot; || opts.type===&quot;bulletChart&quot;)) {
+      if(!(opts.type==='pieChart' || opts.type==='sparklinePlus' || opts.type==='bulletChart')) {
         var data = d3.nest()
           .key(function(d){
             //return opts.group === undefined ? &#039;main&#039; : d[opts.group]
@@ -137,7 +137,7 @@
           .width(opts.width)
           .height(opts.height)
           
-        if (opts.type != &quot;bulletChart&quot;){
+        if (opts.type != 'bulletChart'){
           chart
             .x(function(d) { return d[opts.x] })
             .y(function(d) { return d[opts.y] })
@@ -153,10 +153,10 @@
         chart.yAxis
   .showMaxMin(false)
   .tickFormat(function(d) {return d/1000000000;})
-  .axisLabel(&quot;Volume, in billions&quot;)
+  .axisLabel('Volume, in billions')
   .width(    40)
       
-       d3.select(&quot;#&quot; + opts.id)
+       d3.select('#' + opts.id)
         .append(&#039;svg&#039;)
         .datum(data)
         .transition().duration(500)
@@ -166,8 +166,8 @@
        return chart;
       });
     };
-&lt;/script&gt;
+</script>
     
-    &lt;script&gt;&lt;/script&gt;    
-  &lt;/body&gt;
-&lt;/html&gt;'
+    <script></script>    
+  </body>
+</html>
