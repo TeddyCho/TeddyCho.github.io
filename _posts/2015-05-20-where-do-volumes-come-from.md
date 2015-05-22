@@ -4,13 +4,11 @@ title: Where Do Volumes Come From?
 unlisted: true
 ---
 
-## Tasks
-> 1. Using the TAQ data, compute the market shares for the different stock exchanges for a representative sample of stocks (it should include GOOG, BAC, and then a representative sample of other stocks, the size of the sample can depend on what's feasible computationally).
-> 
-> 2. Focus on calendar year 2014, and compute volumes and market shares for each exchange for each trading day, dividing the day into the opening auction, regular trading, closing auction, and after-hours trading.
+# Tasks
+> Using NYSE Trades and Quotes (TAQ) data for a representataive sample of stocks, find the exchange market shares based on stock, time of day, and date.
 
-## Data
-The NYSE Trades and Quotes (TAQ) data covered the following time frame and symbols:
+# Data
+The TAQ data covered the following time frame and symbols:
 <table>
   <thead>
     <tr>      <th>Timeframe</th> <th>NASDAQ</th> <th>NYSE</th> <th>NYSEArca</th> <th>NYSEMKT</th>   </tr>
@@ -229,11 +227,9 @@ Over all trades, the volumes were distributed across exhanges as such (**Task #1
   </tbody>
 </table>
 
+# Regular Trading
 
-
-## Regular Trading
-
-When grouped by listed exchange, we observe differences in exchange market share profiles:
+When trades are grouped by their symbols' listing exchanges, we observe differences across their exchange market share profiles during regular hours. Notably, exchanges held higher market share for their "home" stocks:
 
 <iframe srcdoc=' &lt;!doctype HTML&gt;
 &lt;meta charset = &#039;utf-8&#039;&gt;
@@ -694,7 +690,9 @@ When grouped by listed exchange, we observe differences in exchange market share
 &lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart1b3823a857f0'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
-Within NASDAQ listed stocks, exchange shares were consistent.
+To further support that listing exchange helps determine exchange market share profile, we expand each group by their constituent symbols.
+
+Within NASDAQ listed stocks, exchange shares were consistent:
 
 <iframe srcdoc=' &lt;!doctype HTML&gt;
 &lt;meta charset = &#039;utf-8&#039;&gt;
@@ -1262,7 +1260,7 @@ Within NASDAQ listed stocks, exchange shares were consistent.
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
  
  
- Same goes for NYSE:
+There was consistency in the exchange market share profiles for NYSE listed stocks, as well:
  
 <iframe srcdoc=' &lt;!doctype HTML&gt;
 &lt;meta charset = &#039;utf-8&#039;&gt;
@@ -1909,7 +1907,7 @@ Within NASDAQ listed stocks, exchange shares were consistent.
 &lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart1b383156ba9'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
  
-Consistency was found in our two Arca symbols:
+Consistency was found between our two Arca symbols, save for BATS Y, Direct Edge X, and Chicago:
 
 <iframe srcdoc=' &lt;!doctype HTML&gt;
 &lt;meta charset = &#039;utf-8&#039;&gt;
@@ -2166,7 +2164,7 @@ Consistency was found in our two Arca symbols:
 &lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chart1b3818732e73'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
  
- As well as in our HYSEMKT symbols:
+ Our NYSEMKT symbols appeared to represent two clusters of exchange market share profiles: one for CCF and ONVO, and one for LIQT and ONP:
  
  <iframe srcdoc=' &lt;!doctype HTML&gt;
 &lt;meta charset = &#039;utf-8&#039;&gt;
