@@ -30,13 +30,13 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
 
 When trades are grouped by their symbols' listing exchanges, we observe differences across their exchange market share profiles during regular hours. Notably, exchanges held higher market share for their "home" stocks:
 
-<iframe src = ' https://cdn.rawgit.com/TeddyCho/TeddyCho.github.io/master/_posts/graphs/listedExchangeRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
+<iframe src = ' https://cdn.rawgit.com/TeddyCho/TAQ/master/data/listedExchangeRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 
 To further support that listing exchange helps determine exchange market share profile, we expand each group by their constituent symbols.
 
 Within NASDAQ listed stocks, exchange shares were consistent:
 
-<iframe src = ' https://cdn.rawgit.com/TeddyCho/TeddyCho.github.io/master/_posts/graphs/nasdaqReg.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
+<iframe src = ' https://cdn.rawgit.com/TeddyCho/TAQ/master/data/nasdaqReg.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
  
 There was consistency in the exchange market share profiles for NYSE listed stocks, as well:
 
@@ -44,25 +44,25 @@ There was consistency in the exchange market share profiles for NYSE listed stoc
  
 Consistency was found between our two Arca symbols, save for BATS Y, Direct Edge X, and Chicago:
 
-<iframe src = ' https://cdn.rawgit.com/TeddyCho/TeddyCho.github.io/master/_posts/graphs/arcaReg.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
+<iframe src = ' https://cdn.rawgit.com/TeddyCho/TAQ/master/data/arcaReg.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
  
  Our NYSEMKT symbols appeared to represent two clusters of exchange market share profiles: one for CCF and ONVO, and one for LIQT and ONP:
  
 
-<iframe src = ' https://cdn.rawgit.com/TeddyCho/TeddyCho.github.io/master/_posts/graphs/nysemktReg.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
+<iframe src = ' https://cdn.rawgit.com/TeddyCho/TAQ/master/data/nysemktReg.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 
 # Exchange Market Shares During Open and Close Auction
 
 In both the Open and Close epochs, exchange market shares were clearly different based on home exchange. The following graph aggregates stocks by listing exchange and shows volume share for both Open and Close combined:
 
 
-<iframe src = ' https://cdn.rawgit.com/TeddyCho/TeddyCho.github.io/master/_posts/graphs/listedExchangeOpenClose.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
+<iframe src = ' https://cdn.rawgit.com/TeddyCho/TAQ/master/data/listedExchangeOpenClose.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 
 # Exchange Market Shares During After-Hours
 
 When grouped by home exchange, we observe stark differences in the exchange share profiles:
 
-<iframe src = ' https://cdn.rawgit.com/TeddyCho/TeddyCho.github.io/master/_posts/graphs/listedExchangeAfter.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
+<iframe src = ' https://cdn.rawgit.com/TeddyCho/TAQ/master/data/listedExchangeAfter.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 
 Among NASDAQ listed stocks, we do see variability in their exchange share profiles for after-hours trading:
 
@@ -70,11 +70,11 @@ Among NASDAQ listed stocks, we do see variability in their exchange share profil
  
  We also see some variability among NYSE listed stocks:
 
-<iframe src = ' https://cdn.rawgit.com/TeddyCho/TeddyCho.github.io/master/_posts/graphs/nyseAfter.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
+<iframe src = ' https://cdn.rawgit.com/TeddyCho/TAQ/master/data/nyseAfter.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
  
  Finally, we see some variability among NYSE MKT stocks:
 
-<iframe src = ' https://cdn.rawgit.com/TeddyCho/TeddyCho.github.io/master/_posts/graphs/nysemktAfter.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
+<iframe src = ' https://cdn.rawgit.com/TeddyCho/TAQ/master/data/nysemktAfter.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 
 # Exchange Volumes and Market Shares Over 2014
 The following graphs illustrate the extent of day-to-day consistency for the trends in the last rChart.
