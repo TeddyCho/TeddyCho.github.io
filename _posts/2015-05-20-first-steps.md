@@ -4,7 +4,7 @@ title: First Steps
 ---
 
 
-<iframe src = ' https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/graphs/arcaAfter.html ' scrolling='no' frameBorder='0'> </iframe>> </iframe>
+<iframe src = ' https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/graphs/arcaAfter.html ' scrolling='no' frameBorder='0'> </iframe> </iframe>
 
 Back in the US from [hiking about](http://LegDays.com), I am on a new journey towards becoming an academic.
 
