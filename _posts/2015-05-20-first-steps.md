@@ -3,7 +3,8 @@ layout: post
 title: First Steps
 ---
 
-<iframe src = ' http://htmlpreview.github.io/?https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/graphs/arcaReg.html ' scrolling='no' frameBorder='0'> </iframe>
+<iframe src = ' https://cdn.rawgit.com/TeddyCho/TeddyCho.github.io/master/_posts/graphs/arcaReg.html ' scrolling='no' frameBorder='0'> </iframe>
+ <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
 Back in the US from [hiking about](http://LegDays.com), I am on a new journey towards becoming an academic.
 
