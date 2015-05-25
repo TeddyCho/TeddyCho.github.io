@@ -5,7 +5,7 @@ unlisted: true
 ---
 
 # Tasks
-> Using NYSE Trades and Quotes (TAQ) data for a representataive sample of stocks, find the exchange market shares based on stock, time of day, and date.
+> Using NYSE Trades and Quotes (TAQ) data for a representative sample of stocks, find the exchange market shares based on stock, time of day, and date.
 
 # Data
 The TAQ data covered the following time frame and symbols:
