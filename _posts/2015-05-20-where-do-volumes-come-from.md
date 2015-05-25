@@ -40,14 +40,13 @@ Within NASDAQ listed stocks, exchange shares were consistent:
  
 There was consistency in the exchange market share profiles for NYSE listed stocks, as well:
 
-<iframe src = ' https://cdn.rawgit.com/TeddyCho/TAQ/master/data/nyseReg.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
+<iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/data/nyseReg.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
  
 Consistency was found between our two Arca symbols, save for BATS Y, Direct Edge X, and Chicago:
 
 <iframe src = ' https://cdn.rawgit.com/TeddyCho/TAQ/master/data/arcaReg.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
  
  Our NYSEMKT symbols appeared to represent two clusters of exchange market share profiles: one for CCF and ONVO, and one for LIQT and ONP:
- 
 
 <iframe src = ' https://cdn.rawgit.com/TeddyCho/TAQ/master/data/nysemktReg.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 
