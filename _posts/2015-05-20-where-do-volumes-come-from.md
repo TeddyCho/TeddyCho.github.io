@@ -89,6 +89,8 @@ After-Hours trading has a different profile for exchange market shares:
 # Overall Look at Exchange Market Shares
 Over all trades, the volumes were distributed across exhanges as such:
 
+<iframe src = ' https://cdn.rawgit.com/TeddyCho/TAQ/master/data/AllStocks.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
+
 <iframe srcdoc=' &lt;!doctype HTML&gt;
 &lt;meta charset = &#039;utf-8&#039;&gt;
 &lt;html&gt;
