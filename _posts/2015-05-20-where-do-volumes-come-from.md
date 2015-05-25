@@ -36,7 +36,7 @@ To further support that listing exchange helps determine exchange market share p
 
 Within NASDAQ listed stocks, exchange shares were consistent:
 
-<iframe src = ' https://cdn.rawgit.com/TeddyCho/TAQ/master/data/nasdaqReg.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
+<iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/data/nasdaqReg.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
  
 There was consistency in the exchange market share profiles for NYSE listed stocks, as well:
 
