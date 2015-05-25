@@ -16,7 +16,6 @@ To further support that listing exchange helps determine exchange market share p
 
 Within NASDAQ listed stocks, exchange shares were consistent:
 
-
 <iframe src = ' https://cdn.rawgit.com/TeddyCho/TeddyCho.github.io/master/_posts/graphs/nasdaqReg.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
  
 There was consistency in the exchange market share profiles for NYSE listed stocks, as well:
@@ -44,21 +43,17 @@ In both the Open and Close epochs, exchange market shares were clearly different
 
 When grouped by home exchange, we observe stark differences in the exchange share profiles:
 
-
 <iframe src = ' https://cdn.rawgit.com/TeddyCho/TeddyCho.github.io/master/_posts/graphs/listedExchangeAfter.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 
 Among NASDAQ listed stocks, we do see variability in their exchange share profiles for after-hours trading:
 
-
-<iframe src = ' https://cdn.rawgit.com/TeddyCho/TeddyCho.github.io/master/_posts/graphs/nasdaqAfter.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
+<iframe src = ' https://cdn.rawgit.com/TeddyCho/TAQ/master/data/nasdaqAfter.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
  
  We also see some variability among NYSE listed stocks:
- 
 
 <iframe src = ' https://cdn.rawgit.com/TeddyCho/TeddyCho.github.io/master/_posts/graphs/nyseAfter.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
  
  Finally, we see some variability among NYSE MKT stocks:
- 
 
 <iframe src = ' https://cdn.rawgit.com/TeddyCho/TeddyCho.github.io/master/_posts/graphs/nysemktAfter.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 
