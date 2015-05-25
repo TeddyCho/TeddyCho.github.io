@@ -3,8 +3,6 @@ layout: post
 title: First Steps
 ---
 
-<iframe src = ' https://cdn.rawgit.com/TeddyCho/TeddyCho.github.io/master/_posts/graphs/arcaReg.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
-
 Back in the US from [hiking about](http://LegDays.com), I am on a new journey towards becoming an academic.
 
 This post marks my first public step.
