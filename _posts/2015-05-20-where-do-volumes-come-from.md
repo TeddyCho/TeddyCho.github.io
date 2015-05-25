@@ -9,6 +9,26 @@ unlisted: true
 
 # Data
 The TAQ data covered the following time frame and symbols:
+<table>
+  <thead>
+    <tr>      <th>Timeframe</th> <th>NASDAQ</th> <th>NYSE</th> <th>NYSEArca</th> <th>NYSEMKT</th>   </tr>
+  </thead>
+  <tbody>
+    <tr>      <td>01-Jan-2014 to 31-Dec-2014</td>
+      <td>AMD, GOOG, GT, NDAQ, STLD, TSLA, WFM</td> 
+      <td>BAC, BHP, BRKA, CVS, FE, GE, <br/> LTM, LUV, T, WSM, XOM</td> 
+      <td>SLV, TBF</td> 
+      <td>CCF, LIQT, ONP, ONVO</td> 
+    </tr>
+  </tbody>
+</table>
+Transforming the above data (129M rows) to per-day-per-timeOfDay exchange volumes took 991 seconds on a 2.4 GHz/4GB laptop. The raw output from the code is [here](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/breakdown5aa0ce4b018e0067.csv).
+
+The exchanges' volumes and market shares for each epoch of each trading day can be found [here](https://github.com/TeddyCho/TeddyCho.github.io/blob/master/_posts/img/taskTwo.csv).
+
+# Exchange Market Shares During Regular Trading
+
+When trades are grouped by their symbols' listing exchanges, we observe differences across their exchange market share profiles during regular hours. Notably, exchanges held higher market share for their "home" stocks:
 
 <iframe src = ' https://cdn.rawgit.com/TeddyCho/TeddyCho.github.io/master/_posts/graphs/listedExchangeRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 
