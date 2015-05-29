@@ -31,9 +31,13 @@ The bid and ask are represented by two horizontal bars whose length is defined b
 
 The top right graph represents the data feed in its original CLOB form. The trades are represented by yellow stars whose sizes are defined by trade volume. Translucency and horizontal noise are added so that accumulation is observable.
 
-The top left graph represents a simulated FBA feed with an interval time of 360 seconds. Analogous to the CLOB representation, the exchange BBO is denoted by the two bars. When an auction results in a trade, the trade is represented by a star.
+The top left graph represents a simulated FBA feed with an interval time of *360 seconds*. Analogous to the CLOB representation, the exchange BBO is denoted by the two bars. When an auction results in a trade, the trade is represented by a star.
 
 <a href = "https://cdn.rawgit.com/TeddyCho/TeddyCho.github.io/master/_posts/img/goog2hours.gif"><img src="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/goog2hours.gif" /></a>
+
+The following graph shows a simulated FBA feed with an interval time of *120 seconds*:
+
+<a href = "https://cdn.rawgit.com/TeddyCho/TeddyCho.github.io/master/_posts/img/googhour120.gif"><img src="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/googhour120.gif" /></a>
 
 # To Do
 * Given TAQ data, simulate the FBA better. Currently, it's just randomly choosing when the auction results in a trade or not, and otherwise mirroring CLOB. Differentiate between snipe trades and investor trades.
