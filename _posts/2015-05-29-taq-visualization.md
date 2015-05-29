@@ -31,7 +31,7 @@ The bid and ask are represented by two horizontal bars whose length depends on t
 
 The trades are represented by the yellow stars. Horizontal jittering and translucency is added so accumulation is observable.
 
-<img style="float: center" src="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/goog30min.gif" />
+<img style="float: center" src="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/goog2hours.gif" />
 
 # To Do
 * Given TAQ data, simulate the FBA supply/demand curves and the resulting trades.
