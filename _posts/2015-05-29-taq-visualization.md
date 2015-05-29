@@ -1,12 +1,13 @@
 ---
 layout: post
-title: Where Do Volumes Come From?
+title: Visualize Trades and Quotes
 unlisted: true
 ---
 
 # Tasks
-> Visualize trades and quotes (TAQ) data.
-> Include a comparison of continuous limit order book (CLOB) and frequent batch auctions (FBA).
+> * Visualize trades and quotes (TAQ) data.
+>
+> * Include a comparison of continuous limit order book (CLOB) and frequent batch auctions (FBA).
 
 # Data
 The TAQ data covered the following time frame and symbols:
