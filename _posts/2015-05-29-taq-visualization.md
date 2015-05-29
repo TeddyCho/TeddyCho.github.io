@@ -27,14 +27,14 @@ The TAQ data covered the following time frame and symbols:
 
 The following illustration shows GOOG trades and quotes on the NASDAQ OMX BX exchange over two hour's time.
 
-The bid and ask are represented by two horizontal bars whose length depends on their quote size.
+The bid and ask are represented by two horizontal bars whose length is defined by quote size.
 
-The top right graph represents the data feed in its original CLOB form. The trades are represented by yellow stars whose sizes are a function of the trade volumes. Translucency and horizontal noise are added so that accumulation is observable.
+The top right graph represents the data feed in its original CLOB form. The trades are represented by yellow stars whose sizes are defined by trade volume. Translucency and horizontal noise are added so that accumulation is observable.
 
-The top left graph represents a simulated FBA feed with an interval time of 360 seconds. When an auction results in a trade, the trade is represented by a star. In cases where no trade occurs, the highest bid and lowest offer are shown analagously to the CLOB representation.
+The top left graph represents a simulated FBA feed with an interval time of 360 seconds. Analogous to the CLOB representation, the exchange BBO is denoted by the two bars. When an auction results in a trade, the trade is represented by a star.
 
 <a href = "https://cdn.rawgit.com/TeddyCho/TeddyCho.github.io/master/_posts/img/goog2hours.gif"><img src="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/goog2hours.gif" /></a>
 
 # To Do
-* Given TAQ data, simulate the FBA better. Currently, it's just randomly choosing when the auction results in a trade or not, and otherwise mirroring CLOB.
+* Given TAQ data, simulate the FBA better. Currently, it's just randomly choosing when the auction results in a trade or not, and otherwise mirroring CLOB. Differentiate between snipe trades and investor trades.
 * Account for multiple exchanges, if sensical.
