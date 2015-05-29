@@ -25,13 +25,15 @@ The TAQ data covered the following time frame and symbols:
 
 # Visualization
 
-The following illustration shows GOOG trades over an hour's time.
+The following illustration shows GOOG trades and quotes on the NASDAQ OMX BX exchange over two hour's time.
 
 The bid and ask are represented by two horizontal bars whose length depends on their quote size.
 
-The trades are represented by the yellow stars. Horizontal jittering and translucency is added so accumulation is observable.
+The top right graph represents the data feed in its original CLOB form. The trades are represented by the yellow stars. Translucency and horizontal noise are added such that accumulation is observable.
+
+The top left graph represents a simulated FBA feed with an interval time of 360 seconds. When an auction results in a trade, the trade is represented by a star. In cases where no trade occurs, the highest bid and lowest offer are shown analagously to the CLOB representation.
 
 <a href = "https://cdn.rawgit.com/TeddyCho/TeddyCho.github.io/master/_posts/img/goog2hours.gif"><img src="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/goog2hours.gif" /></a>
 
 # To Do
-* Given TAQ data, simulate the FBA supply/demand curves and the resulting trades.
+* Given TAQ data, simulate the FBA better. Currently, it's just randomly choosing when the auction results in a trade or not, and otherwise mirroring CLOB.
