@@ -25,7 +25,13 @@ The TAQ data covered the following time frame and symbols:
 
 # Visualization
 
-When trades are grouped by their symbols' listing exchanges, we observe differences across their exchange market share profiles during regular hours. Notably, exchanges held higher market share for their "home" stocks:
+The following illustration shows GOOG trades over an hour's time.
+
+The bid and ask are represented by two horizontal bars whose length depends on their quote size.
+
+The trades are represented by the yellow stars. Horizontal jittering and translucency is added so accumulation is observable.
+
+
 
 # To Do
 * Given TAQ data, simulate the FBA supply/demand curves and the resulting trades.
