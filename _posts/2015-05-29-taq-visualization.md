@@ -37,3 +37,4 @@ The top left graph represents a simulated FBA feed with an interval time of 360 
 
 # To Do
 * Given TAQ data, simulate the FBA better. Currently, it's just randomly choosing when the auction results in a trade or not, and otherwise mirroring CLOB.
+* Multiple exchanges?
