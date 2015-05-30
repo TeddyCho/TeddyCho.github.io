@@ -25,7 +25,7 @@ The TAQ data covered the following time frame and symbols:
 
 # Visualization
 
-The following illustration shows GOOG trades and quotes on the NASDAQ OMX BX exchange over two hour's time.
+The following illustration shows GOOG trades and quotes on the NASDAQ OMX BX exchange over two hours' time.
 
 The bid and ask are represented by two horizontal bars whose length is defined by quote size.
 
