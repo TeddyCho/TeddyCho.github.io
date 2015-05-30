@@ -7,7 +7,7 @@ relative_permalinks: true
 # Setup
 title:               Teddy
 tagline:             'says hi'
-description:         'brand new'
+description:         '>>> TeddyCho'
 url:                 http://TeddyCho.github.io
 baseurl:             'http://TeddyCho.github.io'
 githubrawcontent:    'https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master'
