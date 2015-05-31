@@ -27,7 +27,7 @@ The TAQ data covered the following time frame and symbols:
 
 The following illustration shows GOOG TAQ data on the NASDAQ OMX BX exchange over two hours' time.
 
-The bid and ask are represented by two horizontal bars whose length is defined by quote size.
+The bid and ask are represented by two horizontal bars whose lengths are defined by quote size.
 
 The left graph represents the data feed in its original CLOB form. The trades are represented by yellow stars whose sizes are defined by trade volume. (Translucency and horizontal noise are added so that accumulation is observable.)
 
