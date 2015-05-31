@@ -39,6 +39,10 @@ The following shows a simulated FBA feed with an interval time of **120 seconds*
 
 <a href = "https://cdn.rawgit.com/TeddyCho/TeddyCho.github.io/master/_posts/img/googhour120.gif"><img src="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/googhour120.gif" /></a>
 
+The following shows a simulated FBA feed with an interval time of **1 second**:
+
+<a href = "https://cdn.rawgit.com/TeddyCho/TeddyCho.github.io/master/_posts/img/googone.gif"><img src="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/googone.gif" /></a>
+
 # To Do
 * Given TAQ data, simulate the FBA better. Currently, it's just randomly choosing when the auction results in a trade or not, and otherwise mirroring CLOB. Differentiate between snipe trades and investor trades.
 * Consider accounting for multiple exchanges.
