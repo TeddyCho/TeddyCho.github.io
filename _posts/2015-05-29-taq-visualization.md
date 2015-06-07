@@ -31,7 +31,9 @@ The bid and ask are represented by two horizontal bars whose lengths are defined
 
 The left graph represents the data feed in its original CLOB form. The trades are represented by yellow stars whose sizes are defined by trade volume. (Translucency and horizontal noise are added so that accumulation is observable.)
 
-The right graph represents a simulated FBA feed with an interval time of **360 seconds**. Analogous to the CLOB representation, the exchange BBO is denoted by the two bars. When an auction results in trading, the trades' aggregate is represented by a star at the clearing price, whose size is defined by aggregate volume.
+The right graph represents a simulated FBA feed. Analogous to the CLOB representation, the exchange BBO is denoted by the two bars. When an auction results in trading, the trades' aggregate is represented by a star at the clearing price, whose size is defined by aggregate volume.
+
+The following shows a simulated FBA feed with an interval time of **360 seconds**.
 
 <a href = "https://cdn.rawgit.com/TeddyCho/TeddyCho.github.io/master/_posts/img/goog2hours.gif"><img src="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/goog2hours.gif" /></a>
 
