@@ -56,7 +56,7 @@ In both the Open and Close epochs, exchange market shares were clearly different
 
 
 <iframe src = ' https://cdn.rawgit.com/TeddyCho/TAQ/master/data/listedExchangeOpenClose.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
-
+<!---
 # Exchange Market Shares During After-Hours
 
 When grouped by home exchange, we observe stark differences in the exchange share profiles:
@@ -74,7 +74,7 @@ Among NASDAQ listed stocks, we do see variability in their exchange share profil
  Finally, we see some variability among NYSE MKT stocks:
 
 <iframe src = ' https://cdn.rawgit.com/TeddyCho/TAQ/master/data/nysemktAfter.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
-
+--->
 # Exchange Volumes and Market Shares Over 2014
 The following graphs illustrate the extent of day-to-day consistency for the trends in the last rChart.
 
