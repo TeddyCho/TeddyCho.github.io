@@ -89,6 +89,7 @@ We see similar exchange market share profiles for both the opening and closing a
 After-Hours trading has a different profile for exchange market shares:
 ![After-Hours Market Share](https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/After-Hours2014.png)
 
+<!---
 # Overall Look at Exchange Market Shares
 Over all trades, the volumes were distributed across exhanges as such:
 
@@ -116,6 +117,7 @@ Over all trades, the volumes were distributed across exhanges as such:
     <tr><td>NYSE MMKT</td><td>0.1082</td></tr>
   </tbody>
 </table>
+--->
 
 # Notes
 * A trade's time of day was inferred from Sale Condition as follows:
