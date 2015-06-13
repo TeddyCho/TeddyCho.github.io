@@ -77,6 +77,7 @@ Among NASDAQ listed stocks, we do see variability in their exchange share profil
 
 <iframe src = ' https://cdn.rawgit.com/TeddyCho/TAQ/master/output/NYSEMKTAfter-Hours.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 --->
+
 # Exchange Volumes and Market Shares Over 2014
 The following graphs illustrate the extent of day-to-day consistency for the trends in the last rChart.
 
