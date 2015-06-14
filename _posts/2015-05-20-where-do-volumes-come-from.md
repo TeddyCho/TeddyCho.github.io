@@ -194,7 +194,7 @@ $(function(){
     } else {
       $(this).text('Toggle to Chart');
     }
-  }
-};
+  })
+});
 </script>
 
