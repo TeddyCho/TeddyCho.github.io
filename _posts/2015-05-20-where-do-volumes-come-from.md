@@ -298,19 +298,17 @@ $(function(){
   });
   $("#slides").slidesjs({
       width: 300, height: 200,
-    effect: {
-      slide: {
-        // Slide effect settings.
-        speed: 200
-          // [number] Speed in milliseconds of the slide animation.
-      },
-      fade: {
-        speed: 300,
-          // [number] Speed in milliseconds of the fade animation.
-        crossfade: true
-          // [boolean] Cross-fade the transition.
-      }
-    }
+        navigation: {
+          effect: "fade"
+        },
+        pagination: {
+          effect: "fade"
+        },
+        effect: {
+          fade: {
+            speed: 100
+          }
+        }
     });
 });
 </script>
