@@ -28,6 +28,7 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
 
 # Exchange Market Shares During Regular Trading
 
+## Between Stocks of Different Home Exchange
 When trades are grouped by their symbols' listing exchanges, we observe differences across their exchange market share profiles during regular hours. Notably, exchanges held higher market share for their "home" stocks:
 
 <center>
@@ -59,6 +60,7 @@ When trades are grouped by their symbols' listing exchanges, we observe differen
 
 To further support that listing exchange helps determine exchange market share profile, we expand each group by their constituent symbols.
 
+## NASDAQ Stocks
 Within NASDAQ listed stocks, exchange shares were consistent:
 
 <center><button class = "rad-button static light flat">Toggle To Table</button><br/>
