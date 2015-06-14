@@ -30,7 +30,7 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
 
 When trades are grouped by their symbols' listing exchanges, we observe differences across their exchange market share profiles during regular hours. Notably, exchanges held higher market share for their "home" stocks:
 
-<button>Toggle between hide and show for a p element</button>
+<button>Toggle Chart/Table</button>
 
 <div id="table">
     <table>
