@@ -64,7 +64,7 @@ Within NASDAQ listed stocks, exchange shares were consistent:
 <center><button class = "rad-button static light flat">Toggle To Table</button><br/>
 <div id="tablediv2">
 <table class="tablesorter">
-<tr> <th>  </th> <th> Exchange </th> <th> GOOG </th> <th> GT </th> <th> NDAQ </th> <th> STLD </th> <th> TSLA </th> <th> WFM </th>  </tr>
+<tr> <th> Exchange </th> <th> GOOG </th> <th> GT </th> <th> NDAQ </th> <th> STLD </th> <th> TSLA </th> <th> WFM </th>  </tr>
   <tr> <td> BATS </td> <td align="right"> 0.08 </td> <td align="right"> 0.13 </td> <td align="right"> 0.14 </td> <td align="right"> 0.16 </td> <td align="right"> 0.08 </td> <td align="right"> 0.14 </td> </tr>
   <tr> <td> BATS Y </td> <td align="right"> 0.03 </td> <td align="right"> 0.04 </td> <td align="right"> 0.04 </td> <td align="right"> 0.06 </td> <td align="right"> 0.03 </td> <td align="right"> 0.04 </td> </tr>
   <tr> <td> CBOE </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
@@ -89,7 +89,7 @@ There was consistency in the exchange market share profiles for NYSE listed stoc
 <center><button class = "rad-button static light flat">Toggle To Table</button><br/>
 <div id="tablediv3">
 <table class="tablesorter">
-<tr> <th>  </th> <th> Exchange </th> <th> AMD </th> <th> BAC </th> <th> BHP </th> <th> BRKA </th> <th> CVS </th> <th> FE </th> <th> GE </th> <th> LTM </th> <th> LUV </th> <th> T </th> <th> WSM </th> <th> XOM </th>  </tr>
+<tr> <th> Exchange </th> <th> AMD </th> <th> BAC </th> <th> BHP </th> <th> BRKA </th> <th> CVS </th> <th> FE </th> <th> GE </th> <th> LTM </th> <th> LUV </th> <th> T </th> <th> WSM </th> <th> XOM </th>  </tr>
   <tr> <td> BATS </td> <td align="right"> 0.11 </td> <td align="right"> 0.10 </td> <td align="right"> 0.14 </td> <td align="right"> 0.40 </td> <td align="right"> 0.10 </td> <td align="right"> 0.14 </td> <td align="right"> 0.11 </td> <td align="right"> 0.09 </td> <td align="right"> 0.15 </td> <td align="right"> 0.12 </td> <td align="right"> 0.08 </td> <td align="right"> 0.12 </td> </tr>
   <tr> <td> BATS Y </td> <td align="right"> 0.05 </td> <td align="right"> 0.07 </td> <td align="right"> 0.03 </td> <td align="right"> 0.03 </td> <td align="right"> 0.03 </td> <td align="right"> 0.04 </td> <td align="right"> 0.07 </td> <td align="right"> 0.03 </td> <td align="right"> 0.05 </td> <td align="right"> 0.06 </td> <td align="right"> 0.04 </td> <td align="right"> 0.03 </td> </tr>
   <tr> <td> CBOE </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
@@ -114,7 +114,7 @@ Consistency was found between our two Arca symbols, save for BATS Y, Direct Edge
 <center><button class = "rad-button static light flat">Toggle To Table</button><br/>
 <div id="tablediv4">
 <table class="tablesorter">
-<tr> <th>  </th> <th> Exchange </th> <th> SLV </th> <th> TBF </th>  </tr>
+<tr> <th> Exchange </th> <th> SLV </th> <th> TBF </th>  </tr>
   <tr> <td> BATS </td> <td align="right"> 0.14 </td> <td align="right"> 0.14 </td> </tr>
   <tr> <td> BATS Y </td> <td align="right"> 0.07 </td> <td align="right"> 0.05 </td> </tr>
   <tr> <td> CBOE </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
@@ -139,7 +139,7 @@ Consistency was found between our two Arca symbols, save for BATS Y, Direct Edge
 <center><button class = "rad-button static light flat">Toggle To Table</button><br/>
 <div id="tablediv5">
 <table class="tablesorter">
-<tr> <th>  </th> <th> Exchange </th> <th> SLV </th> <th> TBF </th>  </tr>
+<tr> <th> Exchange </th> <th> SLV </th> <th> TBF </th>  </tr>
   <tr> <td> BATS </td> <td align="right"> 0.14 </td> <td align="right"> 0.14 </td> </tr>
   <tr> <td> BATS Y </td> <td align="right"> 0.07 </td> <td align="right"> 0.05 </td> </tr>
   <tr> <td> CBOE </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
@@ -166,7 +166,7 @@ In both the Open and Close epochs, exchange market shares were clearly different
 <center><button class = "rad-button static light flat">Toggle To Table</button><br/>
 <div id="tablediv6">
 <table class="tablesorter">
-<tr> <th>  </th> <th> Exchange </th> <th> Arca </th> <th> NASDAQ </th> <th> NYSE </th> <th> NYSEMKT </th>  </tr>
+<tr> <th> Exchange </th> <th> Arca </th> <th> NASDAQ </th> <th> NYSE </th> <th> NYSEMKT </th>  </tr>
   <tr> <td> BATS </td> <td align="right"> 0.14 </td> <td align="right"> 0.12 </td> <td align="right"> 0.11 </td> <td align="right"> 0.06 </td> </tr>
   <tr> <td> BATS Y </td> <td align="right"> 0.07 </td> <td align="right"> 0.04 </td> <td align="right"> 0.06 </td> <td align="right"> 0.03 </td> </tr>
   <tr> <td> CBOE </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
