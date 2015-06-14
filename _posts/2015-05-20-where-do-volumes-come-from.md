@@ -32,7 +32,6 @@ When trades are grouped by their symbols' listing exchanges, we observe differen
 
 <div id="table">
     Table
-    
 </div>
 
 <div id="chart">
@@ -144,15 +143,11 @@ Over all trades, the volumes were distributed across exhanges as such:
 
 * Trades of exchange type "FINRA" are trades which happened off-exchange. Such trades are reported for TAQ publication through FINRA's ADF, TRF, or ORF, as written [here](http://www.finra.org/industry/trade-reporting-faq#100).
 
-
-
 <script>
 $(function(){
-
     $('#chart').hide();
     $('div').click(function(){
         $('div').toggle();
     });
-
 });
 </script>
