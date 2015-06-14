@@ -158,18 +158,12 @@ Over all trades, the volumes were distributed across exhanges as such:
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.22.1/js/jquery.tablesorter.min.js"></script>
 <script>
 $(function(){
+    $("#table").tablesorter(); 
     $('#table').hide();
     $('button').click(function(){
         $('#chart').toggle();
         $('#table').toggle();
     });
 });
-$(function(){
-$(document).ready(function() 
-    { 
-        $("#table").tablesorter(); 
-    } 
-); 
-
 </script>
 
