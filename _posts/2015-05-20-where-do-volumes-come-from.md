@@ -189,6 +189,8 @@ $(function(){
   $('button').click(function() {
     $(this).next().toggle();
     $(this).next().next().toggle();
+    $(this).next().next().next().toggle();
+    $(this).next().next().next().next().toggle();
     if ($(this).text() == 'Toggle to Chart') {
       $(this).text('Toggle to Table');
     } else {
