@@ -33,17 +33,23 @@ When trades are grouped by their symbols' listing exchanges, we observe differen
 <button>Toggle Chart/Table</button>
 
 <div id="tablediv">
-<table class="tablesorter">
-  <thead>
-    <tr>      <th> </th> <th>NASDAQ</th> <th>NYSE</th> <th>Arca</th> <th>NYSEMKT</th>   </tr>
-  </thead>
-  <tbody>
-    <tr>      <td>NYSE Arca SM</td> <td> .5 </td> <td> .4 </td> <td> .3 </td> <td> .2</td> </tr>
-    <tr>      <td>NYSE Arca SM</td> <td> .5 </td> <td> .2 </td> <td> .3 </td> <td> .2</td> </tr>
-    <tr>      <td>NYSE Arca SM</td> <td> .5 </td> <td> .1 </td> <td> .3 </td> <td> .2</td> </tr>
-    
-  </tbody>
-</table>
+<table border=1class="tablesorter">
+<tr> <th>  </th> <th> Exchange </th> <th> Arca </th> <th> NASDAQ </th> <th> NYSE </th> <th> NYSEMKT </th>  </tr>
+  <tr> <td align="right"> 1 </td> <td> BATS </td> <td align="right"> 0.14 </td> <td align="right"> 0.12 </td> <td align="right"> 0.11 </td> <td align="right"> 0.06 </td> </tr>
+  <tr> <td align="right"> 2 </td> <td> BATS Y </td> <td align="right"> 0.07 </td> <td align="right"> 0.04 </td> <td align="right"> 0.06 </td> <td align="right"> 0.03 </td> </tr>
+  <tr> <td align="right"> 3 </td> <td> CBOE </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
+  <tr> <td align="right"> 4 </td> <td> Chicago </td> <td align="right"> 0.02 </td> <td align="right"> 0.01 </td> <td align="right"> 0.01 </td> <td align="right"> 0.01 </td> </tr>
+  <tr> <td align="right"> 5 </td> <td> Direct Edge A </td> <td align="right"> 0.08 </td> <td align="right"> 0.04 </td> <td align="right"> 0.06 </td> <td align="right"> 0.03 </td> </tr>
+  <tr> <td align="right"> 6 </td> <td> Direct Edge X </td> <td align="right"> 0.14 </td> <td align="right"> 0.15 </td> <td align="right"> 0.14 </td> <td align="right"> 0.32 </td> </tr>
+  <tr> <td align="right"> 7 </td> <td> NASDAQ </td> <td align="right"> 0.00 </td> <td align="right"> 0.44 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
+  <tr> <td align="right"> 8 </td> <td> NASDAQ OMX </td> <td align="right"> 0.18 </td> <td align="right"> 0.00 </td> <td align="right"> 0.18 </td> <td align="right"> 0.19 </td> </tr>
+  <tr> <td align="right"> 9 </td> <td> NASDAQ OMX BX </td> <td align="right"> 0.08 </td> <td align="right"> 0.04 </td> <td align="right"> 0.07 </td> <td align="right"> 0.02 </td> </tr>
+  <tr> <td align="right"> 10 </td> <td> NASDAQ OMX PSX </td> <td align="right"> 0.02 </td> <td align="right"> 0.01 </td> <td align="right"> 0.01 </td> <td align="right"> 0.00 </td> </tr>
+  <tr> <td align="right"> 11 </td> <td> National </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.02 </td> </tr>
+  <tr> <td align="right"> 12 </td> <td> NYSE </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.25 </td> <td align="right"> 0.00 </td> </tr>
+  <tr> <td align="right"> 13 </td> <td> NYSE Arca SM </td> <td align="right"> 0.26 </td> <td align="right"> 0.16 </td> <td align="right"> 0.11 </td> <td align="right"> 0.18 </td> </tr>
+  <tr> <td align="right"> 14 </td> <td> NYSE MKT </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.14 </td> </tr>
+   </table>
 </div>
 
 <div id="chart">
