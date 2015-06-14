@@ -47,7 +47,6 @@ When trades are grouped by their symbols' listing exchanges, we observe differen
 </div>
 
 <div id="chart">
-Chart
 <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/perExchangeForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 </div>
 
