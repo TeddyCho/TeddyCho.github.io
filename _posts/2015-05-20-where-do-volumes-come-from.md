@@ -30,9 +30,9 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
 
 When trades are grouped by their symbols' listing exchanges, we observe differences across their exchange market share profiles during regular hours. Notably, exchanges held higher market share for their "home" stocks:
 
-<center><button class = "rad-button static light flat">Toggle Chart/Table</button></center>
+<center><button id = 'button1' class = "rad-button static light flat">Toggle Chart/Table</button></center>
 
-<div id="tablediv">
+<div id="tablediv1">
 <table class="tablesorter">
 <tr> <th>  </th> <th> Exchange </th> <th> Arca </th> <th> NASDAQ </th> <th> NYSE </th> <th> NYSEMKT </th>  </tr>
   <tr> <td align="right"> 1 </td> <td> BATS </td> <td align="right"> 0.14 </td> <td align="right"> 0.12 </td> <td align="right"> 0.11 </td> <td align="right"> 0.06 </td> </tr>
@@ -52,7 +52,7 @@ When trades are grouped by their symbols' listing exchanges, we observe differen
    </table>
 </div>
 
-<div id="chart">
+<div id="chart1">
 <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/perExchangeForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 </div>
 
@@ -60,7 +60,28 @@ To further support that listing exchange helps determine exchange market share p
 
 Within NASDAQ listed stocks, exchange shares were consistent:
 
+<center><button id = 'button2' class = "rad-button static light flat">Toggle Chart/Table</button></center>
+
+<div id="tablediv2">
+<table class="tablesorter">
+<tr> <th>  </th> <th> Exchange </th> <th> GOOG </th> <th> GT </th> <th> NDAQ </th> <th> STLD </th> <th> TSLA </th> <th> WFM </th>  </tr>
+  <tr> <td align="right"> 1 </td> <td> BATS </td> <td align="right"> 0.08 </td> <td align="right"> 0.13 </td> <td align="right"> 0.14 </td> <td align="right"> 0.16 </td> <td align="right"> 0.08 </td> <td align="right"> 0.14 </td> </tr>
+  <tr> <td align="right"> 2 </td> <td> BATS Y </td> <td align="right"> 0.03 </td> <td align="right"> 0.04 </td> <td align="right"> 0.04 </td> <td align="right"> 0.06 </td> <td align="right"> 0.03 </td> <td align="right"> 0.04 </td> </tr>
+  <tr> <td align="right"> 3 </td> <td> CBOE </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
+  <tr> <td align="right"> 4 </td> <td> Chicago </td> <td align="right"> 0.01 </td> <td align="right"> 0.01 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.01 </td> <td align="right"> 0.01 </td> </tr>
+  <tr> <td align="right"> 5 </td> <td> Direct Edge A </td> <td align="right"> 0.03 </td> <td align="right"> 0.04 </td> <td align="right"> 0.04 </td> <td align="right"> 0.05 </td> <td align="right"> 0.03 </td> <td align="right"> 0.04 </td> </tr>
+  <tr> <td align="right"> 6 </td> <td> Direct Edge X </td> <td align="right"> 0.13 </td> <td align="right"> 0.10 </td> <td align="right"> 0.08 </td> <td align="right"> 0.08 </td> <td align="right"> 0.25 </td> <td align="right"> 0.12 </td> </tr>
+  <tr> <td align="right"> 7 </td> <td> NASDAQ </td> <td align="right"> 0.49 </td> <td align="right"> 0.46 </td> <td align="right"> 0.51 </td> <td align="right"> 0.44 </td> <td align="right"> 0.37 </td> <td align="right"> 0.47 </td> </tr>
+  <tr> <td align="right"> 8 </td> <td> NASDAQ OMX BX </td> <td align="right"> 0.05 </td> <td align="right"> 0.04 </td> <td align="right"> 0.04 </td> <td align="right"> 0.05 </td> <td align="right"> 0.04 </td> <td align="right"> 0.03 </td> </tr>
+  <tr> <td align="right"> 9 </td> <td> NASDAQ OMX PSX </td> <td align="right"> 0.00 </td> <td align="right"> 0.01 </td> <td align="right"> 0.00 </td> <td align="right"> 0.01 </td> <td align="right"> 0.01 </td> <td align="right"> 0.01 </td> </tr>
+  <tr> <td align="right"> 10 </td> <td> National </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
+  <tr> <td align="right"> 11 </td> <td> NYSE Arca SM </td> <td align="right"> 0.17 </td> <td align="right"> 0.16 </td> <td align="right"> 0.15 </td> <td align="right"> 0.14 </td> <td align="right"> 0.18 </td> <td align="right"> 0.15 </td> </tr>
+  <tr> <td align="right"> 12 </td> <td> NYSE MKT </td> <td align="right"> 0.00 </td> <td align="right"> 0.01 </td> <td align="right"> 0.00 </td> <td align="right"> 0.01 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
+   </table>
+   
+<div id="chart2">
 <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/NASDAQSymbolsForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
+</div>
  
 There was consistency in the exchange market share profiles for NYSE listed stocks, as well:
 
@@ -163,10 +184,17 @@ Over all trades, the volumes were distributed across exhanges as such:
 <script>
 $(function(){
     $('table').tablesorter(); 
-    $('#tablediv').hide();
-    $('button').click(function(){
-        $('#chart').toggle();
-        $('#tablediv').toggle();
+    $('#tablediv1').hide();
+    $('button1').click(function(){
+        $('#chart1').toggle();
+        $('#tablediv1').toggle();
+    });
+});
+$(function(){
+    $('#tablediv2').hide();
+    $('button2').click(function(){
+        $('#chart2').toggle();
+        $('#tablediv2').toggle();
     });
 });
 </script>
