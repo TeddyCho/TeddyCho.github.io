@@ -33,7 +33,7 @@ When trades are grouped by their symbols' listing exchanges, we observe differen
 <button>Toggle Chart/Table</button>
 
 <div id="tablediv">
-<table id="table1" class="tablesorter">
+<table class="tablesorter">
   <thead>
     <tr>      <th> </th> <th>NASDAQ</th> <th>NYSE</th> <th>Arca</th> <th>NYSEMKT</th>   </tr>
   </thead>
@@ -156,7 +156,7 @@ Over all trades, the volumes were distributed across exhanges as such:
 
 <script>
 $(function(){
-    $('#table1').tablesorter(); 
+    $('table').tablesorter(); 
     $('#tablediv').hide();
     $('button').click(function(){
         $('#chart').toggle();
