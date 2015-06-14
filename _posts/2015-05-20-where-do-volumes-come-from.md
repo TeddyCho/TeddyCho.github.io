@@ -61,7 +61,7 @@ When trades are grouped by their symbols' listing exchanges, we observe differen
 To further support that listing exchange helps determine exchange market share profile, we expand each group by their constituent symbols.
 
 ## NASDAQ Stocks
-Within NASDAQ listed stocks, exchange shares were consistent:
+Within NASDAQ stocks, exchange shares were consistent:
 
 <center><button class = "rad-button static light flat">Toggle To Table</button><br/>
 <div id="tablediv2">
@@ -87,7 +87,8 @@ Within NASDAQ listed stocks, exchange shares were consistent:
 </div>
 </center>
  
-There was consistency in the exchange market share profiles for NYSE listed stocks, as well:
+ ## NYSE Stocks
+There was consistency in the exchange market share profiles for NYSE stocks, as well:
 <center><button class = "rad-button static light flat">Toggle To Table</button><br/>
 <div id="tablediv3">
 <table class="tablesorter">
@@ -111,6 +112,7 @@ There was consistency in the exchange market share profiles for NYSE listed stoc
 </div>
 </center>
  
+## Arca Stocks
 Consistency was found between our two Arca symbols, save for BATS Y, Direct Edge X, and Chicago:
 
 <center><button class = "rad-button static light flat">Toggle To Table</button><br/>
@@ -135,8 +137,9 @@ Consistency was found between our two Arca symbols, save for BATS Y, Direct Edge
 <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/ArcaSymbolsForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 </div>
 </center>
- 
- Our NYSEMKT symbols appeared to represent two clusters of exchange market share profiles: one for CCF and ONVO, and one for LIQT and ONP:
+
+## NYSEMKT Stocks 
+Our NYSEMKT symbols appeared to represent two clusters of exchange market share profiles: one for CCF and ONVO, and one for LIQT and ONP:
 
 <center><button class = "rad-button static light flat">Toggle To Table</button><br/>
 <div id="tablediv5">
