@@ -103,6 +103,7 @@ There was consistency in the exchange market share profiles for NYSE listed stoc
   <tr> <td align="right"> 11 </td> <td> NYSE Arca SM </td> <td align="right"> 0.26 </td> <td align="right"> 0.24 </td> </tr>
   <tr> <td align="right"> 12 </td> <td> NYSE MKT </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
    </table>
+</div>
 <div>
 <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/NYSESymbolsForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 </div>
@@ -127,6 +128,7 @@ Consistency was found between our two Arca symbols, save for BATS Y, Direct Edge
   <tr> <td align="right"> 11 </td> <td> NYSE Arca SM </td> <td align="right"> 0.26 </td> <td align="right"> 0.24 </td> </tr>
   <tr> <td align="right"> 12 </td> <td> NYSE MKT </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
    </table>
+</div>
 <div>
 <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/ArcaSymbolsForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 </div>
@@ -151,6 +153,7 @@ Consistency was found between our two Arca symbols, save for BATS Y, Direct Edge
   <tr> <td align="right"> 11 </td> <td> NYSE Arca SM </td> <td align="right"> 0.26 </td> <td align="right"> 0.24 </td> </tr>
   <tr> <td align="right"> 12 </td> <td> NYSE MKT </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
    </table>
+</div>
 <div>
 <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/NYSEMKTSymbolsForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 </div>
@@ -179,6 +182,7 @@ In both the Open and Close epochs, exchange market shares were clearly different
   <tr> <td align="right"> 13 </td> <td> NYSE Arca SM </td> <td align="right"> 0.26 </td> <td align="right"> 0.16 </td> <td align="right"> 0.11 </td> <td align="right"> 0.18 </td> </tr>
   <tr> <td align="right"> 14 </td> <td> NYSE MKT </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.14 </td> </tr>
    </table>
+</div>
 <div>
 <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/perExchangeForOpenClose.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 </div>
