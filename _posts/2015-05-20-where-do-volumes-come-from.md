@@ -38,9 +38,9 @@ When trades are grouped by their symbols' listing exchanges, we observe differen
     <tr>      <th> </th> <th>NASDAQ</th> <th>NYSE</th> <th>Arca</th> <th>NYSEMKT</th>   </tr>
   </thead>
   <tbody>
-    <tr>      <td>NYSE Arca SM</td> <td> .5 </td> <td> .4 </td> <td> .3 </td> td> .2</td></tr>
-    <tr>      <td>NYSE Arca SM</td> <td> .5 </td> <td> .4 </td> <td> .3 </td> td> .2</td></tr>
-    <tr>      <td>NYSE Arca SM</td> <td> .5 </td> <td> .4 </td> <td> .3 </td> td> .2</td></tr>
+    <tr>      <td>NYSE Arca SM</td> <td> .5 </td> <td> .4 </td> <td> .3 </td> td> .2</td> </tr>
+    <tr>      <td>NYSE Arca SM</td> <td> .5 </td> <td> .4 </td> <td> .3 </td> td> .2</td> </tr>
+    <tr>      <td>NYSE Arca SM</td> <td> .5 </td> <td> .4 </td> <td> .3 </td> td> .2</td> </tr>
     
   </tbody>
 </table>
