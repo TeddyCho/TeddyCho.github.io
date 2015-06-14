@@ -135,7 +135,10 @@ hr {
   border-top: 1px solid #eee;
   border-bottom: 1px solid #fff;
 }
-
+button {
+  width: 100px; // whatever your button's width
+  margin: 0 auto; // auto left/right margins
+}
 abbr {
   font-size: 85%;
   font-weight: bold;
