@@ -34,6 +34,7 @@ When trades are grouped by their symbols' listing exchanges, we observe differen
     Table
 </div>
 <button>Toggle between hide and show for a p element</button>
+
 <div id="chart">
 Chart
 <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/perExchangeForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
