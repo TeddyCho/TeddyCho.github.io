@@ -200,7 +200,6 @@ In both the Open and Close epochs, exchange market shares were clearly different
     <img src="http://legdays.com/wp-content/uploads/2015/02/FullSizeRender_2-e1424272121118-1024x255.jpg">
 </div>
 
-
 <!---
 # Exchange Market Shares During After-Hours
 
@@ -300,8 +299,8 @@ $(function(){
 });
   $(function(){
     $("#slides").slidesjs({
-      width: 300,
-      height: 300
+      width: 300, height: 200,
+      effect: fade
     });
   });
 
