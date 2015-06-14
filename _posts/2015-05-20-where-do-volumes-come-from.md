@@ -32,7 +32,7 @@ When trades are grouped by their symbols' listing exchanges, we observe differen
 
 <button>Toggle Chart/Table</button>
 
-<div id="table" class="tablesorter">
+<div id="table" class="sortable">
     <table>
   <thead>
     <tr>      <th> </th> <th>NASDAQ</th> <th>NYSE</th> <th>Arca</th> <th>NYSEMKT</th>   </tr>
@@ -155,7 +155,7 @@ Over all trades, the volumes were distributed across exhanges as such:
 * Trades of exchange type "FINRA" are trades which happened off-exchange. Such trades are reported for TAQ publication through FINRA's ADF, TRF, or ORF, as written [here](http://www.finra.org/industry/trade-reporting-faq#100).
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.22.1/js/jquery.tablesorter.js"></script>
+<script src="http://cdn.jsdelivr.net/jquery.sortable/0.1/jquery.sortable.js"></script>
 <script>
 $(function(){
     $('#table').hide();
