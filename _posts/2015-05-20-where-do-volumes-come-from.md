@@ -33,7 +33,7 @@ When trades are grouped by their symbols' listing exchanges, we observe differen
 <button>Toggle Chart/Table</button>
 
 <div id="tablediv">
-<table border=1class="tablesorter">
+<table border=1 class="tablesorter">
 <tr> <th>  </th> <th> Exchange </th> <th> Arca </th> <th> NASDAQ </th> <th> NYSE </th> <th> NYSEMKT </th>  </tr>
   <tr> <td align="right"> 1 </td> <td> BATS </td> <td align="right"> 0.14 </td> <td align="right"> 0.12 </td> <td align="right"> 0.11 </td> <td align="right"> 0.06 </td> </tr>
   <tr> <td align="right"> 2 </td> <td> BATS Y </td> <td align="right"> 0.07 </td> <td align="right"> 0.04 </td> <td align="right"> 0.06 </td> <td align="right"> 0.03 </td> </tr>
