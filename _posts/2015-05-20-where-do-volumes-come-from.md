@@ -164,13 +164,12 @@ $(function(){
         $('#table').toggle();
     });
 });
-</script>
-
 $(function(){
 $(document).ready(function() 
     { 
         $("#table").tablesorter(); 
     } 
 ); 
+
 </script>
 
