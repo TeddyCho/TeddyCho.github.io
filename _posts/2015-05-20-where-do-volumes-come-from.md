@@ -30,7 +30,13 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
 
 When trades are grouped by their symbols' listing exchanges, we observe differences across their exchange market share profiles during regular hours. Notably, exchanges held higher market share for their "home" stocks:
 
+<div id="table">
+    Left
+</div>
+
+<div id="chart">
 <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/perExchangeForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
+</div>
 
 To further support that listing exchange helps determine exchange market share profile, we expand each group by their constituent symbols.
 
@@ -135,3 +141,16 @@ Over all trades, the volumes were distributed across exhanges as such:
 * Some trades had an exchange code "Q", which did not exactly correspond to anything listed in the [spec sheet](www.nyxdata.com/doc/224904). We assumed "Q" referred to the NASDAQ exchange since "T/Q" corresponded to NASDAQ and "T" corresponded to NASDAQ OMX.
 
 * Trades of exchange type "FINRA" are trades which happened off-exchange. Such trades are reported for TAQ publication through FINRA's ADF, TRF, or ORF, as written [here](http://www.finra.org/industry/trade-reporting-faq#100).
+
+
+
+<script>
+$(function(){
+
+    $('#chart').hide();
+    $('div').click(function(){
+        $('div').toggle();
+    });
+
+});
+</script>
