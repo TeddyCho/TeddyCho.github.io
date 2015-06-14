@@ -33,7 +33,7 @@ When trades are grouped by their symbols' listing exchanges, we observe differen
 <div id="table">
     Table
 </div>
-
+<button>Toggle between hide and show for a p element</button>
 <div id="chart">
 Chart
 <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/perExchangeForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
@@ -146,7 +146,7 @@ Over all trades, the volumes were distributed across exhanges as such:
 <script>
 $(function(){
     $('#chart').hide();
-    $('div').click(function(){
+    $('button').click(function(){
         $('div').toggle();
     });
 });
