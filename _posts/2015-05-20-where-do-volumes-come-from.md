@@ -187,14 +187,13 @@ $(function(){
   $('#tablediv').hide();
   $('table').tablesorter(); 
   $('button').click(function() {
-    $(this).next().toggle();
     $(this).next().next().toggle();
     if ($(this).text() == 'Toggle to Chart') {
       $(this).text('Toggle to Table');
     } else {
       $(this).text('Toggle to Chart');
     }
-  })
+  });
 });
 </script>
 
