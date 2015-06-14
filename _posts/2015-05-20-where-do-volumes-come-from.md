@@ -297,8 +297,7 @@ $(function(){
     }
   });
   $("#slides").slidesjs({
-      width: 300, height: 200,
-      effect: 'fade'
+      width: 300, height: 200
     });
 });
 </script>
