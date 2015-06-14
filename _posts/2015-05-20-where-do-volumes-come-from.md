@@ -165,3 +165,12 @@ $(function(){
     });
 });
 </script>
+
+$(function(){
+$(document).ready(function() 
+    { 
+        $("#table").tablesorter(); 
+    } 
+); 
+</script>
+
