@@ -30,9 +30,9 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
 
 When trades are grouped by their symbols' listing exchanges, we observe differences across their exchange market share profiles during regular hours. Notably, exchanges held higher market share for their "home" stocks:
 
-<center><button id = "button1" class = "rad-button static light flat">Toggle Chart/Table</button></center>
+<center><button class = "rad-button static light flat">Toggle Chart/Table</button></center>
 
-<div id="tablediv1">
+<div id="tablediv">
 <table class="tablesorter">
 <tr> <th>  </th> <th> Exchange </th> <th> Arca </th> <th> NASDAQ </th> <th> NYSE </th> <th> NYSEMKT </th>  </tr>
   <tr> <td align="right"> 1 </td> <td> BATS </td> <td align="right"> 0.14 </td> <td align="right"> 0.12 </td> <td align="right"> 0.11 </td> <td align="right"> 0.06 </td> </tr>
@@ -52,7 +52,7 @@ When trades are grouped by their symbols' listing exchanges, we observe differen
    </table>
 </div>
 
-<div id="chart1">
+<div id="chart">
 <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/perExchangeForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 </div>
 
@@ -60,9 +60,9 @@ To further support that listing exchange helps determine exchange market share p
 
 Within NASDAQ listed stocks, exchange shares were consistent:
 
-<center><button id = 'button2' class = "rad-button static light flat">Toggle Chart/Table</button></center>
+<center><button class = "rad-button static light flat">Toggle Chart/Table</button></center>
 
-<div id="tablediv2">
+<div id="tablediv">
 <table class="tablesorter">
 <tr> <th>  </th> <th> Exchange </th> <th> GOOG </th> <th> GT </th> <th> NDAQ </th> <th> STLD </th> <th> TSLA </th> <th> WFM </th>  </tr>
   <tr> <td align="right"> 1 </td> <td> BATS </td> <td align="right"> 0.08 </td> <td align="right"> 0.13 </td> <td align="right"> 0.14 </td> <td align="right"> 0.16 </td> <td align="right"> 0.08 </td> <td align="right"> 0.14 </td> </tr>
@@ -80,7 +80,7 @@ Within NASDAQ listed stocks, exchange shares were consistent:
    </table>
    </div>
    
-<div id="chart2">
+<div id="chart">
 <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/NASDAQSymbolsForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 </div>
  
@@ -184,19 +184,17 @@ Over all trades, the volumes were distributed across exhanges as such:
 
 <script>
 $(function(){
-    $('table').tablesorter(); 
-    $('#tablediv1').hide();
-    $('#button1').click(function(){
-        $('#chart1').toggle();
-        $('#tablediv1').toggle();
-    });
+  $('table').tablesorter(); 
+  $('#tablediv').hide();
+  $('button').click(function() {
+    $(this).next().toggle();
+    $(this).next().next().toggle();
+    if ($(this).text() == 'Toggle to Chart') {
+      $(this).text('Toggle to Table');
+    } else {
+      $(this).text('Toggle to Chart');
+  }
 });
-$(function(){
-    $('#tablediv2').hide();
-    $('#button2').click(function(){
-        $('#chart2').toggle();
-        $('#tablediv2').toggle();
-    });
 });
 </script>
 
