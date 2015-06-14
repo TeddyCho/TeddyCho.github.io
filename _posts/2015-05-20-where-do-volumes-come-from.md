@@ -60,7 +60,7 @@ To further support that listing exchange helps determine exchange market share p
 
 Within NASDAQ listed stocks, exchange shares were consistent:
 
-<center><button class = "rad-button static light flat">Toggle Chart/Table</button></center>
+<center><button class = "rad-button static light flat">Toggle To Table</button></center>
 
 <div id="tablediv">
 <table class="tablesorter">
