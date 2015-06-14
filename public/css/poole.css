@@ -159,6 +159,16 @@ button {
   color:#777;
   border-bottom: 1px solid #ccc;
   box-shadow:0px 0px 0px 0px #B8B8B8;
+  
+  
+  &.flat{
+    background:#f0f0f0;
+  }
+  
+  &:focus{
+    outline:0;
+  }
+  
   &:hover{ //primary hover
     background-color:#f5f5f5;
     top:-2px;
@@ -170,10 +180,16 @@ button {
       height:50px;
     }
   }
-  &.flat{
-    background:#f0f0f0;
+  
+  &:active{//primary active
+    top:0px;
+    height:50px;
+    border: 1px solid #ccc;
+    background-color:#ededed;
+    box-shadow: inset 0px 0px 4px rgba(0,0,0,0.15);
   }
 }
+  
 abbr {
   font-size: 85%;
   font-weight: bold;
