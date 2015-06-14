@@ -155,7 +155,7 @@ Over all trades, the volumes were distributed across exhanges as such:
 * Trades of exchange type "FINRA" are trades which happened off-exchange. Such trades are reported for TAQ publication through FINRA's ADF, TRF, or ORF, as written [here](http://www.finra.org/industry/trade-reporting-faq#100).
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="http://cdn.jsdelivr.net/jquery.sortable/0.1/jquery.sortable.js"></script>
+<script src="http://cdn.jsdelivr.net/sorttable/2/sorttable.min.js"></script>
 <script>
 $(function(){
     $('#table').hide();
