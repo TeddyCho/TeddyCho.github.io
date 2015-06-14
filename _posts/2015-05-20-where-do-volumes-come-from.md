@@ -31,7 +31,7 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
 When trades are grouped by their symbols' listing exchanges, we observe differences across their exchange market share profiles during regular hours. Notably, exchanges held higher market share for their "home" stocks:
 
 <center><div class = "button-wrap">
-      <button class = "rad-button static light flat">Static (won't move up)</button>
+      <button class = "rad-button static light flat">Toggle Chart/Table</button>
     </div></center>
 
 <div id="tablediv">
