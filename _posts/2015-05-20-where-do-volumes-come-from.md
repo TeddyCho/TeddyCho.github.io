@@ -193,8 +193,8 @@ $(function(){
       $(this).text('Toggle to Table');
     } else {
       $(this).text('Toggle to Chart');
+    }
   }
-});
-});
+};
 </script>
 
