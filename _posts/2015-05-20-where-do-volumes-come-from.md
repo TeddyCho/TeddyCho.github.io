@@ -147,9 +147,10 @@ Over all trades, the volumes were distributed across exhanges as such:
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>
 $(function(){
-    $('#chart').hide();
+    $('#table').hide();
     $('button').click(function(){
-        $('div').toggle();
+        $('#chart').toggle();
+        $('#table').toggle();
     });
 });
 </script>
