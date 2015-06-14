@@ -188,6 +188,7 @@ $(function(){
   $('#tablediv').hide();
   $('button').click(function() {
     $(this).next().next().toggle();
+    $(this).next().next().next().toggle();
     if ($(this).text() == 'Toggle to Chart') {
       $(this).text('Toggle to Table');
     } else {
