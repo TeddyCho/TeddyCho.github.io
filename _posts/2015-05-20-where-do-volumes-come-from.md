@@ -32,7 +32,7 @@ When trades are grouped by their symbols' listing exchanges, we observe differen
 
 <button>Toggle Chart/Table</button>
 
-<div id="table" class="sorttable">
+<div id="table" class="sortable">
     <table>
   <thead>
     <tr>      <th> </th> <th>NASDAQ</th> <th>NYSE</th> <th>Arca</th> <th>NYSEMKT</th>   </tr>
