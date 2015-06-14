@@ -87,7 +87,7 @@ Within NASDAQ listed stocks, exchange shares were consistent:
  
 There was consistency in the exchange market share profiles for NYSE listed stocks, as well:
 <center><button class = "rad-button static light flat">Toggle To Table</button><br/>
-<div id="tablediv2">
+<div id="tablediv3">
 <table class="tablesorter">
 <tr> <th>  </th> <th> Exchange </th> <th> SLV </th> <th> TBF </th>  </tr>
   <tr> <td align="right"> 1 </td> <td> BATS </td> <td align="right"> 0.14 </td> <td align="right"> 0.14 </td> </tr>
@@ -111,7 +111,7 @@ There was consistency in the exchange market share profiles for NYSE listed stoc
 Consistency was found between our two Arca symbols, save for BATS Y, Direct Edge X, and Chicago:
 
 <center><button class = "rad-button static light flat">Toggle To Table</button><br/>
-<div id="tablediv3">
+<div id="tablediv4">
 <table class="tablesorter">
 <tr> <th>  </th> <th> Exchange </th> <th> SLV </th> <th> TBF </th>  </tr>
   <tr> <td align="right"> 1 </td> <td> BATS </td> <td align="right"> 0.14 </td> <td align="right"> 0.14 </td> </tr>
@@ -135,7 +135,7 @@ Consistency was found between our two Arca symbols, save for BATS Y, Direct Edge
  Our NYSEMKT symbols appeared to represent two clusters of exchange market share profiles: one for CCF and ONVO, and one for LIQT and ONP:
 
 <center><button class = "rad-button static light flat">Toggle To Table</button><br/>
-<div id="tablediv4">
+<div id="tablediv5">
 <table class="tablesorter">
 <tr> <th>  </th> <th> Exchange </th> <th> SLV </th> <th> TBF </th>  </tr>
   <tr> <td align="right"> 1 </td> <td> BATS </td> <td align="right"> 0.14 </td> <td align="right"> 0.14 </td> </tr>
@@ -161,7 +161,7 @@ Consistency was found between our two Arca symbols, save for BATS Y, Direct Edge
 In both the Open and Close epochs, exchange market shares were clearly different based on home exchange. The following graph aggregates stocks by listing exchange and shows volume share for both Open and Close combined:
 
 <center><button class = "rad-button static light flat">Toggle To Table</button><br/>
-<div id="tablediv5">
+<div id="tablediv6">
 <table class="tablesorter">
 <tr> <th>  </th> <th> Exchange </th> <th> Arca </th> <th> NASDAQ </th> <th> NYSE </th> <th> NYSEMKT </th>  </tr>
   <tr> <td align="right"> 1 </td> <td> BATS </td> <td align="right"> 0.14 </td> <td align="right"> 0.12 </td> <td align="right"> 0.11 </td> <td align="right"> 0.06 </td> </tr>
@@ -270,6 +270,7 @@ $(function(){
   $('#tablediv3').hide();
   $('#tablediv4').hide();
   $('#tablediv5').hide();
+  $('#tablediv6').hide();
   $('button').click(function() {
     $(this).next().next().toggle();
     $(this).next().next().next().toggle();
