@@ -308,7 +308,8 @@ $(function(){
           fade: {
             speed: 100
           }
-        }
+        },
+        navigation: false
     });
 });
 </script>
