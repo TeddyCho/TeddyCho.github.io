@@ -11,7 +11,7 @@ unlisted: true
 The TAQ data covered the following time frame and symbols:
 <table>
   <thead>
-    <tr>      <th>Timeframe</th> <th>NASDAQ</th> <th>NYSE</th> <th>NYSEArca</th> <th>NYSEMKT</th>   </tr>
+    <tr>      <th>Timeframe</th> <th>NASDAQ</th> <th>NYSE</th> <th>Arca</th> <th>NYSEMKT</th>   </tr>
   </thead>
   <tbody>
     <tr>      <td>01-Jan-2014 to 31-Dec-2014</td>
@@ -30,10 +30,21 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
 
 When trades are grouped by their symbols' listing exchanges, we observe differences across their exchange market share profiles during regular hours. Notably, exchanges held higher market share for their "home" stocks:
 
-<div id="table">
-    Table
-</div>
 <button>Toggle between hide and show for a p element</button>
+
+<div id="table">
+    <table>
+  <thead>
+    <tr>      <th> </th> <th>NASDAQ</th> <th>NYSE</th> <th>Arca</th> <th>NYSEMKT</th>   </tr>
+  </thead>
+  <tbody>
+    <tr>      <td>NYSE Arca SM</td> <td> .5 </td> <td> .4 </td> <td> .3 </td> td> .2</td></tr>
+    <tr>      <td>NYSE Arca SM</td> <td> .5 </td> <td> .4 </td> <td> .3 </td> td> .2</td></tr>
+    <tr>      <td>NYSE Arca SM</td> <td> .5 </td> <td> .4 </td> <td> .3 </td> td> .2</td></tr>
+    
+  </tbody>
+</table>
+</div>
 
 <div id="chart">
 Chart
@@ -149,8 +160,8 @@ Over all trades, the volumes were distributed across exhanges as such:
 $(function(){
     $('#table').hide();
     $('button').click(function(){
-        $('#chart').toggle();
-        $('#table').toggle();
+        $('#chart').fadeToggle();
+        $('#table').fadeToggle();
     });
 });
 </script>
