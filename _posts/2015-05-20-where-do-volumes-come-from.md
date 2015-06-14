@@ -32,8 +32,7 @@ When trades are grouped by their symbols' listing exchanges, we observe differen
 
 <button>Toggle Chart/Table</button>
 
-<div id="table" class="tablesorter">
-    <table>
+    <table id="table" class="tablesorter">
   <thead>
     <tr>      <th> </th> <th>NASDAQ</th> <th>NYSE</th> <th>Arca</th> <th>NYSEMKT</th>   </tr>
   </thead>
@@ -44,7 +43,6 @@ When trades are grouped by their symbols' listing exchanges, we observe differen
     
   </tbody>
 </table>
-</div>
 
 <div id="chart">
 <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/perExchangeForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
