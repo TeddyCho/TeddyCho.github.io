@@ -184,8 +184,8 @@ Over all trades, the volumes were distributed across exhanges as such:
 
 <script>
 $(function(){
-  $('table').tablesorter(); 
   $('#tablediv').hide();
+  $('table').tablesorter(); 
   $('button').click(function() {
     $(this).next().toggle();
     $(this).next().next().toggle();
