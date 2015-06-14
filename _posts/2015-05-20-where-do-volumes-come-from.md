@@ -9,7 +9,7 @@ unlisted: true
 
 # Data
 The TAQ data covered the following time frame and symbols:
-<table>
+<table id="myTable" class="tablesorter">
   <thead>
     <tr>      <th>Timeframe</th> <th>NASDAQ</th> <th>NYSE</th> <th>Arca</th> <th>NYSEMKT</th>   </tr>
   </thead>
