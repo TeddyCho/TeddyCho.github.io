@@ -30,7 +30,7 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
 
 When trades are grouped by their symbols' listing exchanges, we observe differences across their exchange market share profiles during regular hours. Notably, exchanges held higher market share for their "home" stocks:
 
-<center><button id = 'button1' class = "rad-button static light flat">Toggle Chart/Table</button></center>
+<center><button id = "button1" class = "rad-button static light flat">Toggle Chart/Table</button></center>
 
 <div id="tablediv1">
 <table class="tablesorter">
@@ -78,6 +78,7 @@ Within NASDAQ listed stocks, exchange shares were consistent:
   <tr> <td align="right"> 11 </td> <td> NYSE Arca SM </td> <td align="right"> 0.17 </td> <td align="right"> 0.16 </td> <td align="right"> 0.15 </td> <td align="right"> 0.14 </td> <td align="right"> 0.18 </td> <td align="right"> 0.15 </td> </tr>
   <tr> <td align="right"> 12 </td> <td> NYSE MKT </td> <td align="right"> 0.00 </td> <td align="right"> 0.01 </td> <td align="right"> 0.00 </td> <td align="right"> 0.01 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
    </table>
+   </div>
    
 <div id="chart2">
 <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/NASDAQSymbolsForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
@@ -185,14 +186,14 @@ Over all trades, the volumes were distributed across exhanges as such:
 $(function(){
     $('table').tablesorter(); 
     $('#tablediv1').hide();
-    $('button1').click(function(){
+    $('#button1').click(function(){
         $('#chart1').toggle();
         $('#tablediv1').toggle();
     });
 });
 $(function(){
     $('#tablediv2').hide();
-    $('button2').click(function(){
+    $('#button2').click(function(){
         $('#chart2').toggle();
         $('#tablediv2').toggle();
     });
