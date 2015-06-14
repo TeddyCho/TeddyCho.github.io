@@ -296,13 +296,10 @@ $(function(){
       $(this).text('Toggle to Chart');
     }
   });
-});
-  $(function(){
-    $("#slides").slidesjs({
+  $("#slides").slidesjs({
       width: 300, height: 200,
       effect: 'fade'
     });
-  });
-
+});
 </script>
 
