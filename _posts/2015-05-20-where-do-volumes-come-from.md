@@ -193,6 +193,14 @@ In both the Open and Close epochs, exchange market shares were clearly different
 </div>
 </center>
 
+# Exchange Share over different Trade Group Sizes
+<div id="slides">
+    <img src="http://placehold.it/940x528">
+    <img src="http://legdays.com/wp-content/uploads/2015/02/IMG_7319-e1425057350827-1024x248.jpg">
+    <img src="http://legdays.com/wp-content/uploads/2015/02/FullSizeRender_2-e1424272121118-1024x255.jpg">
+</div>
+
+
 <!---
 # Exchange Market Shares During After-Hours
 
