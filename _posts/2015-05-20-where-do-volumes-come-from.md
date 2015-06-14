@@ -62,7 +62,7 @@ To further support that listing exchange helps determine exchange market share p
 Within NASDAQ listed stocks, exchange shares were consistent:
 
 <center><button class = "rad-button static light flat">Toggle To Table</button><br/>
-<div id="tablediv">
+<div id="tablediv1">
 <table class="tablesorter">
 <tr> <th>  </th> <th> Exchange </th> <th> GOOG </th> <th> GT </th> <th> NDAQ </th> <th> STLD </th> <th> TSLA </th> <th> WFM </th>  </tr>
   <tr> <td align="right"> 1 </td> <td> BATS </td> <td align="right"> 0.08 </td> <td align="right"> 0.13 </td> <td align="right"> 0.14 </td> <td align="right"> 0.16 </td> <td align="right"> 0.08 </td> <td align="right"> 0.14 </td> </tr>
@@ -266,6 +266,7 @@ Over all trades, the volumes were distributed across exhanges as such:
 <script>
 $(function(){
   $('#tablediv').hide();
+  $('#tablediv1').hide();
   $('button').click(function() {
     $(this).next().next().toggle();
     $(this).next().next().next().toggle();
