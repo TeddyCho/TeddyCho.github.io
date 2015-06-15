@@ -123,7 +123,7 @@ In both the Open and Close epochs, exchange market shares were clearly different
 
 ## Minute Intervals
 
-Is the assumption that an exchange's bid/offer generally doesn't replenish within a minute's time?
+Is the speculation that an exchange's bid/offer generally doesn't replenish within a minute's time?
 
 No evidence of cycling exchange concentrations was found in the minute-interval data.
 
