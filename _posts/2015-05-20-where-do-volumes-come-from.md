@@ -270,11 +270,13 @@ $(function(){
   $('#tablediv5').hide();
   $('#tablediv6').hide();
   $('button').click(function() {
-    $(this).next().next().toggle();
-    $(this).next().fadeToggle("fast");
     if ($(this).text() == 'Toggle to Chart') {
+      $(this).next().toggle();
+      $(this).next().next().fadeToggle("fast");
       $(this).text('Toggle to Table');
     } else {
+      $(this).next().next().toggle();
+      $(this).next().fadeToggle("fast");
       $(this).text('Toggle to Chart');
     }
   });
