@@ -205,7 +205,7 @@ $(function(){
     }
   });
   $("#slides").slidesjs({
-      width: 300, height: 300,
+      width: 300, height: 250,
         navigation: {
           effect: "fade"
         },
