@@ -292,20 +292,25 @@ $(function(){
         },
         navigation: false
     });
-var data = [
-  ["", "Ford", "Volvo", "Toyota", "Honda"],
-  ["2014", 10, 11, 12, 13],
-  ["2015", 20, 11, 14, 13],
-  ["2016", 30, 15, 12, 13]
-];
+var myData = [
+    ["", "Kia", "Nissan", "Toyota", "Honda"],
+    ["2008", 10, 11, 12, 13],
+    ["2009", 20, 11, 14, 13],
+    ["2010", 30, 15, 12, 13]
+    ],
+    container = document.querySelector('#exampleGrid');
 
-var container = document.getElementById('adv_example');
 var hot = new Handsontable(container, {
-  data: data,
-  minSpareRows: 1,
-  rowHeaders: true,
-  colHeaders: true,
-  contextMenu: true
+    data: myData,
+    startRows: 5,
+    startCols: 5,
+    minSpareCols: 1,
+    //always keep at least 1 spare row at the right
+    minSpareRows: 1,
+    //always keep at least 1 spare row at the bottom,
+    rowHeaders: true,
+    colHeaders: true,
+    contextMenu: true
 });
 });
 </script>
