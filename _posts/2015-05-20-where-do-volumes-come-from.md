@@ -94,9 +94,16 @@ In both the Open and Close epochs, exchange market shares were clearly different
 
 # Exchange Share over different Trade Group Sizes
 <div id="slides">
-    <img src="http://placehold.it/940x528">
-    <img src="http://legdays.com/wp-content/uploads/2015/02/IMG_7319-e1425057350827-1024x248.jpg">
-    <img src="http://legdays.com/wp-content/uploads/2015/02/FullSizeRender_2-e1424272121118-1024x255.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/BATS.YGOOGPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/BATSGOOGPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/CBOEGOOGPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/ChicagoGOOGPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/Direct.Edge.AGOOGPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/Direct.Edge.XGOOGPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/NASDAQ.OMX.BXGOOGPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/NASDAQ.OMX.PSXGOOGPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/NYSE.Arca.SMGOOGPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/NationalGOOGPropVolumePlot.jpg">
 </div>
 
 <!---
@@ -210,7 +217,7 @@ $(function(){
             speed: 100
           }
         },
-        navigation: false
+        navigation: true
     });
 var myData1 = [
       ["BATS","0.14446911111026","0.116073690071653","0.108118912666049"," 0.0560365065805209 "],
