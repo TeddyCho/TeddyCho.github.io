@@ -311,7 +311,7 @@ var hot = new Handsontable(container, {
       {data: 4, type: 'numeric', format: '0.00%'}
     ]
   });
-  var myData = [
+  var myData2 = [
     ["BATS","0.0806521152866501","0.12800625770208","0.135469794502628","0.163387184158113","0.0750055891253632"," 0.135742135882178 "],
     ["BATS Y","0.0314451559762132","0.0406009758388476","0.0424387033774359","0.058117293548598","0.0306677992669552"," 0.0362279138177863 "],
     ["CBOE","0.000820476176806325","0.00166774652826138","0.00203923337760505","0.00111297619785575","0.000784058264141885"," 0.00154789177966429 "],
@@ -325,9 +325,9 @@ var hot = new Handsontable(container, {
     ["NYSE Arca SM","0.168404766799072","0.156123906689075","0.146804065387331","0.139263662633021","0.184617527847664"," 0.151143519943256 "],
     ["NYSE MKT","0","0.0126469896173193","0","0.00736799656806552","0"," 0 "]
     ],
-    container = document.querySelector('#tablediv2');
-var hot = new Handsontable(container, {
-    data: myData,
+    container2 = document.querySelector('#tablediv2');
+var hot2 = new Handsontable(container2, {
+    data: myData2,
     columnSorting: true,
     rowHeaders: true,
     colHeaders: ["Exchange","GOOG","GT","NDAQ","STLD","TSLA"," WFM "],
