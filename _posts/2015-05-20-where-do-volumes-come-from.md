@@ -207,17 +207,14 @@ $(function(){
   $("#slides").slidesjs({
       width: 300, height: 250,
         navigation: {
-          effect: "fade"
-        },
-        pagination: {
+          active: true,
           effect: "fade"
         },
         effect: {
           fade: {
             speed: 100
           }
-        },
-        navigation: true
+        }
     });
 var myData1 = [
       ["BATS","0.14446911111026","0.116073690071653","0.108118912666049"," 0.0560365065805209 "],
