@@ -296,7 +296,6 @@ $(function(){
         navigation: false
     });
 var myData = [
-    ["Exchange","Arca","NASDAQ","NYSE"," NYSEMKT "],
 ["BATS","0.14446911111026","0.116073690071653","0.108118912666049"," 0.0560365065805209 "],
 ["BATS Y","0.0711826015760951","0.0384401636548427","0.061150738754358"," 0.0328836396755233 "],
 ["CBOE","0.00148759944354625","0.00125921545104189","0.00164971453163631"," 0.00223600944792826 "],
@@ -313,7 +312,10 @@ var myData = [
 ["NYSE MKT","0.00162175749662837","0.00322134675093503","0"," 0.137541543124637 "]
     ],
     container = document.querySelector('#tablediv1');
-
+var percentRenderer = function (instance, td, row, col, prop, value, cellProperties) {
+    Handsontable.renderers.NumericRenderer.apply(this, arguments);
+    td.style.color = (value < 0) ? 'red' : 'green';
+  };
 var hot = new Handsontable(container, {
     data: myData,
     startRows: 5,
@@ -323,8 +325,15 @@ var hot = new Handsontable(container, {
     minSpareRows: 1,
     //always keep at least 1 spare row at the bottom,
     rowHeaders: true,
-    colHeaders: true,
-    contextMenu: true
+    colHeaders: ["Exchange","Arca","NASDAQ","NYSE"," NYSEMKT "],
+    contextMenu: true,
+    columns: [
+      {data: 0, type: 'text'},
+      {data: 1, type: 'numeric', format: '0.00%', renderer: percentRenderer},
+      {data: 2, type: 'numeric', format: '0.00%', renderer: percentRenderer},
+      {data: 3, type: 'numeric', format: '0.00%', renderer: percentRenderer},
+      {data: 4, type: 'numeric', format: '0.00%', renderer: percentRenderer}
+    ]
 });
 });
 </script>
