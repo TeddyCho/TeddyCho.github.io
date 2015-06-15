@@ -149,7 +149,7 @@ No evidence was found that volumes concentrated in one exchange at a time.
 
 ## Second Intervals
 
-Even in one-second intervals, no exchange concentration cycling was evident.
+Even in one-second intervals, volumes did not appear to concentrate in one exchange at a time.
 
 Data tables are available for <a href = "https://github.com/TeddyCho/TAQ/tree/master/data/profileSeries/highPrice">High Price Stocks</a> and <a href = "https://github.com/TeddyCho/TAQ/tree/master/data/profileSeries/lowPrice">Low Price Stocks</a>.
 
