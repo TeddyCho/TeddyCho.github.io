@@ -124,6 +124,8 @@ In both the Open and Close epochs, exchange market shares were clearly different
 ## GOOG
 
 <div id="slides">
+      <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
+      <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/NYSE.Arca.SMGOOGPropVolumePlot.jpg">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/Direct.Edge.XGOOGPropVolumePlot.jpg">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/BATSGOOGPropVolumePlot.jpg">
@@ -134,8 +136,6 @@ In both the Open and Close epochs, exchange market shares were clearly different
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/CBOEGOOGPropVolumePlot.jpg">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/NationalGOOGPropVolumePlot.jpg">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/ChicagoGOOGPropVolumePlot.jpg">
-      <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
-      <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
 </div>
 
 <!---
