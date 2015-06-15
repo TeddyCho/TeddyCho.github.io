@@ -119,9 +119,26 @@ In both the Open and Close epochs, exchange market shares were clearly different
 </div>
 </div>
 
-# Exchange Share Over Different Trade Group Sizes
+# Hunting for Time Intervals With Concentrated Exchange Volumes
 
-## GOOG
+## Minute Intervals
+
+Is the assumption that an exchange's bid/offer generally doesn't replenish within a minute's time?
+
+No evidence of cycling exchange concentrations was found in the minute-interval data.
+
+I was unable to convince myself that any such cycling, if it existed, would manifest itself in minute-interval concentrations.
+
+## Second Intervals
+
+Data tables can be found here: <a href = "https://github.com/TeddyCho/TAQ/tree/master/data/profileSeries/highPrice">High Price Stocks</a> and <a href = "https://github.com/TeddyCho/TAQ/tree/master/data/profileSeries/lowPrice">Low Price Stocks</a>
+Even in one-second intervals, no exchange concentration cycling was evident.
+
+Perhaps it is possible that an investor's preference for exchanges may be consistent over time (based on bid/offer prices/volumes, fee structure). Perhaps the only reason all their volume may not be sent to their most preferred exchange is because their desired size is too big, which forces some of their size sent to their second preferred exchange, and then their third choice, and so on.
+
+### Exchange Share Over Different Trade Group Sizes
+
+#### GOOG
 
 <div id="slides">
       <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
@@ -138,7 +155,7 @@ In both the Open and Close epochs, exchange market shares were clearly different
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/ChicagoGOOGPropVolumePlot.jpg">
 </div>
 
-## BAC
+#### BAC
 
 <div id="slides2">
       <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
