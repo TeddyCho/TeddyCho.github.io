@@ -208,7 +208,13 @@ $(function(){
   });
   $("#slides").slidesjs({
       width: 300, height: 250,
-      navigation: false,
+        navigation: {
+          active: false,
+          effect: "fade"
+        },
+        pagination: {
+          effect: "fade"
+        },
         effect: {
           fade: {
             speed: 100
