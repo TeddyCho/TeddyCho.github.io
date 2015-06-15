@@ -45,30 +45,15 @@ To further support that listing exchange helps determine exchange market share p
 ## NASDAQ Stocks
 Within NASDAQ stocks, exchange shares were consistent:
 
-<center><button class = "rad-button static light flat">Toggle To Table</button><br/>
-<div id="tablediv2">
-<table class="tablesorter">
-<tr> <th> Exchange </th> <th> GOOG </th> <th> GT </th> <th> NDAQ </th> <th> STLD </th> <th> TSLA </th> <th> WFM </th>  </tr>
-  <tr> <td> BATS </td> <td align="right"> 0.08 </td> <td align="right"> 0.13 </td> <td align="right"> 0.14 </td> <td align="right"> 0.16 </td> <td align="right"> 0.08 </td> <td align="right"> 0.14 </td> </tr>
-  <tr> <td> BATS Y </td> <td align="right"> 0.03 </td> <td align="right"> 0.04 </td> <td align="right"> 0.04 </td> <td align="right"> 0.06 </td> <td align="right"> 0.03 </td> <td align="right"> 0.04 </td> </tr>
-  <tr> <td> CBOE </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
-  <tr> <td> Chicago </td> <td align="right"> 0.01 </td> <td align="right"> 0.01 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.01 </td> <td align="right"> 0.01 </td> </tr>
-  <tr> <td> Direct Edge A </td> <td align="right"> 0.03 </td> <td align="right"> 0.04 </td> <td align="right"> 0.04 </td> <td align="right"> 0.05 </td> <td align="right"> 0.03 </td> <td align="right"> 0.04 </td> </tr>
-  <tr> <td> Direct Edge X </td> <td align="right"> 0.13 </td> <td align="right"> 0.10 </td> <td align="right"> 0.08 </td> <td align="right"> 0.08 </td> <td align="right"> 0.25 </td> <td align="right"> 0.12 </td> </tr>
-  <tr> <td> NASDAQ </td> <td align="right"> 0.49 </td> <td align="right"> 0.46 </td> <td align="right"> 0.51 </td> <td align="right"> 0.44 </td> <td align="right"> 0.37 </td> <td align="right"> 0.47 </td> </tr>
-  <tr> <td> NASDAQ OMX BX </td> <td align="right"> 0.05 </td> <td align="right"> 0.04 </td> <td align="right"> 0.04 </td> <td align="right"> 0.05 </td> <td align="right"> 0.04 </td> <td align="right"> 0.03 </td> </tr>
-  <tr> <td> NASDAQ OMX PSX </td> <td align="right"> 0.00 </td> <td align="right"> 0.01 </td> <td align="right"> 0.00 </td> <td align="right"> 0.01 </td> <td align="right"> 0.01 </td> <td align="right"> 0.01 </td> </tr>
-  <tr> <td> National </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
-  <tr> <td> NYSE Arca SM </td> <td align="right"> 0.17 </td> <td align="right"> 0.16 </td> <td align="right"> 0.15 </td> <td align="right"> 0.14 </td> <td align="right"> 0.18 </td> <td align="right"> 0.15 </td> </tr>
-  <tr> <td> NYSE MKT </td> <td align="right"> 0.00 </td> <td align="right"> 0.01 </td> <td align="right"> 0.00 </td> <td align="right"> 0.01 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
-</table>
-</div>
-   
+<div>
+<button class = "rad-button static light flat">Toggle To Table</button>
+
+<div id="tablediv2"></div>
 <div>
 <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/NASDAQSymbolsForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 </div>
-</center>
- 
+</div>
+
 ## NYSE Stocks
 There was consistency in the exchange market share profiles for NYSE stocks, as well:
 <center><button class = "rad-button static light flat">Toggle To Table</button><br/>
