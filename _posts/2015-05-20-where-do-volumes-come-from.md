@@ -139,7 +139,9 @@ To explain why different symbols' open/close volumes adhere strongly to their ho
 
 The third point appears to deliberately exclude NYSE Arca, and so by "listed", they may mean "primary listed".
 
-<a href="https://www.nyse.com/publicdocs/nyse/markets/liquidity-programs/arca_mm_orientation.pdf">Literature</a> also suggests that exchanges' DMMs and LMMs oversee the markets and only deal with their respective exchanges' primary listings. It is unclear how this "overseeing" role translates to volume being directed to the home exchange.
+Literature also suggests that exchanges' DMMs and LMMs oversee the opening/closing auctions and only deal with their respective exchanges' primary listings:
+
+* <a href="https://www.nyse.com/publicdocs/nyse/markets/liquidity-programs/arca_mm_orientation.pdf">Arca Market Maker Orientation</a>
 
 # Time Intervals With Concentrated Exchange Volumes
 
