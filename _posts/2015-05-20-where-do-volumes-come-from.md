@@ -155,9 +155,11 @@ Data tables are available for <a href = "https://github.com/TeddyCho/TAQ/tree/ma
 
 ### Exchange Share Over Different Trade Burst Sizes
 
-Let us consider an investor's preference for exchanges to be consistent over time (based on bid/offer prices/volumes, fee structure). Perhaps the only reason all their volume may not be sent to their most preferred exchange is because their desired size is too big, which forces some of their size sent to their second preferred exchange, and then their third choice, and so on.
+Let us consider an investor's preference for exchanges to be consistent over time (based on bid/offer prices/volumes, fee structure). Perhaps the only reason all their volume may not be sent to their most preferred exchange is because their desired size is too big, which forces some of their size to their second preferred exchange, and then their third choice, and so on.
 
 To begin exploring this, a "trade burst" is considered to be all trades happening in a one-second interval. For a given exchange, each trade burst is plotted as a point to designate the total size of the trade burst and the given exchange's volume share.
+
+Trade bursts where the exchange had no representation were excluded. (Although this may be valuable.)
 
 The above was done for GOOG and BAC:
 
