@@ -121,11 +121,17 @@ In both the Open and Close epochs, exchange market shares were clearly different
 </div>
 </div>
 
-To explain why different symbols' open/close volumes adhere strongly to their home exchange, we can refer to the <a href = "https://www.nyse.com/publicdocs/nyse/markets/nyse-arca/NYSE_Arca_Auctions_Brochure.pdf">NYSE Arca Auctions Brochure</a>, the <a href="http://www1.nyse.com/pdfs/NYSEAmexEquitiesOpeningCollateral.pdf">NYSE AMEX (now NYSEMKT) Opening Auction factsheet</a>, and the <a href="https://www.nyse.com/publicdocs/nyse/markets/nyse/NYSE_Opening_and_Closing_Auctions_Fact_Sheet.pdf">NYSE Open and Closing Auctions factsheet</a>:
-* <a href = "https://www.nyse.com/publicdocs/nyse/markets/nyse-arca/NYSE_Arca_Auctions_Brochure.pdf">NYSE Arca Auctions Brochure</a>
+To explain why different symbols' open/close volumes adhere strongly to their home exchange, we can refer to the following documents:
 
+<a href = "https://www.nyse.com/publicdocs/nyse/markets/nyse-arca/NYSE_Arca_Auctions_Brochure.pdf">NYSE Arca Auctions Brochure</a>, the <a href="http://www1.nyse.com/pdfs/NYSEAmexEquitiesOpeningCollateral.pdf">NYSE AMEX (now NYSEMKT) Opening Auction factsheet</a>, and the <a href="https://www.nyse.com/publicdocs/nyse/markets/nyse/NYSE_Opening_and_Closing_Auctions_Fact_Sheet.pdf">NYSE Open and Closing Auctions factsheet</a>:
+
+* <a href = "https://www.nyse.com/publicdocs/nyse/markets/nyse-arca/NYSE_Arca_Auctions_Brochure.pdf">NYSE Arca Auctions Brochure</a>:
 > The [NYSE Arca] Market Order Auction is run for NYSE Arca primary listed stocks.
+
 > The [NYSE Arca] Closing Auction is run for NYSE Arca primary listed stocks.
+
+* <a href="https://www.nyse.com/publicdocs/nyse/markets/nyse/NYSE_Opening_and_Closing_Auctions_Fact_Sheet.pdf">NYSE Open and Closing Auctions Fact Sheet</a>:
+
 > Only NYSE and NYSE MKT-listed names can participate in the opening auction.
 
 The third point appears to deliberately exclude NYSE Arca, and so by "listed", they may mean "primary listed".
