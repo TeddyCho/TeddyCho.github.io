@@ -50,115 +50,47 @@ Within NASDAQ stocks, exchange shares were consistent:
 
 <div id="tablediv2"></div>
 <div>
-<iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/NASDAQSymbolsForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
+    <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/NASDAQSymbolsForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 </div>
 </div>
 
-## NYSE Stocks
-There was consistency in the exchange market share profiles for NYSE stocks, as well:
-<center><button class = "rad-button static light flat">Toggle To Table</button><br/>
-<div id="tablediv3">
-<table class="tablesorter">
-<tr> <th> Exchange </th> <th> AMD </th> <th> BAC </th> <th> BHP </th> <th> BRKA </th> <th> CVS </th> <th> FE </th> <th> GE </th> <th> LTM </th> <th> LUV </th> <th> T </th> <th> WSM </th> <th> XOM </th>  </tr>
-  <tr> <td> BATS </td> <td align="right"> 0.11 </td> <td align="right"> 0.10 </td> <td align="right"> 0.14 </td> <td align="right"> 0.40 </td> <td align="right"> 0.10 </td> <td align="right"> 0.14 </td> <td align="right"> 0.11 </td> <td align="right"> 0.09 </td> <td align="right"> 0.15 </td> <td align="right"> 0.12 </td> <td align="right"> 0.08 </td> <td align="right"> 0.12 </td> </tr>
-  <tr> <td> BATS Y </td> <td align="right"> 0.05 </td> <td align="right"> 0.07 </td> <td align="right"> 0.03 </td> <td align="right"> 0.03 </td> <td align="right"> 0.03 </td> <td align="right"> 0.04 </td> <td align="right"> 0.07 </td> <td align="right"> 0.03 </td> <td align="right"> 0.05 </td> <td align="right"> 0.06 </td> <td align="right"> 0.04 </td> <td align="right"> 0.03 </td> </tr>
-  <tr> <td> CBOE </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
-  <tr> <td> Chicago </td> <td align="right"> 0.01 </td> <td align="right"> 0.01 </td> <td align="right"> 0.01 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.01 </td> <td align="right"> 0.01 </td> <td align="right"> 0.00 </td> <td align="right"> 0.01 </td> <td align="right"> 0.00 </td> <td align="right"> 0.01 </td> </tr>
-  <tr> <td> Direct Edge A </td> <td align="right"> 0.06 </td> <td align="right"> 0.07 </td> <td align="right"> 0.05 </td> <td align="right"> 0.01 </td> <td align="right"> 0.05 </td> <td align="right"> 0.04 </td> <td align="right"> 0.07 </td> <td align="right"> 0.03 </td> <td align="right"> 0.04 </td> <td align="right"> 0.05 </td> <td align="right"> 0.03 </td> <td align="right"> 0.03 </td> </tr>
-  <tr> <td> Direct Edge X </td> <td align="right"> 0.17 </td> <td align="right"> 0.16 </td> <td align="right"> 0.08 </td> <td align="right"> 0.04 </td> <td align="right"> 0.09 </td> <td align="right"> 0.08 </td> <td align="right"> 0.12 </td> <td align="right"> 0.10 </td> <td align="right"> 0.10 </td> <td align="right"> 0.11 </td> <td align="right"> 0.10 </td> <td align="right"> 0.08 </td> </tr>
-  <tr> <td> NASDAQ OMX </td> <td align="right"> 0.14 </td> <td align="right"> 0.15 </td> <td align="right"> 0.18 </td> <td align="right"> 0.21 </td> <td align="right"> 0.27 </td> <td align="right"> 0.26 </td> <td align="right"> 0.17 </td> <td align="right"> 0.23 </td> <td align="right"> 0.24 </td> <td align="right"> 0.21 </td> <td align="right"> 0.25 </td> <td align="right"> 0.27 </td> </tr>
-  <tr> <td> NASDAQ OMX BX </td> <td align="right"> 0.06 </td> <td align="right"> 0.08 </td> <td align="right"> 0.03 </td> <td align="right"> 0.01 </td> <td align="right"> 0.04 </td> <td align="right"> 0.04 </td> <td align="right"> 0.08 </td> <td align="right"> 0.04 </td> <td align="right"> 0.05 </td> <td align="right"> 0.06 </td> <td align="right"> 0.04 </td> <td align="right"> 0.03 </td> </tr>
-  <tr> <td> NASDAQ OMX PSX </td> <td align="right"> 0.01 </td> <td align="right"> 0.01 </td> <td align="right"> 0.01 </td> <td align="right"> 0.00 </td> <td align="right"> 0.01 </td> <td align="right"> 0.00 </td> <td align="right"> 0.01 </td> <td align="right"> 0.01 </td> <td align="right"> 0.01 </td> <td align="right"> 0.01 </td> <td align="right"> 0.01 </td> <td align="right"> 0.01 </td> </tr>
-  <tr> <td> National </td> <td align="right"> 0.01 </td> <td align="right"> 0.01 </td> <td align="right"> 0.00 </td> <td align="right"> 0.01 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
-  <tr> <td> NYSE </td> <td align="right"> 0.27 </td> <td align="right"> 0.23 </td> <td align="right"> 0.34 </td> <td align="right"> 0.29 </td> <td align="right"> 0.30 </td> <td align="right"> 0.28 </td> <td align="right"> 0.27 </td> <td align="right"> 0.28 </td> <td align="right"> 0.23 </td> <td align="right"> 0.25 </td> <td align="right"> 0.24 </td> <td align="right"> 0.26 </td> </tr>
-  <tr> <td> NYSE Arca SM </td> <td align="right"> 0.11 </td> <td align="right"> 0.11 </td> <td align="right"> 0.14 </td> <td align="right"> 0.00 </td> <td align="right"> 0.12 </td> <td align="right"> 0.11 </td> <td align="right"> 0.10 </td> <td align="right"> 0.18 </td> <td align="right"> 0.11 </td> <td align="right"> 0.12 </td> <td align="right"> 0.19 </td> <td align="right"> 0.16 </td> </tr>
-   </table>
-</div>
-<div>
-<iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/NYSESymbolsForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
-</div>
-</center>
- 
 ## Arca Stocks
 Consistency was found between our two Arca symbols, save for BATS Y, Direct Edge X, and Chicago:
 
-<center><button class = "rad-button static light flat">Toggle To Table</button><br/>
-<div id="tablediv4">
-<table class="tablesorter">
-<tr> <th> Exchange </th> <th> SLV </th> <th> TBF </th>  </tr>
-  <tr> <td> BATS </td> <td align="right"> 0.14 </td> <td align="right"> 0.14 </td> </tr>
-  <tr> <td> BATS Y </td> <td align="right"> 0.07 </td> <td align="right"> 0.05 </td> </tr>
-  <tr> <td> CBOE </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
-  <tr> <td> Chicago </td> <td align="right"> 0.02 </td> <td align="right"> 0.00 </td> </tr>
-  <tr> <td> Direct Edge A </td> <td align="right"> 0.08 </td> <td align="right"> 0.08 </td> </tr>
-  <tr> <td> Direct Edge X </td> <td align="right"> 0.14 </td> <td align="right"> 0.23 </td> </tr>
-  <tr> <td> NASDAQ OMX </td> <td align="right"> 0.18 </td> <td align="right"> 0.17 </td> </tr>
-  <tr> <td> NASDAQ OMX BX </td> <td align="right"> 0.08 </td> <td align="right"> 0.07 </td> </tr>
-  <tr> <td> NASDAQ OMX PSX </td> <td align="right"> 0.02 </td> <td align="right"> 0.02 </td> </tr>
-  <tr> <td> National </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
-  <tr> <td> NYSE Arca SM </td> <td align="right"> 0.26 </td> <td align="right"> 0.24 </td> </tr>
-  <tr> <td> NYSE MKT </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
-   </table>
-</div>
 <div>
-<iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/ArcaSymbolsForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
+<button class = "rad-button static light flat">Toggle To Table</button>
+
+<div id="tablediv3"></div>
+<div>
+    <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/ArcaSymbolsForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 </div>
-</center>
+</div>
+
 
 ## NYSEMKT Stocks 
 Our NYSEMKT symbols appeared to represent two clusters of exchange market share profiles: one for CCF and ONVO, and one for LIQT and ONP:
 
-<center><button class = "rad-button static light flat">Toggle To Table</button><br/>
-<div id="tablediv5">
-<table class="tablesorter">
-<tr> <th> Exchange </th> <th> SLV </th> <th> TBF </th>  </tr>
-  <tr> <td> BATS </td> <td align="right"> 0.14 </td> <td align="right"> 0.14 </td> </tr>
-  <tr> <td> BATS Y </td> <td align="right"> 0.07 </td> <td align="right"> 0.05 </td> </tr>
-  <tr> <td> CBOE </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
-  <tr> <td> Chicago </td> <td align="right"> 0.02 </td> <td align="right"> 0.00 </td> </tr>
-  <tr> <td> Direct Edge A </td> <td align="right"> 0.08 </td> <td align="right"> 0.08 </td> </tr>
-  <tr> <td> Direct Edge X </td> <td align="right"> 0.14 </td> <td align="right"> 0.23 </td> </tr>
-  <tr> <td> NASDAQ OMX </td> <td align="right"> 0.18 </td> <td align="right"> 0.17 </td> </tr>
-  <tr> <td> NASDAQ OMX BX </td> <td align="right"> 0.08 </td> <td align="right"> 0.07 </td> </tr>
-  <tr> <td> NASDAQ OMX PSX </td> <td align="right"> 0.02 </td> <td align="right"> 0.02 </td> </tr>
-  <tr> <td> National </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
-  <tr> <td> NYSE Arca SM </td> <td align="right"> 0.26 </td> <td align="right"> 0.24 </td> </tr>
-  <tr> <td> NYSE MKT </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
-   </table>
-</div>
 <div>
-<iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/NYSEMKTSymbolsForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
+<button class = "rad-button static light flat">Toggle To Table</button>
+
+<div id="tablediv4"></div>
+<div>
+  <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/NYSEMKTSymbolsForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 </div>
-</center>
+</div>
 
 # Exchange Market Shares During Open and Close Auction
 
 In both the Open and Close epochs, exchange market shares were clearly different based on home exchange. The following graph aggregates stocks by listing exchange and shows volume share for both Open and Close combined:
 
-<center><button class = "rad-button static light flat">Toggle To Table</button><br/>
-<div id="tablediv6">
-<table class="tablesorter">
-<tr> <th> Exchange </th> <th> Arca </th> <th> NASDAQ </th> <th> NYSE </th> <th> NYSEMKT </th>  </tr>
-  <tr> <td> BATS </td> <td align="right"> 0.14 </td> <td align="right"> 0.12 </td> <td align="right"> 0.11 </td> <td align="right"> 0.06 </td> </tr>
-  <tr> <td> BATS Y </td> <td align="right"> 0.07 </td> <td align="right"> 0.04 </td> <td align="right"> 0.06 </td> <td align="right"> 0.03 </td> </tr>
-  <tr> <td> CBOE </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
-  <tr> <td> Chicago </td> <td align="right"> 0.02 </td> <td align="right"> 0.01 </td> <td align="right"> 0.01 </td> <td align="right"> 0.01 </td> </tr>
-  <tr> <td> Direct Edge A </td> <td align="right"> 0.08 </td> <td align="right"> 0.04 </td> <td align="right"> 0.06 </td> <td align="right"> 0.03 </td> </tr>
-  <tr> <td> Direct Edge X </td> <td align="right"> 0.14 </td> <td align="right"> 0.15 </td> <td align="right"> 0.14 </td> <td align="right"> 0.32 </td> </tr>
-  <tr> <td> NASDAQ </td> <td align="right"> 0.00 </td> <td align="right"> 0.44 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> </tr>
-  <tr> <td> NASDAQ OMX </td> <td align="right"> 0.18 </td> <td align="right"> 0.00 </td> <td align="right"> 0.18 </td> <td align="right"> 0.19 </td> </tr>
-  <tr> <td> NASDAQ OMX BX </td> <td align="right"> 0.08 </td> <td align="right"> 0.04 </td> <td align="right"> 0.07 </td> <td align="right"> 0.02 </td> </tr>
-  <tr> <td> NASDAQ OMX PSX </td> <td align="right"> 0.02 </td> <td align="right"> 0.01 </td> <td align="right"> 0.01 </td> <td align="right"> 0.00 </td> </tr>
-  <tr> <td> National </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.02 </td> </tr>
-  <tr> <td> NYSE </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.25 </td> <td align="right"> 0.00 </td> </tr>
-  <tr> <td> NYSE Arca SM </td> <td align="right"> 0.26 </td> <td align="right"> 0.16 </td> <td align="right"> 0.11 </td> <td align="right"> 0.18 </td> </tr>
-  <tr> <td> NYSE MKT </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.00 </td> <td align="right"> 0.14 </td> </tr>
-   </table>
-</div>
+<div>
+<button class = "rad-button static light flat">Toggle To Table</button>
+
+<div id="tablediv5"></div>
 <div>
 <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/perExchangeForOpenClose.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 </div>
-</center>
+</div>
 
 # Exchange Share over different Trade Group Sizes
 <div id="slides">
@@ -343,6 +275,104 @@ var hot2 = new Handsontable(container2, {
       {data: 6, type: 'numeric', format: '0.00%'}
     ]
   });
+  
+  var myData3 = [
+    ["BATS","0.14444321585521"," 0.144717622545373 "],
+    ["BATS Y","0.0729249451145133"," 0.0544616891018889 "],
+    ["CBOE","0.0015353514225791"," 0.00102933352510206 "],
+    ["Chicago","0.0199825622150203"," 5.75490336182118e-06 "],
+    ["Direct Edge A","0.0791772488567529"," 0.0759871109501171 "],
+    ["Direct Edge X","0.135128073331646"," 0.229795685277318 "],
+    ["NASDAQ OMX","0.18288614800685"," 0.167551456202331 "],
+    ["NASDAQ OMX BX","0.0792063196274206"," 0.0679479253066949 "],
+    ["NASDAQ OMX PSX","0.0184050180570935"," 0.0158432604649004 "],
+    ["National","0.00181208323542482"," 0.00182778032732785 "],
+    ["NYSE Arca SM","0.262708287277478"," 0.240832381395585 "],
+    ["NYSE MKT","0.00179074700001166"," 0 "]
+    ],
+    container3 = document.querySelector('#tablediv3');
+var hot3 = new Handsontable(container3, {
+    data: myData3,
+    columnSorting: true,
+    rowHeaders: true,
+    colHeaders: ["Exchange","SLV", "TBF"],
+    contextMenu: true,
+    columns: [
+      {data: 0, type: 'text'},
+      {data: 1, type: 'numeric', format: '0.00%'},
+      {data: 2, type: 'numeric', format: '0.00%'}
+    ]
+  });
+  
+  var myData4 = [
+    ["BATS","0.105072903370875","0.0968274916406619","0.140575289490133","0.400718920263152","0.102681005134877","0.139487813010969","0.111471148658657","0.093818872922384","0.152658374117995","0.12255548772599","0.0831398426051529"," 0.121833281400576 "],
+["BATS Y","0.0531757891136095","0.0725803528413504","0.0302791381018429","0.0330070309497434","0.0347546578717499","0.0414985655532138","0.0652821692926322","0.0304979414480798","0.0454513431813266","0.0550126458051963","0.0431226691868963"," 0.0303598778402531 "],
+["CBOE","0.00251520829910772","0.00163599922141949","0.000418015892263055","0","0.00041830941009304","0.0022988966220515","0.00155150649468907","0.00135408877423164","0.00142772709079438","0.00188880048400092","0.00211840384370207"," 0.000399393607345542 "],
+["Chicago","0.0093741687446426","0.0136217672951933","0.00988379391531965","2.26075554450297e-05","0.000804519779377101","0.00119634888246683","0.00575510245654589","0.0109205497007283","0.000789462477402889","0.00895635072109437","0.00200584920234348"," 0.0126220710575816 "],
+["Direct Edge A","0.0586116758258619","0.0706201717237259","0.045984134953643","0.00723441774240951","0.0461765102059584","0.0375987123467113","0.0675664330816484","0.0304752603523068","0.043669064272245","0.0547524161509215","0.0312931479269666"," 0.0331341842606623 "],
+["Direct Edge X","0.1710010158856","0.156711091193449","0.0812322798397423","0.044129948228698","0.0871949273386892","0.0797969091490853","0.120300219659043","0.10055430036498","0.102420590436589","0.105569148676022","0.102587984772567"," 0.079166140657972 "],
+["NASDAQ OMX","0.143402617546669","0.151615956078967","0.175335243753789","0.210928492302127","0.267384361871783","0.261037756398273","0.173670079528431","0.227886481861745","0.243458922116747","0.208487636196268","0.253469855104843"," 0.270117774575639 "],
+["NASDAQ OMX BX","0.0564614862467124","0.0787385002451181","0.0280812650182506","0.00547102841769719","0.0370590921175523","0.0417274290019306","0.0760567208904439","0.0421683351385571","0.0519448229456534","0.0605424334239439","0.0433856960257497"," 0.0272670436440647 "],
+["NASDAQ OMX PSX","0.00997882128073693","0.0100460516712016","0.00548286446328642","0.00183121199104741","0.00551721236300868","0.00496555355203197","0.00850215659725993","0.00561010189146536","0.00618023821636397","0.00707277814170098","0.00747448327801706"," 0.00666044186696607 "],
+["National","0.00621937958601774","0.00544528336283429","0.00144177253878499","0.00938213550968734","0.00237380747123058","0.0023494007938464","0.0034979855173773","0.00160276013018999","0.00304698913880179","0.00362198776462629","0.00168610327033605"," 0.00327330589267653 "],
+["NYSE","0.27147388175409","0.234798469698703","0.339286364184264","0.287274207039993","0.295031364527294","0.279169318624475","0.266120336917501","0.275611212941853","0.234399820479451","0.248998907231633","0.236928777988224"," 0.259553561518155 "],
+["NYSE Arca SM","0.112713052346077","0.107358865027376","0.141999837848682","0","0.120604231908387","0.108873296064945","0.100226140905771","0.179500094473479","0.114552645526629","0.122541407678601","0.192787186795202"," 0.155612923678108 "]
+    ],
+    container4 = document.querySelector('#tablediv4');
+var hot4 = new Handsontable(container4, {
+    data: myData4,
+    columnSorting: true,
+    rowHeaders: true,
+    colHeaders: ["Exchange","AMD","BAC","BHP","BRKA","CVS","FE","GE","LTM","LUV","T","WSM"," XOM "],
+    contextMenu: true,
+    columns: [
+      {data: 0, type: 'text'},
+      {data: 1, type: 'numeric', format: '0.00%'},
+      {data: 2, type: 'numeric', format: '0.00%'},
+      {data: 3, type: 'numeric', format: '0.00%'},
+      {data: 4, type: 'numeric', format: '0.00%'},
+      {data: 5, type: 'numeric', format: '0.00%'},
+      {data: 6, type: 'numeric', format: '0.00%'},
+      {data: 7, type: 'numeric', format: '0.00%'},
+      {data: 8, type: 'numeric', format: '0.00%'},
+      {data: 9, type: 'numeric', format: '0.00%'},
+      {data: 10, type: 'numeric', format: '0.00%'},
+      {data: 11, type: 'numeric', format: '0.00%'},
+      {data: 12, type: 'numeric', format: '0.00%'}
+    ]
+  });
+  
+  var myData5 = [
+    ["BATS","0.0463490828512692","0.0416419322897192","0.0229622472456781"," 0.0580457017340001 "],
+["BATS Y","0.0648317602442434","0.0139494984310874","0.0233308606823946"," 0.0344591534809727 "],
+["CBOE","0.0192682368542373","0","0.000613308800981294"," 0.00235153595140711 "],
+["Chicago","0","0","0"," 0.0105744371299927 "],
+["Direct Edge A","0.0616508354763381","0.012502095875601","0.0110569754739295"," 0.0370716039744583 "],
+["Direct Edge X","0.196744495441928","0.342593916540914","0.421875365829563"," 0.312729430316456 "],
+["NASDAQ OMX","0.127782906183137","0.17458690444147","0.139433814329612"," 0.193796994334966 "],
+["NASDAQ OMX BX","0.0174370558392","0.00513541284791027","0.00762952722114579"," 0.017663864623371 "],
+["NASDAQ OMX PSX","0.00380636335402726","0.000683590380042636","0.00218655437519309"," 0.00168232855498956 "],
+["National","0.0159884455057079","0.00755327177853263","0.0074781986994884"," 0.0186166100172551 "],
+["NYSE Arca SM","0.221417080491367","0.198561691413223","0.125688616154919"," 0.183684130225264 "],
+["NYSE MKT","0.224723737758544","0.2027916860015","0.237744531187095"," 0.129324209656868 "]
+    ],
+    container5 = document.querySelector('#tablediv5');
+var hot5 = new Handsontable(container5, {
+    data: myData5,
+    columnSorting: true,
+    rowHeaders: true,
+    colHeaders: ["Exchange","CCF","LIQT","ONP"," ONVO "],
+    contextMenu: true,
+    columns: [
+      {data: 0, type: 'text'},
+      {data: 1, type: 'numeric', format: '0.00%'},
+      {data: 2, type: 'numeric', format: '0.00%'},
+      {data: 3, type: 'numeric', format: '0.00%'},
+      {data: 4, type: 'numeric', format: '0.00%'}
+    ]
+  });
+  
+  
 });
 </script>
 
