@@ -208,7 +208,12 @@ $(function(){
   });
   $("#slides").slidesjs({
       width: 300, height: 250,
-      navigation: false
+      navigation: false,
+        effect: {
+          fade: {
+            speed: 100
+          }
+        }
       }
     );
 var myData1 = [
