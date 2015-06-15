@@ -267,8 +267,8 @@ $(function(){
   $('#tablediv5').hide();
   $('#tablediv6').hide();
   $('button').click(function() {
+    $(this).next().fadeToggle("fast");
     $(this).next().next().fadeToggle("fast");
-    $(this).next().next().next().fadeToggle("fast");
     if ($(this).text() == 'Toggle to Chart') {
       $(this).text('Toggle to Table');
     } else {
