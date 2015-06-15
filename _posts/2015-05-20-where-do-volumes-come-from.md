@@ -145,12 +145,7 @@ Literature also suggests that exchanges' DMMs and LMMs oversee the opening/closi
 
 ## Minute Intervals
 
-I did not foresee that any such cycling could manifest itself in minute-interval concentrations, given the trades/minute rate (e.g., in the sample day, 60/min for GOOG, 200/min for BAC).
-
-No evidence of cycling exchange concentrations was found in the minute-interval data.
-
-Is the speculation that an exchange's bid/offer generally doesn't replenish within a minute's time?
-
+No evidence was found that volumes concentrated in one exchange at a time.
 
 ## Second Intervals
 
