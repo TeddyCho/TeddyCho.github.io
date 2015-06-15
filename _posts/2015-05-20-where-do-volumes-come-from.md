@@ -134,7 +134,9 @@ I was unable to convince myself that any such cycling, if it existed, would mani
 Even in one-second intervals, no exchange concentration cycling was evident.
 
 Data tables can be found here:
+
 <a href = "https://github.com/TeddyCho/TAQ/tree/master/data/profileSeries/highPrice">High Price Stocks</a>
+
 <a href = "https://github.com/TeddyCho/TAQ/tree/master/data/profileSeries/lowPrice">Low Price Stocks</a>
 
 Perhaps it is possible that an investor's preference for exchanges may be consistent over time (based on bid/offer prices/volumes, fee structure). Perhaps the only reason all their volume may not be sent to their most preferred exchange is because their desired size is too big, which forces some of their size sent to their second preferred exchange, and then their third choice, and so on.
@@ -199,7 +201,6 @@ Among NASDAQ listed stocks, we do see variability in their exchange share profil
  Finally, we see some variability among NYSE MKT stocks:
 
 <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/NYSEMKTSymbolsForAfter-Hours.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
---->
 
 # Exchange Volumes and Market Shares Over 2014
 The following graphs illustrate the extent of day-to-day consistency for the trends in the last rChart.
@@ -212,7 +213,7 @@ We see similar exchange market share profiles for both the opening and closing a
 After-Hours trading has a different profile for exchange market shares:
 ![After-Hours Market Share](https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/After-Hours2014.png)
 
-<!---
+
 # Overall Look at Exchange Market Shares
 Over all trades, the volumes were distributed across exhanges as such:
 
