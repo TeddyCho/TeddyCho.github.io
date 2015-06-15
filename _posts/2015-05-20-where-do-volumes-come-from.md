@@ -33,7 +33,7 @@ When trades are grouped by their symbols' listing exchanges, we observe differen
 
 <center>
   <button class = "rad-button static light flat">Toggle To Table</button><br/>
-<div id="adv_example"></div>
+  <div id="adv_example"></div>
   <div>
     <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/perExchangeForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
   </div>
@@ -68,7 +68,7 @@ Within NASDAQ stocks, exchange shares were consistent:
 </div>
 </center>
  
- ## NYSE Stocks
+## NYSE Stocks
 There was consistency in the exchange market share profiles for NYSE stocks, as well:
 <center><button class = "rad-button static light flat">Toggle To Table</button><br/>
 <div id="tablediv3">
