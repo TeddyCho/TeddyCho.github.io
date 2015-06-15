@@ -58,7 +58,7 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
 # Exchange Market Shares During Regular Trading
 
 ## Between Stocks of Different Home Exchange
-When trades are grouped by their symbols' listing exchanges, we observe differences across their exchange market share profiles during regular hours. Notably, exchanges held higher market share for their "home" stocks:
+When trades are grouped by their symbols' primary listing exchanges, we observe differences across their exchange market share profiles during regular hours. Notably, exchanges held higher market share for their primary listings:
 
 <div>
 <button class = "rad-button static light flat">Toggle To Table</button>
@@ -69,7 +69,7 @@ When trades are grouped by their symbols' listing exchanges, we observe differen
 </div>
 </div>
 
-To further support that listing exchange helps determine exchange market share profile, we expand each group by their constituent symbols.
+To further support that primary exchange helps determine exchange market share profile, we expand each group by their constituent symbols.
 
 ## NASDAQ Stocks
 Within NASDAQ stocks, exchange shares were consistent:
@@ -120,6 +120,15 @@ In both the Open and Close epochs, exchange market shares were clearly different
 <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/perExchangeForOpenClose.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 </div>
 </div>
+
+To explain why different symbols' open/close volumes adhere strongly to their home exchange, we can refer to the <a href = "https://www.nyse.com/publicdocs/nyse/markets/nyse-arca/NYSE_Arca_Auctions_Brochure.pdf">NYSE Arca Auctions Brochure</a>, the <a href="http://www1.nyse.com/pdfs/NYSEAmexEquitiesOpeningCollateral.pdf">NYSE AMEX (now NYSEMKT) Opening Auction factsheet</a>, and the <a href="https://www.nyse.com/publicdocs/nyse/markets/nyse/NYSE_Opening_and_Closing_Auctions_Fact_Sheet.pdf">NYSE Open and Closing Auctions factsheet</a>:
+> The [NYSE Arca] Market Order Auction is run for NYSE Arca primary listed stocks.
+> The [NYSE Arca] Closing Auction is run for NYSE Arca primary listed stocks.
+> Only NYSE and NYSE MKT-listed names can participate in the opening auction.
+
+The third point appears to deliberately exclude NYSE Arca, and so by "listed", they may mean "primary listed".
+
+<a href="https://www.nyse.com/publicdocs/nyse/markets/liquidity-programs/arca_mm_orientation.pdf">Literature</a> also suggests that exchanges' DMMs and LMMs oversee the markets and only deal with their respective exchanges' primary listings. It is unclear how this "overseeing" role translates to volume being directed to the home exchange.
 
 # Time Intervals With Concentrated Exchange Volumes
 
