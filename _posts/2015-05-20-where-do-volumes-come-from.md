@@ -145,11 +145,12 @@ Literature also suggests that exchanges' DMMs and LMMs oversee the opening/closi
 
 ## Minute Intervals
 
+I did not foresee that any such cycling could manifest itself in minute-interval concentrations, given the trades/minute rate (e.g., in the sample day, 60/min for GOOG, 200/min for BAC).
+
 No evidence of cycling exchange concentrations was found in the minute-interval data.
 
 Is the speculation that an exchange's bid/offer generally doesn't replenish within a minute's time?
 
-I was unable to convince myself that any such cycling could manifest itself in minute-interval concentrations, given the trades/minute rate (e.g., in the sample day, 60/min for GOOG, 200/min for BAC).
 
 ## Second Intervals
 
@@ -157,11 +158,11 @@ Even in one-second intervals, no exchange concentration cycling was evident.
 
 Data tables are available for <a href = "https://github.com/TeddyCho/TAQ/tree/master/data/profileSeries/highPrice">High Price Stocks</a> and <a href = "https://github.com/TeddyCho/TAQ/tree/master/data/profileSeries/lowPrice">Low Price Stocks</a>.
 
-### Exchange Share Over Different Trade Group Sizes
+### Exchange Share Over Different Trade Burst Sizes
 
 Let us consider an investor's preference for exchanges to be consistent over time (based on bid/offer prices/volumes, fee structure). Perhaps the only reason all their volume may not be sent to their most preferred exchange is because their desired size is too big, which forces some of their size sent to their second preferred exchange, and then their third choice, and so on.
 
-To begin exploring this, a "trade group" is considered to be all trades happening in a one-second interval. For a given exchange, each trade group is plotted as a point to designate the total size of the trade group and the given exchange's volume share.
+To begin exploring this, a "trade burst" is considered to be all trades happening in a one-second interval. For a given exchange, each trade burst is plotted as a point to designate the total size of the trade burst and the given exchange's volume share.
 
 The above was done for GOOG and BAC:
 
