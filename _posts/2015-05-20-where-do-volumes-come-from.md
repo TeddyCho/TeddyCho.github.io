@@ -120,7 +120,9 @@ In both the Open and Close epochs, exchange market shares were clearly different
 </div>
 
 # Exchange Share Over Different Trade Group Sizes
+
 ## GOOG
+
 <div id="slides">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/NYSE.Arca.SMGOOGPropVolumePlot.jpg">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/Direct.Edge.XGOOGPropVolumePlot.jpg">
