@@ -140,7 +140,7 @@ In both the Open and Close epochs, exchange market shares were clearly different
 
 ## BAC
 
-<div id="slides">
+<div id="slides2">
       <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
       <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NYSE.Arca.SMBACPropVolumePlot.jpg">
@@ -254,6 +254,22 @@ $(function(){
     }
   });
   $("#slides").slidesjs({
+      width: 300, height: 250,
+        navigation: {
+          active: false,
+          effect: "fade"
+        },
+        pagination: {
+          effect: "fade"
+        },
+        effect: {
+          fade: {
+            speed: 100
+          }
+        }
+      }
+    );
+  $("#slides2").slidesjs({
       width: 300, height: 250,
         navigation: {
           active: false,
