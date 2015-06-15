@@ -292,64 +292,21 @@ $(function(){
         },
         navigation: false
     });
-});
-$(document).ready(function () {
+var data = [
+  ["", "Ford", "Volvo", "Toyota", "Honda"],
+  ["2014", 10, 11, 12, 13],
+  ["2015", 20, 11, 14, 13],
+  ["2016", 30, 15, 12, 13]
+];
 
-  var container = document.getElementById('adv_example');
-  var percentRenderer = function (instance, td, row, col, prop, value, cellProperties) {
-    Handsontable.renderers.NumericRenderer.apply(this, arguments);
-    td.style.color = (value < 0) ? 'red' : 'green';
-  };
-  
-  var advancedData = [
-    ["Afghanistan","30.552","1000s","2013","0.0244","27.708","24.019","11.215"],
-    ["Albania","2.774","1000s","2013","-0.0100","2.884","3.015","3.228"],
-    ["Algeria","39.208","1000s","2013","0.0189","36.383","33.461","25.577"],
-    ["Belgium","11.195","1000s","2013","0.0060","10.796","10.421","9.938"],
-    ["Belize","324","1000s","2012","0.0246","294","258","179"],
-    ["Benin","10.323","1000s","2013","0.0271","9.241","7.923","4.836"],
-    ["Bhutan","754","1000s","2013","0.0163","705","634","530"],
-    ["Bolivia","10.671","1000s","2013","0.0167","9.993","9.188","6.636"],
-    ["Bosnia and Herzegovina","3.829","1000s","2013","-0.0012","3.853","3.887","4.585"],
-    ["Botswana","2.021","1000s","2013","0.0086","1.952","1.855","1.343"],
-    ["Brazil","200.362","1000s","2013","0.0086","193.491","184.01","147.079"],
-    ["Brunei","418","1000s","2013","0.0135","394","361","250"],
-    ["Bulgaria","7.265","1000s","2013","-0.0056","7.444","7.781","8.877"],
-    ["Burkina Faso","16.935","1000s","2013","0.0288","15.095","13.034","8.58"],
-    ["Burundi","10.163","1000s","2013","0.0318","8.927","7.511","5.449"],
-    ["Cambodia","15.135","1000s","2013","0.0182","14.144","13.149","8.769"],
-    ["Cameroon","22.254","1000s","2013","0.0255","20.104","17.675","11.717"],
-    ["Canada","35.158","1000s","2013","0.0116","33.629","31.995","27.379"],
-    ["Cape Verde","499","1000s","2013","0.0091","486","474","346"],
-    ["Central African Republic","4.616","1000s","2013","0.0202","4.266","3.894","2.852"],
-    ["Chad","12.825","1000s","2013","0.0303","11.371","9.665","5.765"],
-    ["Chile","17.62","1000s","2013","0.0089","16.992","16.168","12.981"],
-    ["China","1.357.380","1000s","2013","0.0049","1.331.260","1.296.075","1.118.650"],
-    ["Laos","6.77","1000s","2013","0.0186","6.268","5.699","4.123"],
-    ["Zimbabwe","14.15","1000s","2013","0.0310","12.889","12.693","10.167"]
-  ];
-  
-  var hot = new Handsontable(container, {
-    data: advancedData,
-    height: 396,
-    colHeaders: ["Country", "Level", "Units", "As Of", "1Y Chg", "5Y Ago", "10Y Ago", "25Y Ago"],
-    rowHeaders: true,
-    stretchH: 'all',
-    columnSorting: true,
-    contextMenu: true,
-    className: "htCenter htMiddle",
-    readOnly: true,
-    columns: [
-      {data: 0, type: 'text'},
-      {data: 1, type: 'numeric', format: '0,0.00[0000]'},
-      {data: 2, type: 'text'},
-      {data: 3, type: 'numeric', format: '0'},
-      {data: 4, type: 'numeric', format: '0.00%', renderer: percentRenderer},
-      {data: 5, type: 'numeric', format: '0,0.00[0000]'},
-      {data: 6, type: 'numeric', format: '0,0.00[0000]'}
-    ]
-  });
-  
+var container = document.getElementById('adv_example');
+var hot = new Handsontable(container, {
+  data: data,
+  minSpareRows: 1,
+  rowHeaders: true,
+  colHeaders: true,
+  contextMenu: true
+});
 });
 </script>
 
