@@ -260,6 +260,7 @@ Over all trades, the volumes were distributed across exhanges as such:
 
 <script>
 $(function(){
+  $('#adv_example').hide();
   $('#tablediv2').hide();
   $('#tablediv3').hide();
   $('#tablediv4').hide();
