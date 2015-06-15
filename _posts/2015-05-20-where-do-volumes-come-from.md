@@ -143,11 +143,11 @@ In both the Open and Close epochs, exchange market shares were clearly different
 <div id="slides2">
       <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
       <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NYSE.Arca.SMBACPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NYSEBACPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/Direct.Edge.XBACPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/BATSBACPropVolumePlot.jpg">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NASDAQ.OMX.BXBACPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NYSEBACPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/BATSBACPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NYSE.Arca.SMBACPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/Direct.Edge.XBACPropVolumePlot.jpg">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/BATS.YBACPropVolumePlot.jpg">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/Direct.Edge.ABACPropVolumePlot.jpg">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NASDAQ.OMX.PSXBACPropVolumePlot.jpg">
