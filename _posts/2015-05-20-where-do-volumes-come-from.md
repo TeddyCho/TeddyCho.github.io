@@ -334,7 +334,7 @@ var hot4 = new Handsontable(container4, {
     ]
   });
   
-  var myData4 = [
+  var myData5 = [
     ["BATS","0","0","0"," 0 "],
     ["BATS Y","0","0","0"," 0 "],
     ["CBOE","0","0","0"," 0 "],
