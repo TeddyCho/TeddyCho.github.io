@@ -312,10 +312,6 @@ var myData = [
 ["NYSE MKT","0.00162175749662837","0.00322134675093503","0"," 0.137541543124637 "]
     ],
     container = document.querySelector('#tablediv1');
-var percentRenderer = function (instance, td, row, col, prop, value, cellProperties) {
-    Handsontable.renderers.NumericRenderer.apply(this, arguments);
-    td.style.color = (value < 0) ? 'red' : 'green';
-  };
 var hot = new Handsontable(container, {
     data: myData,
     columnSorting: true,
@@ -324,10 +320,10 @@ var hot = new Handsontable(container, {
     contextMenu: true,
     columns: [
       {data: 0, type: 'text'},
-      {data: 1, type: 'numeric', format: '0.00%', renderer: percentRenderer},
-      {data: 2, type: 'numeric', format: '0.00%', renderer: percentRenderer},
-      {data: 3, type: 'numeric', format: '0.00%', renderer: percentRenderer},
-      {data: 4, type: 'numeric', format: '0.00%', renderer: percentRenderer}
+      {data: 1, type: 'numeric', format: '0.00%'},
+      {data: 2, type: 'numeric', format: '0.00%'},
+      {data: 3, type: 'numeric', format: '0.00%'},
+      {data: 4, type: 'numeric', format: '0.00%'}
     ]
 });
 });
