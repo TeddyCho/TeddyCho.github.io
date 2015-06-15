@@ -33,11 +33,11 @@ When trades are grouped by their symbols' listing exchanges, we observe differen
 
 <center>
   <button class = "rad-button static light flat">Toggle To Table</button><br/>
-</center>
   <div id="adv_example"></div>
   <div>
     <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/perExchangeForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
   </div>
+</center>
 
 To further support that listing exchange helps determine exchange market share profile, we expand each group by their constituent symbols.
 
@@ -262,7 +262,7 @@ Over all trades, the volumes were distributed across exhanges as such:
 
 <script>
 $(function(){
-  $('#adv_example').hide();
+  $('#adv_example1').hide();
   $('#tablediv2').hide();
   $('#tablediv3').hide();
   $('#tablediv4').hide();
