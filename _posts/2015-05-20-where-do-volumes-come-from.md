@@ -299,7 +299,7 @@ var myData = [
     ["2009", 20, 11, 14, 13],
     ["2010", 30, 15, 12, 13]
     ],
-    container = document.querySelector('#adv_example');
+    container = document.querySelector('#tablediv1');
 
 var hot = new Handsontable(container, {
     data: myData,
