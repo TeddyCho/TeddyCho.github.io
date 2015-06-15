@@ -149,8 +149,8 @@ In both the Open and Close epochs, exchange market shares were clearly different
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NYSE.Arca.SMBACPropVolumePlot.jpg">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/BATSBACPropVolumePlot.jpg">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/Direct.Edge.XBACPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/Direct.Edge.ABACPropVolumePlot.jpg">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NASDAQ.OMXBACPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/Direct.Edge.ABACPropVolumePlot.jpg">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NationalBACPropVolumePlot.jpg">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NASDAQ.OMX.PSXBACPropVolumePlot.jpg">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/ChicagoBACPropVolumePlot.jpg">
