@@ -131,8 +131,13 @@ I was unable to convince myself that any such cycling, if it existed, would mani
 
 ## Second Intervals
 
-Data tables can be found here: <a href = "https://github.com/TeddyCho/TAQ/tree/master/data/profileSeries/highPrice">High Price Stocks</a> and <a href = "https://github.com/TeddyCho/TAQ/tree/master/data/profileSeries/lowPrice">Low Price Stocks</a>
 Even in one-second intervals, no exchange concentration cycling was evident.
+
+Data tables can be found here:
+
+<a href = "https://github.com/TeddyCho/TAQ/tree/master/data/profileSeries/highPrice">High Price Stocks</a>
+
+<a href = "https://github.com/TeddyCho/TAQ/tree/master/data/profileSeries/lowPrice">Low Price Stocks</a>
 
 Perhaps it is possible that an investor's preference for exchanges may be consistent over time (based on bid/offer prices/volumes, fee structure). Perhaps the only reason all their volume may not be sent to their most preferred exchange is because their desired size is too big, which forces some of their size sent to their second preferred exchange, and then their third choice, and so on.
 
