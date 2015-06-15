@@ -318,12 +318,7 @@ var percentRenderer = function (instance, td, row, col, prop, value, cellPropert
   };
 var hot = new Handsontable(container, {
     data: myData,
-    startRows: 5,
-    startCols: 5,
-    minSpareCols: 1,
-    //always keep at least 1 spare row at the right
-    minSpareRows: 1,
-    //always keep at least 1 spare row at the bottom,
+    columnSorting: true,
     rowHeaders: true,
     colHeaders: ["Exchange","Arca","NASDAQ","NYSE"," NYSEMKT "],
     contextMenu: true,
