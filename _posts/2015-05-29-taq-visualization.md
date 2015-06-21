@@ -46,7 +46,6 @@ The TAQ data covered the following time frame and symbols:
     <A HREF="JavaScript: func()" onClick="incrementImage(++current_image)">
       <IMG SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/stepForward.png" height="40" width="40" ALT="+1">
     </A>
-  <p class="control2">
     <BR>
     <A HREF="JavaScript: func()" onClick="change_speed(delay_step)">
       <IMG SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/minus.png" HEIGHT="40" ALT="slow">
@@ -54,7 +53,6 @@ The TAQ data covered the following time frame and symbols:
     <A HREF="JavaScript: func()" onClick="change_speed(-delay_step)">
       <IMG SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/plus.png" HEIGHT="40" ALT="fast">
     </A>
-  </p>
   </CENTER>
 </BODY>
 
