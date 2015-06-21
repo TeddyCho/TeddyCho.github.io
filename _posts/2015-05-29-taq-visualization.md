@@ -52,6 +52,7 @@ The following shows a simulated FBA feed with an interval time of **1 second**:
 
 <BODY BGCOLOR="#FFFFFF" onLoad="launch()">
   <IMG id="animation" WIDTH="600" HEIGHT="600" SRC="https://raw.githubusercontent.com/TeddyCho/bookVis/master/output/splitFrames/simAnim.gif-0.gif">
+  <span>
     <A HREF="JavaScript: func()" onClick="decrementImage(--current_image)">
       <IMG SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/stepBackward.png" height="40" width="40" ALT="-1">
     </A>
@@ -80,6 +81,7 @@ The following shows a simulated FBA feed with an interval time of **1 second**:
       <BR>&#160;
     </p>
   </FORM>
+  </span>
 </BODY>
 
 <SCRIPT LANGUAGE="JavaScript">
