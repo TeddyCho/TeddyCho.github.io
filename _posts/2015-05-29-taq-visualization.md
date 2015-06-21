@@ -49,11 +49,12 @@ The following shows a simulated FBA feed with an interval time of **1 second**:
 * Given TAQ data, simulate the FBA better. Currently, it's just randomly choosing when the auction results in a trade or not, and otherwise mirroring CLOB. Differentiate between snipe trades and investor trades.
 * Consider accounting for multiple exchanges.
 
+
 <BODY BGCOLOR="#FFFFFF" onLoad="launch()">
   <TABLE>
     <TR>
       <TD>
-        <IMG NAME="animation" WIDTH=400 HEIGHT=400 SRC=https://raw.githubusercontent.com/TeddyCho/bookVis/master/output/splitFrames/simAnim.gif-0.gif ALT="model image">
+        <IMG id="animation" WIDTH=400 HEIGHT=400 SRC=https://raw.githubusercontent.com/TeddyCho/bookVis/master/output/splitFrames/simAnim.gif-0.gif ALT="model image">
       </TD>
     </TR>
     <TR>
@@ -80,9 +81,9 @@ The following shows a simulated FBA feed with an interval time of **1 second**:
           </A>
           <BR>&#160;
         </p>
-        <FORM METHOD="POST" NAME="control_form">
+        <FORM METHOD="POST" id="control_form">
           <p class="control2">Frame:
-            <INPUT TYPE="text" NAME="frame_nr" VALUE=9 SIZE="2" onFocus="this.select()" onChange="go2image(this.value)"></INPUT>
+            <INPUT TYPE="text" id="frame_nr" VALUE=9 SIZE="2" onFocus="this.select()" onChange="go2image(this.value)"></INPUT>
             <BR>&#160;
           </p>
         </FORM>
@@ -90,18 +91,6 @@ The following shows a simulated FBA feed with an interval time of **1 second**:
     </TR>
   </TABLE>
 </body>
-
-<table>
-  <thead>
-    <tr>      <th>Timeframe</th> <th>Symbol</th> <th>Exchange</th>   </tr>
-  </thead>
-  <tbody>
-    <tr>      <td>09-July-2014 to 09-July-2014</td>
-      <td>GOOG</td> 
-      <td>NASDAQ OMX BX</td> 
-    </tr>
-  </tbody>
-</table>
 
 <SCRIPT LANGUAGE="JavaScript">
 
@@ -197,8 +186,8 @@ function animate_fwd()
          }
    }
  
-   document.animation.src = theImages[current_image-first_image].src;   //display image onto screen
-   document.control_form.frame_nr.value = current_image;                //display image number
+   document.getElementById("animation").src = theImages[current_image-first_image].src;   //display image onto screen
+   document.getElementById("frame_nr").value = current_image;                //display image number
 
    delay_time = delay;
    if ( current_image == first_image) delay_time = start_dwell_multipler*delay;
@@ -241,8 +230,8 @@ function animate_rev()
          }
    }
  
-   document.animation.src = theImages[current_image-first_image].src;   //display image onto screen
-   document.control_form.frame_nr.value = current_image;                //display image number
+   document.getElementById("animation").src = theImages[current_image-first_image].src;   //display image onto screen
+   document.getElementById("frame_nr").value = current_image;                //display image number
 
    delay_time = delay;
    if ( current_image == first_image) delay_time = start_dwell_multipler*delay;
@@ -288,8 +277,8 @@ function incrementImage(number)
    }
  
    current_image = number;
-   document.animation.src = theImages[current_image-first_image].src;   //display image
-   document.control_form.frame_nr.value = current_image;                //display image number
+   document.getElementById("animation").src = theImages[current_image-first_image].src;   //display image
+   document.getElementById("frame_nr").value = current_image;                //display image number
 }
  
 //===> Decrement to next image
@@ -307,8 +296,8 @@ function decrementImage(number)
    }
  
    current_image = number;
-   document.animation.src = theImages[current_image-first_image].src;   //display image
-   document.control_form.frame_nr.value = current_image;                //display image number
+   document.getElementById("animation").src = theImages[current_image-first_image].src;   //display image
+   document.getElementById("frame_nr").value = current_image;                //display image number
 }
  
 //===> "Play forward"
@@ -351,8 +340,8 @@ function launch()
       theImages[i-first_image] = new Image();
       theImages[i-first_image].src = modImages[i-first_image];
       imageNum[i-first_image] = true;
-      document.animation.src = theImages[i-first_image].src;
-      document.control_form.frame_nr.value = i;
+      document.getElementById("animation").src = theImages[i-first_image].src;
+      document.getElementById("frame_nr").value = i;
    }
  
    // this needs to be done to set the right mode when the page is manually reloaded
@@ -378,5 +367,6 @@ function animation()
 {
   count = first_image;
 }
+ 
  
 </SCRIPT>
