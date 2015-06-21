@@ -54,7 +54,7 @@ The following shows a simulated FBA feed with an interval time of **1 second**:
   <TABLE>
     <TR>
       <TD>
-        <IMG id="animation" WIDTH=400 HEIGHT=400 SRC=https://raw.githubusercontent.com/TeddyCho/bookVis/master/output/splitFrames/simAnim.gif-0.gif ALT="model image">
+        <IMG id="animation" WIDTH=400 HEIGHT=400 SRC="https://raw.githubusercontent.com/TeddyCho/bookVis/master/output/splitFrames/simAnim.gif-0.gif" ALT="model image">
       </TD>
     </TR>
     <TR>
