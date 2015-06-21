@@ -52,10 +52,13 @@ The following shows a simulated FBA feed with an interval time of **1 second**:
 
 <BODY BGCOLOR="#FFFFFF" onLoad="launch()">
   <IMG id="animation" WIDTH="400" HEIGHT="400" SRC="https://raw.githubusercontent.com/TeddyCho/bookVis/master/output/splitFrames/simAnim.gif-0.gif">
-  <p class="control1">
+  <table>
+  <tr>
+  <td style="white-space:nowrap;">
     <A HREF="JavaScript: func()" onClick="decrementImage(--current_image)">
       <IMG SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/stepBackward.png" HEIGHT="40" ALT="-1">
-    </A><A HREF="JavaScript: func()" onClick="stop()">
+    </A>
+    <A HREF="JavaScript: func()" onClick="stop()">
       <IMG SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/pause.png" HEIGHT="40" ALT="Stop">
     </A>
     <A HREF="JavaScript: func()" onClick="change_mode(1);fwd()">
@@ -64,7 +67,9 @@ The following shows a simulated FBA feed with an interval time of **1 second**:
     <A HREF="JavaScript: func()" onClick="incrementImage(++current_image)">
       <IMG SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/stepForward.png" HEIGHT="40" ALT="+1">
     </A>
-  </p>
+    </td>
+    </tr>
+    </table>
   <p class="control2">Speed:
     <BR>
     <A HREF="JavaScript: func()" onClick="change_speed(delay_step)">
