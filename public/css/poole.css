@@ -257,7 +257,7 @@ pre code {
 }
 
 /* Quotes */
-blockquote {
+bquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
   color: #7a7a7a;
@@ -267,14 +267,14 @@ blockquote p:last-child {
   margin-bottom: 0;
 }
 @media (min-width: 30em) {
-  blockquote {
+  bquote {
     padding-right: 5rem;
     padding-left: 1.25rem;
   }
 }
 
 img {
-  display: block;
+  /*display: block;*/
   max-width: 100%;
   margin: 0 0 1rem;
   border-radius: 5px;
