@@ -50,9 +50,9 @@ The following shows a simulated FBA feed with an interval time of **1 second**:
 * Consider accounting for multiple exchanges.
 
 
-<table ALIGN=CENTER BORDER=1 CELLPADDING=0 CELLSPACING=0>
-  <tr VALIGN="middle">
-    <td BGCOLOR="#B0C4DE" ALIGN=CENTER VALIGN=MIDDLE>
+<table align=CENTER BORDER=1 CELLPADDING=0 CELLSPACING=0>
+  <tr valign="middle">
+    <td BGCOLOR="#B0C4DE" align=CENTER VALIGN=MIDDLE>
       <img NAME="animation" BORDER=0 WIDTH=400 HEIGHT=400 SRC=https://raw.githubusercontent.com/TeddyCho/bookVis/master/output/splitFrames/simAnim.gif-0.gif ALT="model image">
     </td>
   </tr>
