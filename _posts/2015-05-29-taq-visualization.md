@@ -58,6 +58,18 @@ The following shows a simulated FBA feed with an interval time of **1 second**:
   </tr>
 </table>
 
+<table>
+  <thead>
+    <tr>      <th>Timeframe</th> <th>Symbol</th> <th>Exchange</th>   </tr>
+  </thead>
+  <tbody>
+    <tr>      <td>09-July-2014 to 09-July-2014</td>
+      <td>GOOG</td> 
+      <td>NASDAQ OMX BX</td> 
+    </tr>
+  </tbody>
+</table>
+
 <SCRIPT LANGUAGE="JavaScript">
 
 modImages = new Array();
