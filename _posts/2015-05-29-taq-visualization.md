@@ -50,7 +50,7 @@ The following shows a simulated FBA feed with an interval time of **1 second**:
 * Consider accounting for multiple exchanges.
 
 
-<TABLE ALIGN=CENTER BORDER=1 CELLPADDING=0 CELLSPACING=0>
+<table ALIGN=CENTER BORDER=1 CELLPADDING=0 CELLSPACING=0>
             <TR VALIGN="middle">
                 <TD BGCOLOR="#B0C4DE" ALIGN=CENTER VALIGN=MIDDLE>
                     <IMG NAME="animation" BORDER=0
