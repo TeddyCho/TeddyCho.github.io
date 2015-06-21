@@ -56,16 +56,16 @@ The following shows a simulated FBA feed with an interval time of **1 second**:
   <tr>
   <td style="white-space:nowrap;">
     <A HREF="JavaScript: func()" onClick="decrementImage(--current_image)">
-      <IMG SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/stepBackward.png" HEIGHT="40" ALT="-1">
+      <IMG SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/stepBackward.png" width="40" ALT="-1">
     </A>
     <A HREF="JavaScript: func()" onClick="stop()">
-      <IMG SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/pause.png" HEIGHT="40" ALT="Stop">
+      <IMG SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/pause.png" width="40" ALT="Stop">
     </A>
     <A HREF="JavaScript: func()" onClick="change_mode(1);fwd()">
-      <IMG SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/play.png" HEIGHT="40" ALT="Fwd">
+      <IMG SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/play.png" width="40" ALT="Fwd">
     </A>
     <A HREF="JavaScript: func()" onClick="incrementImage(++current_image)">
-      <IMG SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/stepForward.png" HEIGHT="40" ALT="+1">
+      <IMG SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/stepForward.png" width="40" ALT="+1">
     </A>
     </td>
     </tr>
