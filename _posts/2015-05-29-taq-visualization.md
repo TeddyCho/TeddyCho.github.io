@@ -58,7 +58,7 @@ The following shows a simulated FBA feed with an interval time of **1 second**:
   </tr>
 </table>
 
-<table>
+<table align=CENTER BORDER=1 CELLPADDING=0 CELLSPACING=0>
   <thead>
     <tr>      <th>Timeframe</th> <th>Symbol</th> <th>Exchange</th>   </tr>
   </thead>
