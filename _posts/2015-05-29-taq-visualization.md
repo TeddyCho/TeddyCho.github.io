@@ -49,7 +49,8 @@ The following shows a simulated FBA feed with an interval time of **1 second**:
 * Given TAQ data, simulate the FBA better. Currently, it's just randomly choosing when the auction results in a trade or not, and otherwise mirroring CLOB. Differentiate between snipe trades and investor trades.
 * Consider accounting for multiple exchanges.
 
-        <TABLE ALIGN=CENTER BORDER=1 CELLPADDING=0 CELLSPACING=0>
+
+<TABLE ALIGN=CENTER BORDER=1 CELLPADDING=0 CELLSPACING=0>
             <TR VALIGN="middle">
                 <TD BGCOLOR="#B0C4DE" ALIGN=CENTER VALIGN=MIDDLE>
                     <IMG NAME="animation" BORDER=0
