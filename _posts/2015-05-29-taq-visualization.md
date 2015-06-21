@@ -51,46 +51,37 @@ The following shows a simulated FBA feed with an interval time of **1 second**:
 
 
 <BODY BGCOLOR="#FFFFFF" onLoad="launch()">
-  <TABLE>
-    <TR>
-      <TD>
-        <IMG WIDTH=400 HEIGHT=400 SRC="https://raw.githubusercontent.com/TeddyCho/bookVis/master/output/splitFrames/simAnim.gif-0.gif" ALT="model image">
-      </TD>
-    </TR>
-    <TR>
-      <TH>
-        <A HREF="JavaScript: func()" onClick="decrementImage(--current_image)">
-          <IMG  SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/stepBackward.png" HEIGHT=40 ALT="-1">
-        </A>
-        <A HREF="JavaScript: func()" onClick="stop()">
-          <IMG  SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/pause.png" HEIGHT=40 ALT="Stop">
-        </A>
-        <A HREF="JavaScript: func()" onClick="change_mode(1);fwd()">
-          <IMG  SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/play.png" HEIGHT=40 ALT="Fwd">
-        </A>
-        <A HREF="JavaScript: func()" onClick="incrementImage(++current_image)">
-          <IMG  SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/stepForward.png" HEIGHT=40 ALT="+1">
-        </A>
-        <p class="control2">Speed:
-          <BR>
-          <A HREF="JavaScript: func()" onClick="change_speed(delay_step)">
-            <IMG  SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/minus.png" HEIGHT=40 ALT="slow">
-          </A>
-          <A HREF="JavaScript: func()" onClick="change_speed(-delay_step)">
-            <IMG  SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/plus.png" HEIGHT=40 ALT="fast">
-          </A>
-          <BR>&#160;
-        </p>
-        <FORM METHOD="POST" id="control_form">
-          <p class="control2">Frame:
-            <INPUT TYPE="text" id="frame_nr" VALUE=9 SIZE="2" onFocus="this.select()" onChange="go2image(this.value)"></INPUT>
-            <BR>&#160;
-          </p>
-        </FORM>
-      </TH>
-    </TR>
-  </TABLE>
-</body>
+  <IMG id="animation" WIDTH=400 HEIGHT=400 SRC=https://raw.githubusercontent.com/TeddyCho/bookVis/master/output/splitFrames/simAnim.gif-0.gif ALT="model image">
+  <p class="control1">
+    <A HREF="JavaScript: func()" onClick="decrementImage(--current_image)">
+      <IMG SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/stepBackward.png" HEIGHT=40 ALT="-1">
+    </A>
+    <A HREF="JavaScript: func()" onClick="stop()">
+      <IMG SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/pause.png" HEIGHT=40 ALT="Stop">
+    </A>
+    <A HREF="JavaScript: func()" onClick="change_mode(1);fwd()">
+      <IMG SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/play.png" HEIGHT=40 ALT="Fwd">
+    </A>
+    <A HREF="JavaScript: func()" onClick="incrementImage(++current_image)">
+      <IMG SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/stepForward.png" HEIGHT=40 ALT="+1">
+    </A>
+  </p>
+  <p class="control2">Speed:
+    <BR>
+    <A HREF="JavaScript: func()" onClick="change_speed(delay_step)">
+      <IMG SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/minus.png" HEIGHT=40 ALT="slow">
+    </A>
+    <A HREF="JavaScript: func()" onClick="change_speed(-delay_step)">
+      <IMG SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/plus.png" HEIGHT=40 ALT="fast">
+    </A>
+    <BR>&#160;
+  </p>
+  <FORM METHOD="POST" id="control_form">
+    <p class="control2">Frame:
+      <INPUT TYPE="text" id="frame_nr" VALUE=9 SIZE="2" onFocus="this.select()" onChange="go2image(this.value)"></INPUT>
+      <BR>&#160;
+    </p>
+  </FORM>
 
 <SCRIPT LANGUAGE="JavaScript">
 
