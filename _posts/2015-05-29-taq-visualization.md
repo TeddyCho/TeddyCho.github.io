@@ -23,11 +23,6 @@ unlisted: true
     <br>
   <IMG id="animation" WIDTH="600" HEIGHT="600" SRC="https://raw.githubusercontent.com/TeddyCho/bookVis/master/output/framesGOOGOneSec/frame0.gif">
   <BR>
-  <FORM METHOD="POST" id="control_form">
-    <p class="control2">Frame:
-      <INPUT TYPE="text" id="frame_nr" VALUE="9" SIZE="2" onFocus="this.select()" onChange="go2image(this.value)"></INPUT>
-    </p>
-  </FORM>
     <A HREF="JavaScript: func()" onClick="decrementImage(--current_image)">
       <IMG SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/stepBackward.png" height="40" width="40" ALT="-1">
     </A>
@@ -39,13 +34,18 @@ unlisted: true
     </A>
     <A HREF="JavaScript: func()" onClick="incrementImage(++current_image)">
       <IMG SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/stepForward.png" height="40" width="40" ALT="+1">
-    </A> &nbsp;
+    </A> &nbsp;&nbsp;
     <A HREF="JavaScript: func()" onClick="change_speed(delay_step)">
       <IMG SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/minus.png" HEIGHT="40" ALT="slow">
     </A>
     <A HREF="JavaScript: func()" onClick="change_speed(-delay_step)">
       <IMG SRC="https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/mediaControls/plus.png" HEIGHT="40" ALT="fast">
     </A>
+  <FORM METHOD="POST" id="control_form">
+    <p class="control2">Frame:
+      <INPUT TYPE="text" id="frame_nr" VALUE="9" SIZE="2" onFocus="this.select()" onChange="go2image(this.value)"></INPUT>
+    </p>
+  </FORM>
   </CENTER>
 </BODY>
 
