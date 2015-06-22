@@ -86,7 +86,7 @@ The following shows a simulated FBA feed with an interval time of **1 second**:
 
 modImages = new Array();
 
-myFilePrefix = "https://raw.githubusercontent.com/TeddyCho/bookVis/master/output/framesGOOGOneSec/frame";
+myFilePrefix = "https://raw.githubusercontent.com/TeddyCho/bookVis/master/output/framesGOOG1Sec/frame";
 for (i = 0; i < 200; i++) { 
     modImages[i] =  myFilePrefix.concat(i.toString()).concat(".gif");
 }
