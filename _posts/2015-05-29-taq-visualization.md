@@ -101,7 +101,7 @@ last_image = 200;
 //=== global variables ====
 theImages = new Array();      //holds the images
 imageNum = new Array();       //keeps track of which images to omit from loop
-normal_delay = 100;
+normal_delay = 50;
 delay = normal_delay;         //delay between frames in 1/100 seconds
 delay_step = 50;
 delay_max = 6000;
