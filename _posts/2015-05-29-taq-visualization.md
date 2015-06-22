@@ -27,7 +27,7 @@ The TAQ data covered the following time frame and symbols:
 
 <BODY BGCOLOR="#FFFFFF" onLoad="launch()">
   <CENTER>
-  <IMG id="animation" WIDTH="600" HEIGHT="600" SRC="https://raw.githubusercontent.com/TeddyCho/bookVis/master/output/splitFrames/simAnim.gif-0.gif">
+  <IMG id="animation" WIDTH="600" HEIGHT="600" SRC="https://raw.githubusercontent.com/TeddyCho/bookVis/master/output/framesGOOGOneSec/frame0.gif">
   <BR>
   <FORM METHOD="POST" id="control_form">
     <p class="control2">Frame:
@@ -86,7 +86,7 @@ The following shows a simulated FBA feed with an interval time of **1 second**:
 
 modImages = new Array();
 
-myFilePrefix = "https://raw.githubusercontent.com/TeddyCho/bookVis/master/output/splitFrames/simAnim.gif-";
+myFilePrefix = "https://raw.githubusercontent.com/TeddyCho/bookVis/master/output/framesGOOGOneSec/frame";
 for (i = 0; i < 200; i++) { 
     modImages[i] =  myFilePrefix.concat(i.toString()).concat(".gif");
 }
