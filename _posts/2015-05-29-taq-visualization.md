@@ -50,7 +50,7 @@ unlisted: true
   </CENTER>
 </BODY>
 
-The following illustration shows GOOG TAQ data on the NASDAQ OMX BX exchange over two hours' time.
+The above illustration shows GOOG TAQ data on the NASDAQ OMX BX exchange over two hours' time.
 
 The bid and ask are represented by two horizontal bars whose lengths are defined by quote size.
 
