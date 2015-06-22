@@ -27,6 +27,14 @@ The TAQ data covered the following time frame and symbols:
 
 <BODY BGCOLOR="#FFFFFF" onLoad="launch()">
   <CENTER>
+    <form>
+  <label for="fbaInterval">FBA Interval: </label><select name = "fbaInterval" onFocus="this.select()"  onchange="switchInterval(this.value)"> 
+    <option value = "1">1 second</option>
+    <option value = "120">120 seconds</option>
+    <option value = "360">360 seconds</option>
+</select>
+    </form>
+    <br>
   <IMG id="animation" WIDTH="600" HEIGHT="600" SRC="https://raw.githubusercontent.com/TeddyCho/bookVis/master/output/framesGOOGOneSec/frame0.gif">
   <BR>
   <FORM METHOD="POST" id="control_form">
@@ -86,13 +94,14 @@ The following shows a simulated FBA feed with an interval time of **1 second**:
 
 modImages = new Array();
 
+first_image = 1;
+last_image = 150;
+
+modImages = new Array();
 myFilePrefix = "https://raw.githubusercontent.com/TeddyCho/bookVis/master/output/framesGOOG1Sec/frame";
-for (i = 0; i < 200; i++) { 
+for (i = 0; i < last_image; i++) { 
     modImages[i] =  myFilePrefix.concat(i.toString()).concat(".gif");
 }
-
-first_image = 1;
-last_image = 200; 
  
 //**************************************************************************
  
@@ -141,6 +150,17 @@ function stop()
    if (status == 1)
       clearTimeout (timeID);
    status = 0;
+}
+//===> Stop the animation
+function switchInterval(v)
+{
+   modImages = new Array();
+   myFilePrefix = "https://raw.githubusercontent.com/TeddyCho/bookVis/master/output/framesGOOG";
+  myFileInBetween = "Sec/frame";
+  for (i = 0; i < last_image; i++) { 
+      modImages[i] =  myFilePrefix.concat(v).concat(myFileInBetween).concat(i.toString()).concat(".gif");
+  }
+  launch();
 }
  
  
@@ -357,6 +377,4 @@ function animation()
 {
   count = first_image;
 }
- 
- 
 </SCRIPT>
