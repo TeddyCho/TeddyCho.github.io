@@ -87,12 +87,12 @@ The following shows a simulated FBA feed with an interval time of **1 second**:
 modImages = new Array();
 
 myFilePrefix = "https://raw.githubusercontent.com/TeddyCho/bookVis/master/output/splitFrames/simAnim.gif-";
-for (i = 0; i < 51; i++) { 
+for (i = 0; i < 200; i++) { 
     modImages[i] =  myFilePrefix.concat(i.toString()).concat(".gif");
 }
 
 first_image = 1;
-last_image = 50; 
+last_image = 200; 
  
 //**************************************************************************
  
