@@ -9,7 +9,8 @@ unlisted: true
 >
 > * Include a comparison of continuous limit order book (CLOB) and frequent batch auctions (FBA).
 
-<a name="demo"></a> 
+<a name="demo"></a>
+
 # Demo
 
 <BODY BGCOLOR="#FFFFFF" onLoad="launch()">
