@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Visualize Trades and Quotes
+title: Trades and Quotes, Visualized
 unlisted: true
 ---
 
@@ -9,7 +9,7 @@ unlisted: true
 >
 > * Include a comparison of continuous limit order book (CLOB) and frequent batch auctions (FBA).
 
-# Visualization (#demo)
+# Demo <a name="demo"></a> 
 
 <BODY BGCOLOR="#FFFFFF" onLoad="launch()">
   <CENTER>
