@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Trades and Quotes, Visualized
-unlisted: false
+unlisted: true
 ---
 
 # Tasks
