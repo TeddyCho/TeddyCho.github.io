@@ -55,6 +55,11 @@ Transforming the above data (129M rows) to per-day-per-timeOfDay exchange volume
 The exchanges' volumes and market shares for each epoch of each trading day can be found [here](https://github.com/TeddyCho/TAQ/blob/master/data/taskTwo.csv).
 --->
 
+# Exchange Profiles
+NASDAQ: 
+NASDAQ OMX PSX: Pro rata allocation.
+NASDAQ OMX BX: Offers rebate to liquidity takers.
+
 # Exchange Market Shares During Regular Trading
 
 ## Between Stocks of Different Home Exchange
@@ -273,7 +278,7 @@ Over all trades, the volumes were distributed across exhanges as such:
   </tbody>
 </table>
 
-* Some trades had an exchange code "Q", which did not exactly correspond to anything listed in the [spec sheet](www.nyxdata.com/doc/224904). We assumed "Q" referred to the NASDAQ exchange since "T/Q" corresponded to NASDAQ and "T" corresponded to NASDAQ OMX.
+* Some trades had an exchange code "Q", which did not exactly correspond to anything listed in the [spec sheet](www.nyxdata.com/doc/224904). We assumed "Q" referred to the NASDAQ exchange since "T/Q" corresponded to NASDAQ and "T" corresponded to NASDAQ OMX. Since NASDAQ only has three exchanges (BX, PSX, and NASDAQ), trades labeled as NASDAQ OMX and NASDAQ were combined into the NASDAQ label.
 
 * Trades of exchange type "FINRA" are trades which happened off-exchange. Such trades are reported for TAQ publication through FINRA's ADF, TRF, or ORF, as written [here](http://www.finra.org/industry/trade-reporting-faq#100). <strong>These trades are excluded from the analysis.</strong>
 
