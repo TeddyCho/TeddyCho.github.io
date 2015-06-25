@@ -56,9 +56,27 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
 --->
 
 # Exchange Profiles
-NASDAQ: 
-NASDAQ OMX PSX: Pro rata allocation.
-NASDAQ OMX BX: Offers rebate to liquidity takers.
+<table>
+  <thead>
+    <tr><th>Exchange</th> <th>Profile</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>NASDAQ</td><td>AMD, GOOG, GT, NDAQ, STLD, TSLA, WFM</td></tr>
+    <tr><td>NASDAQ PSX</td><td>Pro rata allocation.</td></tr>
+    <tr><td>NASDAQ OMX BX</td><td>Offers rebate to liquidity takers.</td></tr>
+    <tr><td>NYSE</td><td>Exchange for medium and large cap companies.</td></tr>
+    <tr><td>NYSE MKT</td><td>Exchange for small-cap companies.</td></tr>
+    <tr><td>NYSE Arca</td><td>Fully electronic exchange.</td></tr>
+    <tr><td>National</td><td>AMD, GOOG, GT, NDAQ, STLD, TSLA, WFM</td></tr>
+    <tr><td>ISE</td><td>AMD, GOOG, GT, NDAQ, STLD, TSLA, WFM</td></tr>
+    <tr><td>Direct Edge A</td><td>AMD, GOOG, GT, NDAQ, STLD, TSLA, WFM</td></tr>
+    <tr><td>Direct Edge X</td><td>AMD, GOOG, GT, NDAQ, STLD, TSLA, WFM</td></tr>
+    <tr><td>Chicago</td><td>AMD, GOOG, GT, NDAQ, STLD, TSLA, WFM</td></tr>
+    <tr><td>CBOE</td><td>AMD, GOOG, GT, NDAQ, STLD, TSLA, WFM</td></tr>
+    <tr><td>BATS</td><td>AMD, GOOG, GT, NDAQ, STLD, TSLA, WFM</td></tr>
+    <tr><td>BATS Y</td><td>AMD, GOOG, GT, NDAQ, STLD, TSLA, WFM</td></tr>
+  </tbody>
+</table>
 
 # Exchange Market Shares During Regular Trading
 
