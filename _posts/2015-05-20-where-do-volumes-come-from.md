@@ -63,18 +63,17 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
   <tbody>
     <tr><td>NASDAQ</td><td>AMD, GOOG, GT, NDAQ, STLD, TSLA, WFM</td></tr>
     <tr><td>NASDAQ PSX</td><td>Pro rata allocation.</td></tr>
-    <tr><td>NASDAQ OMX BX</td><td>Offers rebate to liquidity takers.</td></tr>
+    <tr><td>NASDAQ OMX BX</td><td>Taker/Maker rebate model.</td></tr>
     <tr><td>NYSE</td><td>Exchange for medium and large cap companies.</td></tr>
     <tr><td>NYSE MKT</td><td>Exchange for small-cap companies.</td></tr>
     <tr><td>NYSE Arca</td><td>Fully electronic exchange.</td></tr>
-    <tr><td>National</td><td>AMD, GOOG, GT, NDAQ, STLD, TSLA, WFM</td></tr>
-    <tr><td>ISE</td><td>AMD, GOOG, GT, NDAQ, STLD, TSLA, WFM</td></tr>
-    <tr><td>Direct Edge A</td><td>AMD, GOOG, GT, NDAQ, STLD, TSLA, WFM</td></tr>
-    <tr><td>Direct Edge X</td><td>AMD, GOOG, GT, NDAQ, STLD, TSLA, WFM</td></tr>
-    <tr><td>Chicago</td><td>AMD, GOOG, GT, NDAQ, STLD, TSLA, WFM</td></tr>
-    <tr><td>CBOE</td><td>AMD, GOOG, GT, NDAQ, STLD, TSLA, WFM</td></tr>
-    <tr><td>BATS</td><td>AMD, GOOG, GT, NDAQ, STLD, TSLA, WFM</td></tr>
-    <tr><td>BATS Y</td><td>AMD, GOOG, GT, NDAQ, STLD, TSLA, WFM</td></tr>
+    <tr><td>National</td><td><a href = "http://www.nsx.com/index.php/news-views/175-nsx-successful-transition-to-an-inverted-pricing-model">Taker/Maker rebate model?</a> </td></tr>
+    <tr><td>Direct Edge A</td><td>BATS exchange. Taker/Maker rebate model.</td></tr>
+    <tr><td>Direct Edge X</td><td>BATS exchange. Maker/Taker rebate model.</td></tr>
+    <tr><td>BATS</td><td>Largest BATS exchange. Maker/Taker rebate model.</td></tr>
+    <tr><td>BATS Y</td><td>BATS exchange. Taker/Maker rebate model.</td></tr>
+    <tr><td>Chicago</td><td>Fully electronic exchange.</td></tr>
+    <tr><td>CBOE</td><td>No preference for maker or taker?? <a href = "http://www.nsx.com/index.php/news-views/175-nsx-successful-transition-to-an-inverted-pricing-model">Mentioned in NSX's press release about CBSX</a> and link to their current <a href = "http://www.cboe.com/publish/cbsxfeeschedule/cbsxfeeschedule.pdf">fee schedule...</a></td></tr>
   </tbody>
 </table>
 
