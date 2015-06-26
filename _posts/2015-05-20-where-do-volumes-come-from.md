@@ -61,8 +61,8 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
     <tr><th>Exchange</th> <th>Profile</th></tr>
   </thead>
   <tbody>
-    <tr><td>NASDAQ</td><td>AMD, GOOG, GT, NDAQ, STLD, TSLA, WFM</td></tr>
-    <tr><td>NASDAQ PSX</td><td>Pro rata allocation.</td></tr>
+    <tr bgcolor="#FF0000"><td>NASDAQ</td><td>AMD, GOOG, GT, NDAQ, STLD, TSLA, WFM</td></tr>
+    <tr bgcolor="#FF0000"><td>NASDAQ PSX</td><td>Pro rata allocation.</td></tr>
     <tr><td>NASDAQ OMX BX</td><td>Taker/Maker rebate model.</td></tr>
     <tr><td>NYSE</td><td>Exchange for medium and large cap companies.</td></tr>
     <tr><td>NYSE MKT</td><td>Exchange for small-cap companies.</td></tr>
