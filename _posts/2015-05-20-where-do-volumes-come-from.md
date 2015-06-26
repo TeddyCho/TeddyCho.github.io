@@ -67,7 +67,7 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
     <tr><td>NYSE</td><td>Exchange for medium and large cap companies.</td></tr>
     <tr><td>NYSE MKT</td><td>Exchange for small-cap companies.</td></tr>
     <tr><td>NYSE Arca</td><td>Fully electronic exchange.</td></tr>
-    <tr><td>National</td><td><a href = "http://www.nsx.com/index.php/news-views/175-nsx-successful-transition-to-an-inverted-pricing-model">Taker/Maker rebate model</a> and confirmed in <a="http://www.nsx.com/index.php/news-views/177-pricing-change-for-executions-in-securities-priced-at-1-00-or-greater">another press release</a></td></tr>
+    <tr><td>National</td><td><a href = "http://www.nsx.com/index.php/news-views/175-nsx-successful-transition-to-an-inverted-pricing-model">Taker/Maker rebate model</a> and confirmed in <a href="http://www.nsx.com/index.php/news-views/177-pricing-change-for-executions-in-securities-priced-at-1-00-or-greater">another press release</a></td></tr>
     <tr><td>Direct Edge A</td><td>BATS exchange. Taker/Maker rebate model.</td></tr>
     <tr><td>Direct Edge X</td><td>BATS exchange. Maker/Taker rebate model.</td></tr>
     <tr><td>BATS</td><td>Largest BATS exchange. Maker/Taker rebate model.</td></tr>
