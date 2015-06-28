@@ -61,18 +61,18 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
     <tr><th>Exchange</th> <th>Profile</th></tr>
   </thead>
   <tbody>
-    <tr bgcolor="#E67E6A"><td>NASDAQ</td><td>AMD, GOOG, GT, NDAQ, STLD, TSLA, WFM</td></tr>
-    <tr bgcolor="#E67E6A"><td>NASDAQ OMX BX</td><td>Taker/Maker rebate model.</td></tr>
-    <tr bgcolor="#E67E6A"><td>NASDAQ PSX</td><td>Pro rata allocation.</td></tr>
-    <tr bgcolor="#EDD258"><td>NYSE</td><td>Exchange for medium and large cap companies.</td></tr>
-    <tr bgcolor="#EDD258"><td>NYSE Arca</td><td>Fully electronic exchange.</td></tr>
-    <tr bgcolor="#EDD258"><td>NYSE MKT</td><td>Exchange for small-cap companies.</td></tr>
-    <tr bgcolor="#9FED64"><td>BATS</td><td>Largest BATS exchange. Maker/Taker rebate model.</td></tr>
-    <tr bgcolor="#9FED64"><td>BATS Y</td><td>BATS exchange. Taker/Maker rebate model.</td></tr>
-    <tr bgcolor="#9FED64"><td>Direct Edge X</td><td>BATS exchange. Maker/Taker rebate model.</td></tr>
-    <tr bgcolor="#9FED64"><td>Direct Edge A</td><td>BATS exchange. Taker/Maker rebate model.</td></tr>
-    <tr bgcolor="#4CD4B2"><td>Chicago</td><td>Fully electronic exchange.</td></tr>
-    <tr bgcolor="#E67E6A"><td>CBOE</td><td>No preference for maker or taker?? <a href = "http://www.nsx.com/index.php/news-views/175-nsx-successful-transition-to-an-inverted-pricing-model">Mentioned in NSX's press release about CBSX</a> and link to their current <a href = "http://www.cboe.com/publish/cbsxfeeschedule/cbsxfeeschedule.pdf">fee schedule...</a></td></tr>
+    <tr bgcolor="#FFB599"><td>NASDAQ</td><td>AMD, GOOG, GT, NDAQ, STLD, TSLA, WFM</td></tr>
+    <tr bgcolor="#FFB599"><td>NASDAQ OMX BX</td><td>Taker/Maker rebate model.</td></tr>
+    <tr bgcolor="#FFB599"><td>NASDAQ PSX</td><td>Pro rata allocation.</td></tr>
+    <tr bgcolor="#FFF59A"><td>NYSE</td><td>Exchange for medium and large cap companies.</td></tr>
+    <tr bgcolor="#FFF59A"><td>NYSE Arca</td><td>Fully electronic exchange.</td></tr>
+    <tr bgcolor="#FFF59A"><td>NYSE MKT</td><td>Exchange for small-cap companies.</td></tr>
+    <tr bgcolor="#CBFF8A"><td>BATS</td><td>Largest BATS exchange. Maker/Taker rebate model.</td></tr>
+    <tr bgcolor="#CBFF8A"><td>BATS Y</td><td>BATS exchange. Taker/Maker rebate model.</td></tr>
+    <tr bgcolor="#CBFF8A"><td>Direct Edge X</td><td>BATS exchange. Maker/Taker rebate model.</td></tr>
+    <tr bgcolor="#CBFF8A"><td>Direct Edge A</td><td>BATS exchange. Taker/Maker rebate model.</td></tr>
+    <tr bgcolor="#C2F7F1"><td>Chicago</td><td>Fully electronic exchange.</td></tr>
+    <tr bgcolor="#D3B5E3"><td>CBOE</td><td>No preference for maker or taker?? <a href = "http://www.nsx.com/index.php/news-views/175-nsx-successful-transition-to-an-inverted-pricing-model">Mentioned in NSX's press release about CBSX</a> and link to their current <a href = "http://www.cboe.com/publish/cbsxfeeschedule/cbsxfeeschedule.pdf">fee schedule...</a></td></tr>
     <tr bgcolor="#EDD258"><td>National</td><td><a href = "http://www.nsx.com/index.php/news-views/175-nsx-successful-transition-to-an-inverted-pricing-model">Taker/Maker rebate model</a> and confirmed in <a href="http://www.nsx.com/index.php/news-views/177-pricing-change-for-executions-in-securities-priced-at-1-00-or-greater">another press release</a></td></tr>
   </tbody>
 </table>
