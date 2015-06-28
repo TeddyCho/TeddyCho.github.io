@@ -101,7 +101,7 @@ Within NASDAQ stocks, exchange shares were consistent:
 
 <div id="tablediv2"></div>
 <div>
-    <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/NASDAQSymbolsForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
+    <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/breakdownCharts/NASDAQSymbolsForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 </div>
 </div>
 
@@ -113,7 +113,7 @@ Consistency was found between our two Arca symbols, save for BATS Y, Direct Edge
 
 <div id="tablediv3"></div>
 <div>
-    <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/ArcaSymbolsForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
+    <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/breakdownCharts/ArcaSymbolsForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 </div>
 </div>
 
@@ -126,7 +126,7 @@ Our NYSEMKT symbols appeared to represent two clusters of exchange market share 
 
 <div id="tablediv4"></div>
 <div>
-  <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/NYSEMKTSymbolsForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
+  <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/breakdownCharts/NYSEMKTSymbolsForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 </div>
 </div>
 
@@ -139,7 +139,7 @@ In both the Open and Close epochs, exchange market shares were clearly different
 
 <div id="tablediv5"></div>
 <div>
-<iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/perExchangeForOpenClose.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
+<iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/breakdownCharts/perExchangeForOpenClose.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 </div>
 </div>
 
