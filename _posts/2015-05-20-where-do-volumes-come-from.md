@@ -58,22 +58,22 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
 # Exchange Profiles
 <table>
   <thead>
-    <tr><th>Exchange</th> <th>Profile</th></tr>
+    <tr><th>Exchange</th> <th>Profile</th> <th>Fee Structure</th></tr>
   </thead>
   <tbody>
-    <tr bgcolor="#FFB599"><td>NASDAQ</td><td>AMD, GOOG, GT, NDAQ, STLD, TSLA, WFM</td></tr>
-    <tr bgcolor="#FFB599"><td>NASDAQ OMX BX</td><td>Taker/Maker rebate model.</td></tr>
-    <tr bgcolor="#FFB599"><td>NASDAQ PSX</td><td>Pro rata allocation.</td></tr>
-    <tr bgcolor="#FFCE96"><td>NYSE</td><td>Exchange for medium and large cap companies.</td></tr>
-    <tr bgcolor="#FFCE96"><td>NYSE Arca</td><td>Fully electronic exchange.</td></tr>
-    <tr bgcolor="#FFCE96"><td>NYSE MKT</td><td>Exchange for small-cap companies.</td></tr>
-    <tr bgcolor="#FFF59A"><td>BATS</td><td>Largest BATS exchange. Maker/Taker rebate model.</td></tr>
-    <tr bgcolor="#FFF59A"><td>BATS Y</td><td>BATS exchange. Taker/Maker rebate model.</td></tr>
-    <tr bgcolor="#FFF59A"><td>Direct Edge X</td><td>BATS exchange. Maker/Taker rebate model.</td></tr>
-    <tr bgcolor="#FFF59A"><td>Direct Edge A</td><td>BATS exchange. Taker/Maker rebate model.</td></tr>
-    <tr bgcolor="#CBFF8A"><td>Chicago</td><td>Fully electronic exchange.</td></tr>
-    <tr bgcolor="#C2F7F1"><td>CBOE</td><td>No preference for maker or taker?? <a href = "http://www.nsx.com/index.php/news-views/175-nsx-successful-transition-to-an-inverted-pricing-model">Mentioned in NSX's press release about CBSX</a> and link to their current <a href = "http://www.cboe.com/publish/cbsxfeeschedule/cbsxfeeschedule.pdf">fee schedule...</a></td></tr>
-    <tr bgcolor="#D3B5E3"><td>National</td><td><a href = "http://www.nsx.com/index.php/news-views/175-nsx-successful-transition-to-an-inverted-pricing-model">Taker/Maker rebate model</a> and confirmed in <a href="http://www.nsx.com/index.php/news-views/177-pricing-change-for-executions-in-securities-priced-at-1-00-or-greater">another press release</a></td></tr>
+    <tr bgcolor="#FFB599"><td>NASDAQ</td><td>NASDAQ flagship exchange.</td><td>Maker/Taker</td></tr>
+    <tr bgcolor="#FFB599"><td>NASDAQ OMX BX</td><td>Hi</td><td>Taker/Maker</td></tr>
+    <tr bgcolor="#FFB599"><td>NASDAQ PSX</td><td>Pro rata allocation.</td><td>Maker/Taker</td></tr>
+    <tr bgcolor="#FFCE96"><td>NYSE</td><td>Exchange for medium and large cap companies.</td><td>Maker/Taker</td></tr>
+    <tr bgcolor="#FFCE96"><td>NYSE Arca</td><td>Fully electronic exchange.</td><td>Maker/Taker</td></tr>
+    <tr bgcolor="#FFCE96"><td>NYSE MKT</td><td>Exchange for small-cap companies.</td><td>Maker/Taker</td></tr>
+    <tr bgcolor="#FFF59A"><td>BATS</td><td>Largest BATS exchange.</td><td>Maker/Taker</td></tr>
+    <tr bgcolor="#FFF59A"><td>BATS Y</td><td>BATS exchange.</td><td>Taker/Maker</td></tr>
+    <tr bgcolor="#FFF59A"><td>Direct Edge X</td><td>BATS exchange.</td><td>Maker/Taker</td></tr>
+    <tr bgcolor="#FFF59A"><td>Direct Edge A</td><td>BATS exchange.</td><td>Taker/Maker</td></tr>
+    <tr bgcolor="#CBFF8A"><td>Chicago</td><td>Fully electronic exchange.</td><td>Maker/Taker</td></tr>
+    <tr bgcolor="#C2F7F1"><td>CBOE</td><td>Fully electronic exchange.</td><td><a href="http://www.cboe.com/publish/cbsxfeeschedule/cbsxfeeschedule.pdf">Neutral</a></td></tr>
+    <tr bgcolor="#D3B5E3"><td>National</td><td>Fully electronic exchange.</td><td><a href="http://www.nsx.com/images/documents/bylaws/FeeSchedule04152014.pdf">Taker/Maker</a></td></tr>
   </tbody>
 </table>
 
