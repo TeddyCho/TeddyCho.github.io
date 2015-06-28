@@ -87,7 +87,7 @@ When trades are grouped by their symbols' primary listing exchanges, we observe 
 
 <div id="tablediv1"></div>
 <div>
-    <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/perExchangeForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
+    <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/breakdownCharts/perExchangeForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 </div>
 </div>
 
