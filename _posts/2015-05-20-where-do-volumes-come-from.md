@@ -61,16 +61,16 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
     <tr><th>Exchange</th> <th>Fee Structure</th> <th>Profile</th> </tr>
   </thead>
   <tbody>
-    <tr bgcolor="#FFB599"><td>NASDAQ</td><td>Maker/Taker</td><td>NASDAQ flagship exchange.</td></tr>
-    <tr bgcolor="#FFB599"><td>NASDAQ OMX BX</td><td><a href="http://www.nasdaqtrader.com/Trader.aspx?id=bx_pricing">Taker/Maker</a></td><td>Hi</td></tr>
-    <tr bgcolor="#FFB599"><td>NASDAQ PSX</td><td>Maker/Taker</td><td>Pro rata allocation.</td></tr>
-    <tr bgcolor="#FFCE96"><td>NYSE</td><td>Maker/Taker</td><td>Exchange for medium and large cap companies.</td></tr>
-    <tr bgcolor="#FFCE96"><td>NYSE Arca</td><td>Maker/Taker</td><td>Fully electronic exchange.</td></tr>
-    <tr bgcolor="#FFCE96"><td>NYSE MKT</td><td>Maker/Taker</td><td>Exchange for small-cap companies.</td></tr>
-    <tr bgcolor="#FFF59A"><td>BATS</td><td>Maker/Taker</td><td>Largest BATS exchange.</td></tr>
-    <tr bgcolor="#FFF59A"><td>BATS Y</td><td><a href="https://batstrading.com/resources/regulation/rule_book/BYX_Fee_Schedule.pdf">Taker/Maker</a></td><td>BATS exchange.</td></tr>
-    <tr bgcolor="#FFF59A"><td>Direct Edge X</td><td>Maker/Taker</td><td>BATS exchange.</td></tr>
-    <tr bgcolor="#FFF59A"><td>Direct Edge A</td><td>Maker/Taker</td><td>BATS exchange.</td></tr>
+    <tr bgcolor="#FFB599"><td>NASDAQ</td><td>Maker/Taker</td><td>Second largest stock exchange by volume.</td></tr>
+    <tr bgcolor="#FFB599"><td>NASDAQ OMX BX</td><td><a href="http://www.nasdaqtrader.com/Trader.aspx?id=bx_pricing">Taker/Maker</a></td><td>NASDAQ's alternative exchange offering rebates for taking liquidity.</td></tr>
+    <tr bgcolor="#FFB599"><td>NASDAQ PSX</td><td>Maker/Taker</td><td>NASDAQ's alternative exchange offering pro rata allocation.</td></tr>
+    <tr bgcolor="#FFCE96"><td>NYSE</td><td>Maker/Taker</td><td>Largest stock exchange by volume, geared for trading stock in medium and large cap companies. Features a physical trading floor.  Owned by Intercontinental Exchange (ICE).</td></tr>
+    <tr bgcolor="#FFCE96"><td>NYSE Arca</td><td>Maker/Taker</td><td>ICE's electronic communications network (ECN).</td></tr>
+    <tr bgcolor="#FFCE96"><td>NYSE MKT</td><td>Maker/Taker</td><td>ICE's exchange for small-cap companies following the NYSE exchange model.</td></tr>
+    <tr bgcolor="#FFF59A"><td>BATS BZX</td><td>Maker/Taker</td><td>BATS's flagship ECN.</td></tr>
+    <tr bgcolor="#FFF59A"><td>BATS BYX</td><td><a href="https://batstrading.com/resources/regulation/rule_book/BYX_Fee_Schedule.pdf">Taker/Maker</a></td><td>BATS's alternative ECN offering rebates for taking liquidity.</td></tr>
+    <tr bgcolor="#FFF59A"><td>BATS EDGX</td><td><a href="http://www.batsglobalmarkets.com/us/equities/membership/fee_schedule/edga/">Taker/Maker</a></td><td>BATS ECN.</td></tr>
+    <tr bgcolor="#FFF59A"><td>BATS EDGA</td><td>Maker/Taker</td><td>BATS exchange.</td></tr>
     <tr bgcolor="#CBFF8A"><td>Chicago</td><td>Maker/Taker</td><td>Fully electronic exchange.</td></tr>
     <tr bgcolor="#C2F7F1"><td>CBOE</td><td><a href="http://www.cboe.com/publish/cbsxfeeschedule/cbsxfeeschedule.pdf">Neutral</a></td><td>Fully electronic exchange.</td></tr>
     <tr bgcolor="#D3B5E3"><td>National</td><td><a href="http://www.nsx.com/images/documents/bylaws/FeeSchedule04152014.pdf">Taker/Maker</a></td><td>Fully electronic exchange.</td></tr>
