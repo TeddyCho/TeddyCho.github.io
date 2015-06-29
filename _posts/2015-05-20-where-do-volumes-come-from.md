@@ -62,13 +62,13 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
   </thead>
   <tbody>
     <tr bgcolor="#FFB599"><td>NASDAQ</td><td>Maker/Taker</td><td>NASDAQ flagship exchange.</td></tr>
-    <tr bgcolor="#FFB599"><td>NASDAQ OMX BX</td><td>Taker/Maker</td><td>Hi</td></tr>
+    <tr bgcolor="#FFB599"><td>NASDAQ OMX BX</td><td><a href="http://www.nasdaqtrader.com/Trader.aspx?id=bx_pricing">Taker/Maker</a></td><td>Hi</td></tr>
     <tr bgcolor="#FFB599"><td>NASDAQ PSX</td><td>Maker/Taker</td><td>Pro rata allocation.</td></tr>
     <tr bgcolor="#FFCE96"><td>NYSE</td><td>Maker/Taker</td><td>Exchange for medium and large cap companies.</td></tr>
     <tr bgcolor="#FFCE96"><td>NYSE Arca</td><td>Maker/Taker</td><td>Fully electronic exchange.</td></tr>
     <tr bgcolor="#FFCE96"><td>NYSE MKT</td><td>Maker/Taker</td><td>Exchange for small-cap companies.</td></tr>
     <tr bgcolor="#FFF59A"><td>BATS</td><td>Maker/Taker</td><td>Largest BATS exchange.</td></tr>
-    <tr bgcolor="#FFF59A"><td>BATS Y</td><td>Taker/Maker</td><td>BATS exchange.</td></tr>
+    <tr bgcolor="#FFF59A"><td>BATS Y</td><td><a href="https://batstrading.com/resources/regulation/rule_book/BYX_Fee_Schedule.pdf">Taker/Maker</a></td><td>BATS exchange.</td></tr>
     <tr bgcolor="#FFF59A"><td>Direct Edge X</td><td>Maker/Taker</td><td>BATS exchange.</td></tr>
     <tr bgcolor="#FFF59A"><td>Direct Edge A</td><td>Maker/Taker</td><td>BATS exchange.</td></tr>
     <tr bgcolor="#CBFF8A"><td>Chicago</td><td>Maker/Taker</td><td>Fully electronic exchange.</td></tr>
