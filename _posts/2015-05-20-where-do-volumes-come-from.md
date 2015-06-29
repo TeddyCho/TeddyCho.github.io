@@ -67,13 +67,13 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
     <tr bgcolor="#FFCE96"><td>NASDAQ</td><td>Maker/Taker</td><td>Second largest stock exchange by volume.</td></tr>
     <tr bgcolor="#FFCE96"><td>NASDAQ OMX BX</td><td><a href="http://www.nasdaqtrader.com/Trader.aspx?id=bx_pricing">Taker/Maker</a></td><td>NASDAQ's alternative exchange offering rebates for taking liquidity.</td></tr>
     <tr bgcolor="#FFCE96"><td>NASDAQ PSX</td><td>Maker/Taker</td><td>NASDAQ's alternative exchange offering pro rata allocation.</td></tr>
-    <tr bgcolor="#FFF59A"><td>BATS BZX</td><td>Maker/Taker</td><td>BATS's flagship electronic stock exchange.</td></tr>
+    <tr bgcolor="#FFF59A"><td>BATS BZX</td><td>Maker/Taker</td><td>BATS's flagship electronic exchange.</td></tr>
     <tr bgcolor="#FFF59A"><td>BATS BYX</td><td><a href="https://batstrading.com/resources/regulation/rule_book/BYX_Fee_Schedule.pdf">Taker/Maker</a></td><td>BATS's alternative electronic exchange offering rebates for taking liquidity.</td></tr>
     <tr bgcolor="#FFF59A"><td>BATS EDGA</td><td>Maker/Taker</td><td>BATS's alternative ECN .</td></tr>
     <tr bgcolor="#FFF59A"><td>BATS EDGX</td><td><a href="http://www.batsglobalmarkets.com/us/equities/membership/fee_schedule/edga/">Taker/Maker</a></td><td>BATS's alternative electronic exchange offering rebates for.</td></tr>
-    <tr bgcolor="#CBFF8A"><td>Chicago</td><td>Maker/Taker</td><td>Fully electronic exchange.</td></tr>
-    <tr bgcolor="#C2F7F1"><td>CBOE</td><td><a href="http://www.cboe.com/publish/cbsxfeeschedule/cbsxfeeschedule.pdf">Neutral</a></td><td>Fully electronic exchange.</td></tr>
-    <tr bgcolor="#D3B5E3"><td>National</td><td><a href="http://www.nsx.com/images/documents/bylaws/FeeSchedule04152014.pdf">Taker/Maker</a></td><td>Fully electronic exchange.</td></tr>
+    <tr bgcolor="#CBFF8A"><td>CHX</td><td>Maker/Taker</td><td>Fully electronic exchange, with market share < 1%. The only current exchange not owned by BATS, ICE, or NASDAQ.</td></tr>
+    <tr bgcolor="#C2F7F1"><td>CBSX</td><td><a href="http://www.cboe.com/publish/cbsxfeeschedule/cbsxfeeschedule.pdf">Neutral</a></td><td>CBOE's electronic stock exchange, which was <a href="http://www.wsj.com/articles/SB10001424052702304275304579395601716404662">closed in 2014</a>.</td></tr>
+    <tr bgcolor="#D3B5E3"><td>NSX</td><td><a href="http://www.nsx.com/images/documents/bylaws/FeeSchedule04152014.pdf">Taker/Maker</a></td><td>Electronic exchange which close in <a href="http://www.reuters.com/article/2015/02/13/us-nationalstockexchange-cboe-holdings-idUSKBN0LH2BF20150213">May 2014</a>. Undergoing actions <a href="http://www.nsx.com/index.php/news-views/376-expedited-process-for-reinstatement-as-etp-holder">to be reinstated</a>.</td></tr>
   </tbody>
 </table>
 
