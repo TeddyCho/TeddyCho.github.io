@@ -299,6 +299,9 @@ Over all trades, the volumes were distributed across exhanges as such:
 
 * Trades of exchange type "FINRA" are trades which happened off-exchange. Such trades are reported for TAQ publication through FINRA's ADF, TRF, or ORF, as written [here](http://www.finra.org/industry/trade-reporting-faq#100). <strong>These trades are excluded from the analysis.</strong>
 
+* Remaining questions on pre-open and post-close trades. There is a T code for "extended hours" trades, so why do some trades have no condition codes? A lot of intermarket sweep order condition codes. Weird thing where two trades happen at the same time/exchange, and their volumes add up to a round number, but only one has a condition code.
+* BAC had F, T, blank, and a 4 for 250000 traded on CHX, GOOG had @, T, and @F. Weird.
+
 <script>
 $(function(){
   $('#tablediv1').hide();
