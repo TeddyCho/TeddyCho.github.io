@@ -34,28 +34,6 @@ unlisted: true
 # Tasks
 > Using NYSE Trades and Quotes (TAQ) data for a representative sample of stocks, find the exchange market shares based on stock, time of day, and date.
 
-# Data
-The TAQ data covered the following time frame and symbols:
-<table>
-  <thead>
-    <tr>      <th>Timeframe</th> <th>NASDAQ</th> <th>NYSE</th> <th>Arca</th> <th>NYSEMKT</th>   </tr>
-  </thead>
-  <tbody>
-    <tr>      <td>01-Jan-2014 to 31-Dec-2014</td>
-      <td>AMD, GOOG, GT, NDAQ, STLD, TSLA, WFM</td> 
-      <td>BAC, BHP, BRKA, CVS, FE, GE, <br/> LTM, LUV, T, WSM, XOM</td> 
-      <td>SLV, TBF</td> 
-      <td>CCF, LIQT, ONP, ONVO</td> 
-    </tr>
-  </tbody>
-</table>
-<!---
-Transforming the above data (129M rows) to per-day-per-timeOfDay exchange volumes took 991 seconds on a 2.4 GHz/4GB laptop. The raw output from the code is [here](https://github.com/TeddyCho/TAQ/blob/master/data/breakdown5aa0ce4b018e0067.csv).
-
-The exchanges' volumes and market shares for each epoch of each trading day can be found [here](https://github.com/TeddyCho/TAQ/blob/master/data/taskTwo.csv).
---->
-
-
 # Exchange Market Shares During Regular Trading
 
 ## Between Stocks of Different Home Exchange
@@ -262,27 +240,21 @@ Over all trades, the volumes were distributed across exhanges as such:
 </table>
 --->
 
-# Notes
-* A trade's time of day was inferred from Sale Condition as follows:
+# Data
+The TAQ data covered the following time frame and symbols:
 <table>
   <thead>
-    <tr>      <th>Time of Day</th>      <th>Sale Condition</th>    </tr>
+    <tr>      <th>Timeframe</th> <th>NASDAQ</th> <th>NYSE</th> <th>Arca</th> <th>NYSEMKT</th>   </tr>
   </thead>
   <tbody>
-    <tr>      <td>Open</td>      <td>O, Q</td>    </tr>
-    <tr>      <td>Close</td>      <td>M, 6</td>    </tr>
-    <tr>      <td>After-Hours</td>      <td>T, U</td>    </tr>
-    <tr>      <td>Regular</td>      <td>Everything else</td>    </tr>
+    <tr>      <td>01-Jan-2014 to 31-Dec-2014</td>
+      <td>AMD, GOOG, GT, NDAQ, STLD, TSLA, WFM</td> 
+      <td>BAC, BHP, BRKA, CVS, FE, GE, <br/> LTM, LUV, T, WSM, XOM</td> 
+      <td>SLV, TBF</td> 
+      <td>CCF, LIQT, ONP, ONVO</td> 
+    </tr>
   </tbody>
 </table>
-
-* Some trades had an exchange code "Q", which did not exactly correspond to anything listed in the [spec sheet](www.nyxdata.com/doc/224904). We assumed "Q" referred to the NASDAQ exchange since "T/Q" corresponded to NASDAQ and "T" corresponded to NASDAQ OMX. Since NASDAQ only has three exchanges (BX, PSX, and NASDAQ), trades labeled as NASDAQ OMX and NASDAQ were combined into the NASDAQ label.
-
-* Trades of exchange type "FINRA" are trades which happened off-exchange. Such trades are reported for TAQ publication through FINRA's ADF, TRF, or ORF, as written [here](http://www.finra.org/industry/trade-reporting-faq#100). <strong>These trades are excluded from the analysis.</strong>
-
-* Remaining questions on pre-open and post-close trades. There is a T code for "extended hours" trades, so why do some trades have no condition codes? A lot of intermarket sweep order condition codes. Weird thing where two trades happen at the same time/exchange, and their volumes add up to a round number, but only one has a condition code.
-
-* BAC had F, T, blank, and a 4 for 250000 traded on CHX, GOOG had @, T, and @F. Weird.
 
 # Exchanges
 
@@ -306,6 +278,34 @@ Over all trades, the volumes were distributed across exhanges as such:
     <tr bgcolor="#D3B5E3"><td>NSX</td><td><a href="http://www.nsx.com/images/documents/bylaws/FeeSchedule04152014.pdf">Taker/Maker</a></td><td>Electronic exchange which <a href="http://www.reuters.com/article/2015/02/13/us-nationalstockexchange-cboe-holdings-idUSKBN0LH2BF20150213">closed in May 2014</a>. Undergoing actions <a href="http://www.nsx.com/index.php/news-views/376-expedited-process-for-reinstatement-as-etp-holder">to be reinstated</a>.</td></tr>
   </tbody>
 </table>
+<!---
+Transforming the above data (129M rows) to per-day-per-timeOfDay exchange volumes took 991 seconds on a 2.4 GHz/4GB laptop. The raw output from the code is [here](https://github.com/TeddyCho/TAQ/blob/master/data/breakdown5aa0ce4b018e0067.csv).
+
+The exchanges' volumes and market shares for each epoch of each trading day can be found [here](https://github.com/TeddyCho/TAQ/blob/master/data/taskTwo.csv).
+--->
+
+# Notes
+* A trade's time of day was inferred from Sale Condition as follows:
+<table>
+  <thead>
+    <tr>      <th>Time of Day</th>      <th>Sale Condition</th>    </tr>
+  </thead>
+  <tbody>
+    <tr>      <td>Open</td>      <td>O, Q</td>    </tr>
+    <tr>      <td>Close</td>      <td>M, 6</td>    </tr>
+    <tr>      <td>After-Hours</td>      <td>T, U</td>    </tr>
+    <tr>      <td>Regular</td>      <td>Everything else</td>    </tr>
+  </tbody>
+</table>
+
+* Some trades had an exchange code "Q", which did not exactly correspond to anything listed in the [spec sheet](www.nyxdata.com/doc/224904). We assumed "Q" referred to the NASDAQ exchange since "T/Q" corresponded to NASDAQ and "T" corresponded to NASDAQ OMX. Since NASDAQ only has three exchanges (BX, PSX, and NASDAQ), trades labeled as NASDAQ OMX and NASDAQ were combined into the NASDAQ label.
+
+* Trades of exchange type "FINRA" are trades which happened off-exchange. Such trades are reported for TAQ publication through FINRA's ADF, TRF, or ORF, as written [here](http://www.finra.org/industry/trade-reporting-faq#100). <strong>These trades are excluded from the analysis.</strong>
+
+* Remaining questions on pre-open and post-close trades. There is a T code for "extended hours" trades, so why do some trades have no condition codes? A lot of intermarket sweep order condition codes. Weird thing where two trades happen at the same time/exchange, and their volumes add up to a round number, but only one has a condition code.
+
+* BAC had F, T, blank, and a 4 for 250000 traded on CHX, GOOG had @, T, and @F. Weird.
+
 <script>
 $(function(){
   $('#tablediv1').hide();
