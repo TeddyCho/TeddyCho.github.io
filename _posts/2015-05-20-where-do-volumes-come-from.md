@@ -35,8 +35,10 @@ unlisted: true
 > Using NYSE Trades and Quotes (TAQ) data for a representative sample of stocks, find the exchange market shares based on stock, time of day, and date.
 
 # Correlations of Exchange Shares in Time Buckets
-When studying the way exchange shares moved over time, we began with some filtering conditions to 
+When studying the way exchange shares moved over time, we began with some filtering conditions to look at an uneventful, representative sample of regular trading (e.g., away from open/close, holidays).
+
 In this analysis, time buckets with zero volume traded were discarded; time buckets between which no trades happened were considered to be adjacent.
+
 For example, exchange volumes could like this for BAC, in 30 second buckets.
 <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/anims/animationBAC30.gif">
 
