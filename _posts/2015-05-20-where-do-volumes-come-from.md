@@ -43,9 +43,9 @@ For example, exchange volumes could like this for BAC, in 30 second buckets.
 In the following correlation matrix, the exchanges are ordered such that:
 
 * the very small-share exchanges take the first three spot (out of the way),
-* the taker/maker exchanges take spots 4 through 6
-* the maker/taker exchanges take the remaining spots
-* 
+* the taker/maker exchanges take spots 4 through 6, and
+* the larger maker/taker exchanges take the remaining spots.
+
 <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/correlationMatrix30.png">
 
 Of note are the negative correlations corresponding to the taker/maker exchanges (and NYSE) with the larger maker/taker exchanges. It suggests a particular choice between a taker/maker exchange and a maker/taker exchange.
