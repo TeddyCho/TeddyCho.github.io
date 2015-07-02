@@ -34,6 +34,68 @@ unlisted: true
 # Tasks
 > Using NYSE Trades and Quotes (TAQ) data for a representative sample of stocks, find the exchange market shares based on stock, time of day, and date.
 
+# Correlations of Exchange Shares in Time Buckets
+When studying the way exchange shares moved over time, we began with some filtering conditions to 
+In this analysis, time buckets with zero volume traded were discarded; time buckets between which no trades happened were considered to be adjacent.
+For example, exchange volumes could like this for BAC, in 30 second buckets.
+<img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/anims/animationBAC60.gif">
+
+In the following correlation matrix, the exchanges are ordered such that:
+
+* the very small-share exchanges take the first three spot (out of the way),
+* the taker/maker exchanges take spots 4 through 6
+* the maker/taker exchanges take the remaining spots
+<img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/correlationMatrix30.png">
+
+Of note are the negative correlations corresponding to the taker/maker exchanges (and NYSE) with the larger maker/taker exchanges. It suggests a particular choice between a taker/maker exchange and a maker/taker exchange.
+
+# Exchange Share Over Different Trade Burst Sizes
+
+Let us consider an investor's preference for exchanges to be consistent over time (based on bid/offer prices/volumes, fee structure). Perhaps the only reason all their volume may not be sent to their most preferred exchange is because their desired size is too big, which forces some of their size to their second preferred exchange, and then their third choice, and so on.
+
+To begin exploring this, a "trade burst" is considered to be all trades happening in a one-second interval. For a given exchange, each trade burst is plotted as a point to designate the total size of the trade burst and the given exchange's volume share.
+
+Trade bursts where the exchange had no representation were excluded. (Although this may be valuable.)
+
+The above was done for GOOG and BAC:
+
+#### GOOG
+
+<div id="slides">
+      <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
+      <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/NYSE.Arca.SMGOOGPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/Direct.Edge.XGOOGPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/BATSGOOGPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/NASDAQ.OMX.BXGOOGPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/BATS.YGOOGPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/Direct.Edge.AGOOGPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/NASDAQ.OMX.PSXGOOGPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/CBOEGOOGPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/NationalGOOGPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/ChicagoGOOGPropVolumePlot.jpg">
+</div>
+
+#### BAC
+
+<div id="slides2">
+      <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
+      <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/Direct.Edge.XBACPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NASDAQ.OMXBACPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NYSEBACPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/BATSBACPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NYSE.Arca.SMBACPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/Direct.Edge.ABACPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NASDAQ.OMX.BXBACPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/BATS.YBACPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NASDAQ.OMX.PSXBACPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NationalBACPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/ChicagoBACPropVolumePlot.jpg">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/CBOEBACPropVolumePlot.jpg">
+</div>
+
+
 # Exchange Market Shares During Regular Trading
 
 ## Between Stocks of Different Home Exchange
@@ -121,67 +183,6 @@ To explain why different symbols' open/close volumes adhere strongly to their ho
 Literature also suggests that exchanges' DMMs and LMMs oversee the opening/closing auctions and only deal with their respective exchanges' primary listings:
 
 * <a href="https://www.nyse.com/publicdocs/nyse/markets/liquidity-programs/arca_mm_orientation.pdf">Arca Market Maker Orientation</a>
-
-# Correlations of Exchange Shares in Time Buckets
-When studying the way exchange shares moved over time, we began with some filtering conditions to 
-In this analysis, time buckets with zero volume traded were discarded; time buckets between which no trades happened were considered to be adjacent.
-For example, exchange volumes could like this for BAC, in 30 second buckets.
-<img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/anims/animationBAC60.gif">
-
-In the following correlation matrix, the exchanges are ordered such that:
-
-* the very small-share exchanges take the first three spot (out of the way),
-* the taker/maker exchanges take spots 4 through 6
-* the maker/taker exchanges take the remaining spots
-<img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/correlationMatrix30.png">
-
-Of note are the negative correlations corresponding to the taker/maker exchanges (and NYSE) with the larger maker/taker exchanges. It suggests a particular choice between a taker/maker exchange and a maker/taker exchange.
-
-# Exchange Share Over Different Trade Burst Sizes
-
-Let us consider an investor's preference for exchanges to be consistent over time (based on bid/offer prices/volumes, fee structure). Perhaps the only reason all their volume may not be sent to their most preferred exchange is because their desired size is too big, which forces some of their size to their second preferred exchange, and then their third choice, and so on.
-
-To begin exploring this, a "trade burst" is considered to be all trades happening in a one-second interval. For a given exchange, each trade burst is plotted as a point to designate the total size of the trade burst and the given exchange's volume share.
-
-Trade bursts where the exchange had no representation were excluded. (Although this may be valuable.)
-
-The above was done for GOOG and BAC:
-
-#### GOOG
-
-<div id="slides">
-      <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
-      <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/NYSE.Arca.SMGOOGPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/Direct.Edge.XGOOGPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/BATSGOOGPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/NASDAQ.OMX.BXGOOGPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/BATS.YGOOGPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/Direct.Edge.AGOOGPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/NASDAQ.OMX.PSXGOOGPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/CBOEGOOGPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/NationalGOOGPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/ChicagoGOOGPropVolumePlot.jpg">
-</div>
-
-#### BAC
-
-<div id="slides2">
-      <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
-      <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/Direct.Edge.XBACPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NASDAQ.OMXBACPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NYSEBACPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/BATSBACPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NYSE.Arca.SMBACPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/Direct.Edge.ABACPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NASDAQ.OMX.BXBACPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/BATS.YBACPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NASDAQ.OMX.PSXBACPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NationalBACPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/ChicagoBACPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/CBOEBACPropVolumePlot.jpg">
-</div>
 
 <!---
 # Exchange Market Shares During After-Hours
