@@ -53,6 +53,7 @@ In the following correlation matrix, the exchanges are ordered such that:
 
 Of note are the negative correlations corresponding to the taker/maker exchanges (and NYSE) with the larger maker/taker exchanges. It suggests substituting going on between a exchanges based on who they rebate.
 
+<!---
 # Exchange Share Over Different Trade Burst Sizes
 
 Let us consider an investor's preference for exchanges to be consistent over time (based on bid/offer prices/volumes, fee structure). Perhaps the only reason all their volume may not be sent to their most preferred exchange is because their desired size is too big, which forces some of their size to their second preferred exchange, and then their third choice, and so on.
@@ -98,7 +99,7 @@ The above was done for GOOG and BAC:
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/ChicagoBACPropVolumePlot.jpg">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/CBOEBACPropVolumePlot.jpg">
 </div>
-
+--->
 
 # Exchange Market Shares During Regular Trading
 
