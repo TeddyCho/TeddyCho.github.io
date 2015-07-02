@@ -51,7 +51,7 @@ In the following correlation matrix, the exchanges are ordered such that:
 
 <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/correlationMatrix30.png">
 
-Of note are the negative correlations corresponding to the taker/maker exchanges (and NYSE) with the larger maker/taker exchanges. It suggests a particular choice between a taker/maker exchange and a maker/taker exchange.
+Of note are the negative correlations corresponding to the taker/maker exchanges (and NYSE) with the larger maker/taker exchanges. It suggests substituting going on between a exchanges based on who they rebate.
 
 # Exchange Share Over Different Trade Burst Sizes
 
