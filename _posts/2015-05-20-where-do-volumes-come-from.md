@@ -40,6 +40,7 @@ When studying the way exchange shares moved over time, we began with some filter
 In this analysis, time buckets with zero volume traded were discarded; time buckets between which no trades happened were considered to be adjacent.
 
 For example, exchange volumes could like this for BAC, in 30 second buckets.
+
 <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/anims/animationBAC30.gif">
 
 In the following correlation matrix, the exchanges are ordered such that:
