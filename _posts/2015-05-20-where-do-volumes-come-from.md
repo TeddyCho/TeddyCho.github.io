@@ -122,19 +122,8 @@ Literature also suggests that exchanges' DMMs and LMMs oversee the opening/closi
 
 * <a href="https://www.nyse.com/publicdocs/nyse/markets/liquidity-programs/arca_mm_orientation.pdf">Arca Market Maker Orientation</a>
 
-# Time Intervals With Concentrated Exchange Volumes
 
-## Minute Intervals
-
-No evidence was found that volumes concentrated in one exchange at a time.
-
-## Second Intervals
-
-Even in one-second intervals, volumes did not appear to concentrate in one exchange at a time.
-
-Data tables are available for <a href = "https://github.com/TeddyCho/TAQ/tree/master/data/profileSeries/highPrice">High Price Stocks</a> and <a href = "https://github.com/TeddyCho/TAQ/tree/master/data/profileSeries/lowPrice">Low Price Stocks</a>.
-
-### Exchange Share Over Different Trade Burst Sizes
+# Exchange Share Over Different Trade Burst Sizes
 
 Let us consider an investor's preference for exchanges to be consistent over time (based on bid/offer prices/volumes, fee structure). Perhaps the only reason all their volume may not be sent to their most preferred exchange is because their desired size is too big, which forces some of their size to their second preferred exchange, and then their third choice, and so on.
 
