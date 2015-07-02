@@ -69,7 +69,7 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
     <tr bgcolor="#FFCE96"><td>NASDAQ PSX</td><td>Maker/Taker</td><td>NASDAQ's alternative exchange offering pro rata allocation.</td></tr>
     <tr bgcolor="#FFF59A"><td>BATS BZX</td><td>Maker/Taker</td><td>BATS's flagship electronic exchange.</td></tr>
     <tr bgcolor="#FFF59A"><td>BATS BYX</td><td><a href="https://batstrading.com/resources/regulation/rule_book/BYX_Fee_Schedule.pdf">Taker/Maker</a></td><td>BATS's alternative electronic exchange offering rebates for taking liquidity.</td></tr>
-    <tr bgcolor="#FFF59A"><td>BATS EDGA</td><td>Maker/Taker</td><td>BATS's alternative ECN .</td></tr>
+    <tr bgcolor="#FFF59A"><td>BATS EDGA</td><td>Maker/Taker</td><td>BATS's alternative electronic exchange .</td></tr>
     <tr bgcolor="#FFF59A"><td>BATS EDGX</td><td><a href="http://www.batsglobalmarkets.com/us/equities/membership/fee_schedule/edga/">Taker/Maker</a></td><td>BATS's alternative electronic exchange offering rebates for.</td></tr>
     <tr bgcolor="#CBFF8A"><td>CHX</td><td>Maker/Taker</td><td>Fully electronic exchange, with market share < 1%. The only current exchange not owned by BATS, ICE, or NASDAQ.</td></tr>
     <tr bgcolor="#C2F7F1"><td>CBSX</td><td><a href="http://www.cboe.com/publish/cbsxfeeschedule/cbsxfeeschedule.pdf">Neutral</a></td><td>CBOE's electronic stock exchange, which was <a href="http://www.bloomberg.com/news/articles/2014-05-02/national-stock-exchange-files-with-sec-to-halt-operations">closed in April 2014</a>.</td></tr>
@@ -91,6 +91,7 @@ When trades are grouped by their symbols' primary listing exchanges, we observe 
 </div>
 </div>
 
+<!---
 To further support that primary exchange helps determine exchange market share profile, we expand each group by their constituent symbols.
 
 ## NASDAQ Stocks
@@ -129,6 +130,7 @@ Our NYSEMKT symbols appeared to represent two clusters of exchange market share 
   <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/breakdownCharts/NYSEMKTSymbolsForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 </div>
 </div>
+--->
 
 # Exchange Market Shares During Open and Close Auction
 
