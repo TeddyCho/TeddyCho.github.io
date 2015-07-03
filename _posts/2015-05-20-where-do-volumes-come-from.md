@@ -43,7 +43,7 @@ For example, exchange volumes could like this for BAC, in 30 second buckets.
 
 <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/anims/animationBAC30.gif">
 
-In the following correlation matrix, the exchanges are ordered such that:
+In the following correlation matrices, the exchanges are ordered such that:
 
 * the very small-share exchanges take the first three spot (out of the way),
 * the taker/maker exchanges take spots 4 through 6, and
@@ -87,7 +87,7 @@ In GOOG, of note are the positive relationships among taker/maker exchanges and 
 
 ## GOOG
 <div style="width:480px;height:480px;">
-<div id="slides4">
+<div id="slides3">
       <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
       <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/5Seconds/acfBATS.BYX.png">
