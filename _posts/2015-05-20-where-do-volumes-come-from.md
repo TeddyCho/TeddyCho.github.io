@@ -63,6 +63,7 @@ In GOOG, of note are the positive relationships among taker/maker exchanges and 
 # Autocorrelations of Exchange Shares
 
 ## BAC
+<div style="width:480px;height:480px;">
 <div id="slides3">
       <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
       <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
@@ -81,6 +82,7 @@ In GOOG, of note are the positive relationships among taker/maker exchanges and 
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfMakerTaker.png">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfTakerMaker.png">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfNonNyseMakerTaker.png">
+</div>
 </div>
 
 ## GOOG
