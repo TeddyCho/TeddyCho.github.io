@@ -49,12 +49,41 @@ In the following correlation matrix, the exchanges are ordered such that:
 * the taker/maker exchanges take spots 4 through 6, and
 * the larger maker/taker exchanges take the remaining spots.
 
+## BAC
+
 <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/correlationMatrix.png">
 
+## GOOG
 <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/5Seconds/correlationMatrix.png">
 
-Of note are the negative correlations corresponding to the taker/maker exchanges (and NYSE) with the larger maker/taker exchanges. It suggests substituting going on between a exchanges based on who they rebate.
+In BAC, of note are the negative correlations corresponding to the taker/maker exchanges (and NYSE) with the larger maker/taker exchanges. It suggests substituting going on between exchanges based on who they rebate.
 
+In GOOG, of note are the positive relationships among taker/maker exchanges and the negative relationships among maker/taker exchanges. It suggest substituting going on among maker/taker exchanges and complementing going on among taker/maker exchanges.
+
+# Autocorrelations of Exchange Shares
+
+## BAC
+<div id="slides3">
+      <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
+      <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfBATS.BYX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfBATS.BZX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfBATS.EDGA.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfBATS.EDGX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfCBSX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfCHX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfNASDAQ.BX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfNASDAQ.PSX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfNASDAQ.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfNSX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfNYSE.Arca.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfNYSE.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfMakerTaker.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfTakerMaker.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfNonNyseMakerTaker.png">
+</div>
+
+## GOOG
 <!---
 # Exchange Share Over Different Trade Burst Sizes
 
@@ -353,6 +382,38 @@ $(function(){
       }
     );
   $("#slides2").slidesjs({
+      width: 300, height: 250,
+        navigation: {
+          active: false,
+          effect: "fade"
+        },
+        pagination: {
+          effect: "fade"
+        },
+        effect: {
+          fade: {
+            speed: 100
+          }
+        }
+      }
+    );
+  $("#slides3").slidesjs({
+      width: 300, height: 250,
+        navigation: {
+          active: false,
+          effect: "fade"
+        },
+        pagination: {
+          effect: "fade"
+        },
+        effect: {
+          fade: {
+            speed: 100
+          }
+        }
+      }
+    );
+  $("#slides4").slidesjs({
       width: 300, height: 250,
         navigation: {
           active: false,
