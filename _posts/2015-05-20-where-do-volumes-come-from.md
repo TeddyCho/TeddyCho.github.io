@@ -49,7 +49,9 @@ In the following correlation matrix, the exchanges are ordered such that:
 * the taker/maker exchanges take spots 4 through 6, and
 * the larger maker/taker exchanges take the remaining spots.
 
-<img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/correlationMatrix30.png">
+<img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/correlationMatrix.png">
+
+<img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/5Seconds/correlationMatrix.png">
 
 Of note are the negative correlations corresponding to the taker/maker exchanges (and NYSE) with the larger maker/taker exchanges. It suggests substituting going on between a exchanges based on who they rebate.
 
