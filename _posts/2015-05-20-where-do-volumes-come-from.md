@@ -439,9 +439,6 @@ $(function(){
           active: false,
           effect: "fade"
         },
-        pagination: {
-          effect: "fade"
-        },
         effect: {
           fade: {
             speed: 100
