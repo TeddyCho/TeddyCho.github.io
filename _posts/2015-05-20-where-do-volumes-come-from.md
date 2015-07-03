@@ -433,7 +433,7 @@ $(function(){
         }
       }
     );
-  $("#slides4").slidesjs({
+  $("#slides").slidesjs({
       width: 480, height: 480,
         navigation: {
           active: false,
