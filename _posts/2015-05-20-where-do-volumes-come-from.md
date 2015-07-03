@@ -51,19 +51,29 @@ In the following correlation matrices, the exchanges are ordered such that:
 
 ## BAC
 
-<img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/correlationMatrix.png">
+<div style="width:480px;height:480px;">
+<div id="slides5">
+      <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
+      <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/1Seconds/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/30Seconds/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/60Seconds/correlationMatrix.png">
+</div>
+</div>
 
 In BAC, of note are the negative correlations corresponding to the taker/maker exchanges (and NYSE) with the larger maker/taker exchanges. It suggests substituting going on between exchanges based on who they rebate.
 
 ## GOOG
-<!---<div style="width:480px;height:480px;">--->
-<div id="slides3">
+<div style="width:480px;height:480px;">
+<div id="slides5">
       <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
       <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
-<img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/1Seconds/correlationMatrix.png">
-<img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/5Seconds/correlationMatrix.png">
-<img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/30Seconds/correlationMatrix.png">
-<img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/60Seconds/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/1Seconds/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/5Seconds/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/30Seconds/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/60Seconds/correlationMatrix.png">
+</div>
 </div>
 
 In GOOG, of note are the positive relationships among taker/maker exchanges and the negative relationships among maker/taker exchanges. It suggest substituting going on among maker/taker exchanges and complementing going on among taker/maker exchanges.
