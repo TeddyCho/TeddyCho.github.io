@@ -84,6 +84,7 @@ In GOOG, of note are the positive relationships among taker/maker exchanges and 
 </div>
 
 ## GOOG
+<div style="width:480px;height:480px;">
 <div id="slides4">
       <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
       <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
@@ -98,10 +99,9 @@ In GOOG, of note are the positive relationships among taker/maker exchanges and 
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/5Seconds/acfNASDAQ.png">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/5Seconds/acfNSX.png">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/5Seconds/acfNYSE.Arca.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/5Seconds/acfNYSE.png">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/5Seconds/acfMakerTaker.png">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/5Seconds/acfTakerMaker.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/5Seconds/acfNonNyseMakerTaker.png">
+</div>
 </div>
 
 <!---
@@ -437,6 +437,9 @@ $(function(){
       width: 480, height: 480,
         navigation: {
           active: false,
+          effect: "fade"
+        },
+        pagination: {
           effect: "fade"
         },
         effect: {
