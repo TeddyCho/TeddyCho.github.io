@@ -61,10 +61,7 @@ In the following correlation matrices, the exchanges are ordered such that:
       <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/60Seconds/correlationMatrix.png">
 </div>
 </div>
-
-
-
-
+<br>
 In BAC, of note are the negative correlations corresponding to the taker/maker exchanges (and NYSE) with the larger maker/taker exchanges. It suggests substituting going on between exchanges based on who they rebate.
 
 ## GOOG
