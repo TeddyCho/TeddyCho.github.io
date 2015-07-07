@@ -12,6 +12,7 @@ unlisted: true
 <a name="demo"></a>
 
 # Demo
+<div id="slider-range-min"></div>
 
 <BODY BGCOLOR="#FFFFFF" onLoad="launch()">
   <CENTER>
