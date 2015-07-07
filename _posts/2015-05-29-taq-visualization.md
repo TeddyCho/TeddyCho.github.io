@@ -370,9 +370,9 @@ function animation()
   count = first_image;
 }
 
-$(function () {
+function () {
     var secondsArray = ["1 second", "10 seconds", "2 minutes", "30 minutes", "6 hours", "24 hours"];
-    $("#slider-range-min").slider({
+    ("#slider-range-min").slider({
         range: "min",
         value: 0,
         min:   0,
@@ -380,8 +380,8 @@ $(function () {
         slide: function (event, ui) {
             $("#amount").val(secondsArray[ui.value] );
         }
-    });
-    $("#amount").val(secondsArray[$("#slider-range-min").slider("value")]);
-});
+    }
+    ("#amount").val(secondsArray[$("#slider-range-min").slider("value")]);
+}
 
 </SCRIPT>
