@@ -46,8 +46,6 @@ For example, exchange volumes could look like this for BAC, in 30 second buckets
 
 <div id="slider-range-min"></div>
 
-okay
-
 <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/anims/animationBAC30.gif">
 
 In the following correlation matrices (Pearson's), the exchanges are ordered such that:
@@ -399,17 +397,24 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
 
 <script>
 $(function(){
-  var secondsArray = ["1 second", "10 seconds", "2 minutes", "30 minutes", "6 hours", "24 hours"];
+  var secondsToPrettyArray = ["1 second", "10 seconds", "2 minutes", "30 minutes", "6 hours", "24 hours"];
+  var secondsArray = [1, 10, 120, 1800, 21600, 86400];
   $("#slider-range-min").slider({
       range: "min",
       value: 0,
       min:   0,
       max:   5,
       slide: function (event, ui) {
-          $("#amount").val(secondsArray[ui.value] );
+          $("#amount").val(secondsToPrettyArray[ui.value]);
+          switchShareGIF(secondsArray[ui.value])
       }
   });
-  $("#amount").val(secondsArray[$("#slider-range-min").slider("value")]);
+  $("#amount").val(secondsToPrettyArray[$("#slider-range-min").slider("value")]);
+  
+  function switchShareGIF()
+  {
+    
+  }
   
   $('#tablediv1').hide();
   $('#tablediv2').hide();
