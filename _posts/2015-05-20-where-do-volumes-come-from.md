@@ -43,7 +43,7 @@ For example, exchange volumes could look like this for BAC, in 30 second buckets
 
 <label for="amount">Time Interval:</label>
 <input type="text" id="amount" />
-<div id="slider-range-min"></div>
+<div id="slides5"></div>
 
 <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/anims/animationBAC30.gif">
 
