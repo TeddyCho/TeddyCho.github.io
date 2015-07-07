@@ -46,6 +46,8 @@ For example, exchange volumes could look like this for BAC, in 30 second buckets
 
 <div id="slider-range-min"></div>
 
+okay
+
 <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/anims/animationBAC30.gif">
 
 In the following correlation matrices (Pearson's), the exchanges are ordered such that:
