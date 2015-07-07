@@ -406,9 +406,11 @@ $(function(){
         max:   5,
         slide: function (event, ui) {
             $("#amount").val(secondsToPrettyArray[ui.value] );
+            switchShareGIF(secondsToPrettyArray[ui.value] );
         }
     });
     $("#amount").val(secondsToPrettyArray[$("#slider-range-min").slider("value")]);
+    secondsToPrettyArray[secondsToPrettyArray[$("#slider-range-min").slider("value")]] 
 
 function switchShareGIF(secVal)
 {
