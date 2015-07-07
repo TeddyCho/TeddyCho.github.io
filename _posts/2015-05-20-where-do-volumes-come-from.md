@@ -398,7 +398,7 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
 <script>
 $(function(){
     var secondsToPrettyArray = ["1 second", "10 seconds", "2 minutes", "30 minutes", "6 hours", "24 hours"];
-  var secondsArray = [1, 30, 60, 300, 1800];
+  var secondsArray = [1, 10, 120, 1800, 21600, 86400];
     $("#slider-range-min").slider({
         range: "min",
         value: 0,
