@@ -370,18 +370,16 @@ function animation()
   count = first_image;
 }
 
-function () {
-    var secondsArray = ["1 second", "10 seconds", "2 minutes", "30 minutes", "6 hours", "24 hours"];
-    document.getElementById("slider-range-min").slider({
-        range: "min",
-        value: 0,
-        min:   0,
-        max:   5,
-        slide: function (event, ui) {
-            document.getElementById("amount").val(secondsArray[ui.value] );
-        }
+var secondsArray = ["1 second", "10 seconds", "2 minutes", "30 minutes", "6 hours", "24 hours"];
+document.getElementById("slider-range-min").slider({
+    range: "min",
+    value: 0,
+    min:   0,
+    max:   5,
+    slide: function (event, ui) {
+        document.getElementById("amount").val(secondsArray[ui.value] );
     }
-    document.getElementById("amount").val(secondsArray[document.getElementById("slider-range-min").slider("value")]);
 }
+document.getElementById("amount").val(secondsArray[document.getElementById("slider-range-min").slider("value")]);
 
 </SCRIPT>
