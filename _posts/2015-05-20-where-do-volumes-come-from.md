@@ -43,7 +43,8 @@ For example, exchange volumes could look like this for BAC, in 30 second buckets
 
 <label for="amount">Time Interval:</label>
 <input type="text" id="amount" />
-<div id="slides5"></div>
+
+<div id="slider-range-min"></div>
 
 <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/anims/animationBAC30.gif">
 
@@ -52,7 +53,6 @@ In the following correlation matrices (Pearson's), the exchanges are ordered suc
 * the very small-share exchanges take the first three spot (out of the way),
 * the taker/maker exchanges take spots 4 through 6, and
 * the larger maker/taker exchanges take the remaining spots.
-* 
 
 ## BAC
 
