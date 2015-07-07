@@ -403,7 +403,7 @@ $(function(){
         range: "min",
         value: 0,
         min:   0,
-        max:   secondsArray.length,
+        max:   secondsArray.length - 1,
         slide: function (event, ui) {
             $("#amount").val(secondsToPrettyArray[ui.value] );
             switchShareGIF(secondsArray[ui.value] );
