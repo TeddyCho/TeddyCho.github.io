@@ -396,7 +396,7 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
 * Defend correlating proportions.
 
 <script>
-
+$(function(){
   $('#tablediv1').hide();
   $('#tablediv2').hide();
   $('#tablediv3').hide();
