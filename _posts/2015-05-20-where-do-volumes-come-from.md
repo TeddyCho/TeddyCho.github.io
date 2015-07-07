@@ -41,6 +41,10 @@ In this analysis, time buckets with zero volume traded were discarded; time buck
 
 For example, exchange volumes could look like this for BAC, in 30 second buckets.
 
+<label for="amount">Time Interval:</label>
+<input type="text" id="amount" />
+<div id="slider-range-min"></div>
+
 <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/anims/animationBAC30.gif">
 
 In the following correlation matrices (Pearson's), the exchanges are ordered such that:
@@ -393,6 +397,18 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
 
 <script>
 $(function(){
+  var secondsArray = ["1 second", "10 seconds", "2 minutes", "30 minutes", "6 hours", "24 hours"];
+  $("#slider-range-min").slider({
+      range: "min",
+      value: 0,
+      min:   0,
+      max:   5,
+      slide: function (event, ui) {
+          $("#amount").val(secondsArray[ui.value] );
+      }
+  });
+  $("#amount").val(secondsArray[$("#slider-range-min").slider("value")]);
+  
   $('#tablediv1').hide();
   $('#tablediv2').hide();
   $('#tablediv3').hide();
@@ -659,7 +675,6 @@ var hot5 = new Handsontable(container5, {
       {data: 4, type: 'numeric', format: '0.00%'}
     ]
   });
-  
 });
 </script>
 
