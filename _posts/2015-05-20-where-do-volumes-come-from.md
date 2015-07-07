@@ -39,15 +39,16 @@ When studying the way exchange shares moved over time, we began with some filter
 
 In this analysis, time buckets with zero volume traded were discarded; time buckets between which no trades happened were considered to be adjacent.
 
-For example, exchange volumes could like this for BAC, in 30 second buckets.
+For example, exchange volumes could look like this for BAC, in 30 second buckets.
 
 <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/anims/animationBAC30.gif">
 
-In the following correlation matrices, the exchanges are ordered such that:
+In the following correlation matrices (Pearson's), the exchanges are ordered such that:
 
 * the very small-share exchanges take the first three spot (out of the way),
 * the taker/maker exchanges take spots 4 through 6, and
 * the larger maker/taker exchanges take the remaining spots.
+* 
 
 ## BAC
 
@@ -79,6 +80,8 @@ In BAC, of note are the negative correlations corresponding to the taker/maker e
 In GOOG, of note are the positive relationships among taker/maker exchanges and the negative relationships among maker/taker exchanges. It suggest substituting going on among maker/taker exchanges and complementing going on among taker/maker exchanges.
 
 # Autocorrelations of Exchange Shares
+
+Autocorrelation was computed using Pearson's formula.
 
 ## BAC
 <div style="width:480px;height:480px;">
