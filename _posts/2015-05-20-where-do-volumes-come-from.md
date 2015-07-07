@@ -406,18 +406,11 @@ $(function () {
         max:   5,
         slide: function (event, ui) {
             $("#amount").val(secondsToPrettyArray[ui.value] );
-            switchShareGIF(secondsArray[ui.value])
         }
     });
     $("#amount").val(secondsToPrettyArray[$("#slider-range-min").slider("value")]);
     $("#shareGIF").show();
-};
-function switchShareGIF(secVal)
-{
-  myFilePrefix = "https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/anims/animation"
-  mySymbol = "BAC"
-  $("#shareGIF").attr("src",myFilePrefix.concat(mySymbol).concat(secVal).concat(".gif"));  
-}
+});
 
   $('#tablediv1').hide();
   $('#tablediv2').hide();
