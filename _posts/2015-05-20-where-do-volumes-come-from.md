@@ -389,6 +389,8 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
 
 * BAC had F, T, blank, and a 4 for 250000 traded on CHX, GOOG had @, T, and @F. Weird.
 
+* Defend correlating proportions.
+
 <script>
 $(function(){
   $('#tablediv1').hide();
