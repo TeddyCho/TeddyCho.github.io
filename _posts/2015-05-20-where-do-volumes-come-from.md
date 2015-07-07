@@ -39,7 +39,7 @@ When studying the way exchange shares moved over time, we began with some filter
 
 In this analysis, time buckets with zero volume traded were discarded; time buckets between which no trades happened were considered to be adjacent.
 
-For example, exchange volumes could look like this for BAC, in 30 second buckets.
+For example, exchange volumes could look like this for BAC, in 30 second buckets:
 
 <label for="amount">Time Interval:</label>
 <input type="text" id="amount" />
