@@ -396,6 +396,28 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
 * Defend correlating proportions.
 
 <script>
+$(function () {
+    var secondsToPrettyArray = ["1 second", "10 seconds", "2 minutes", "30 minutes", "6 hours", "24 hours"];
+  var secondsArray = [1, 10, 120, 1800, 21600, 86400];
+    $("#slider-range-min").slider({
+        range: "min",
+        value: 0,
+        min:   0,
+        max:   5,
+        slide: function (event, ui) {
+            $("#amount").val(secondsToPrettyArray[ui.value] );
+            switchShareGIF(secondsArray[ui.value])
+        }
+    });
+    $("#amount").val(secondsToPrettyArray[$("#slider-range-min").slider("value")]);
+    $("#shareGIF").show();
+});
+function switchShareGIF(secVal)
+{
+  myFilePrefix = "https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/anims/animation"
+  mySymbol = "BAC"
+  $("#shareGIF").attr("src",myFilePrefix.concat(mySymbol).concat(secVal).concat(".gif"));  
+}
 
   $('#tablediv1').hide();
   $('#tablediv2').hide();
