@@ -12,10 +12,6 @@ unlisted: true
 <a name="demo"></a>
 
 # Demo
-<label for="amount">Time Interval:</label>
-<input type="text" id="amount" />
-<div id="slider-range-min"></div>
-
 <BODY BGCOLOR="#FFFFFF" onLoad="launch()">
   <CENTER>
     <form>
