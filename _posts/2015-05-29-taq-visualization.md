@@ -372,16 +372,16 @@ function animation()
 
 function () {
     var secondsArray = ["1 second", "10 seconds", "2 minutes", "30 minutes", "6 hours", "24 hours"];
-    ("#slider-range-min").slider({
+    document.getElementById("slider-range-min").slider({
         range: "min",
         value: 0,
         min:   0,
         max:   5,
         slide: function (event, ui) {
-            $("#amount").val(secondsArray[ui.value] );
+            document.getElementById("amount").val(secondsArray[ui.value] );
         }
     }
-    ("#amount").val(secondsArray[$("#slider-range-min").slider("value")]);
+    document.getElementById("amount").val(secondsArray[document.getElementById("slider-range-min").slider("value")]);
 }
 
 </SCRIPT>
