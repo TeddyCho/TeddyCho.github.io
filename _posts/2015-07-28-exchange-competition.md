@@ -67,10 +67,9 @@ In the following correlation matrices (Pearson's), the exchanges are ordered suc
 <div id="slides5">
       <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
       <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/1Seconds/correlationMatrix.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/correlationMatrix.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/30Seconds/correlationMatrix.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/60Seconds/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/50Business/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/100Business/correlationMatrix.png">
 </div>
 </div>
 <br>
@@ -81,9 +80,9 @@ In BAC, of note are the negative correlations corresponding to the taker/maker e
 <div id="slides6">
       <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
       <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/1Seconds/correlationMatrix.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/5Seconds/correlationMatrix.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/30Seconds/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/50Business/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/100Business/correlationMatrix.png">
       <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/60Seconds/correlationMatrix.png">
 </div>
 </div>
@@ -122,19 +121,19 @@ Autocorrelation was computed using Pearson's formula.
 <div id="slides4">
       <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
       <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/5Seconds/acfBATS.BYX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/5Seconds/acfBATS.BZX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/5Seconds/acfBATS.EDGA.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/5Seconds/acfBATS.EDGX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/5Seconds/acfCBSX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/5Seconds/acfCHX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/5Seconds/acfNASDAQ.BX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/5Seconds/acfNASDAQ.PSX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/5Seconds/acfNASDAQ.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/5Seconds/acfNSX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/5Seconds/acfNYSE.Arca.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/5Seconds/acfMakerTaker.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/5Seconds/acfTakerMaker.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfBATS.BYX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfBATS.BZX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfBATS.EDGA.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfBATS.EDGX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfCBSX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfCHX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfNASDAQ.BX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfNASDAQ.PSX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfNASDAQ.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfNSX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfNYSE.Arca.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfMakerTaker.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfTakerMaker.png">
 </div>
 </div>
 
