@@ -48,7 +48,7 @@ When studying the way exchange shares moved over time, we began with some filter
 
 For example, exchange volumes could look like this for BAC, for different business intervals:
 
-<label for="amount">Time Interval:</label>
+<label for="amount">Business Interval:</label>
 <input type="text" id="amount" />
 
 <div id="slider-range-min"></div>
