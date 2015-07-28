@@ -36,9 +36,13 @@ unlisted: true
 
 # Correlations of Exchange Shares in Business Intervals
 
-In the following analysis, trades were partitioned into intervals based on trading activity. These intervals are called <em>business intervals</em>.
+In the following analysis, trades were partitioned into intervals based on trading activity. These intervals are called **_business intervals_**.
 
-Trades were grouped sequentially in blocks of <em>n</em> trades.
+Trades were grouped sequentially in blocks of **_n_** trades as follows, where n = 5:
+
+<img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/data/businesstimedemo.png">
+
+Note that partitioning pays no attention to volume or time.
 
 When studying the way exchange shares moved over time, we began with some filtering conditions to look at an uneventful, representative sample of regular trading (e.g., away from open/close, holidays).
 
