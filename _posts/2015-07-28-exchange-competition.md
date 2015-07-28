@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Where Do Volumes Come From?
+title: Exchange Competition
 unlisted: true
 ---
 <style>
@@ -32,9 +32,14 @@ unlisted: true
     }
   </style>
 # Tasks
-> Using NYSE Trades and Quotes (TAQ) data for a representative sample of stocks, find the exchange market shares based on stock, time of day, and date.
+> Find how exchange volume shares relate on prior shares and other exchanges' volume shares.
 
-# Correlations of Exchange Shares in Time Buckets
+# Correlations of Exchange Shares in Business Intervals
+
+In the following analysis, trades were partitioned into intervals based on trading activity. These intervals are called <em>business intervals</em>.
+
+Trades were grouped sequentially in blocks of <em>n</em> trades.
+
 When studying the way exchange shares moved over time, we began with some filtering conditions to look at an uneventful, representative sample of regular trading (e.g., away from open/close, holidays).
 
 In this analysis, time buckets with zero volume traded were discarded; time buckets between which no trades happened were considered to be adjacent.
