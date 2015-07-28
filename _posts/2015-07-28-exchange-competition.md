@@ -38,24 +38,22 @@ unlisted: true
 
 In the following analysis, trades were partitioned into intervals based on trading activity. These intervals are called **_business intervals_**.
 
-Trades were grouped sequentially in blocks of **_n_** trades as follows, where n = 5:
+Trades were grouped sequentially in blocks of **_n_** trades as follows:
 
 <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/data/businesstimedemo.png">
 
-Note that partitioning pays no attention to volume or time.
+In the above example, n = 5. Note that partitioning pays no heed to volume or time.
 
 When studying the way exchange shares moved over time, we began with some filtering conditions to look at an uneventful, representative sample of regular trading (e.g., away from open/close, holidays).
 
-In this analysis, time buckets with zero volume traded were discarded; time buckets between which no trades happened were considered to be adjacent.
-
-For example, exchange volumes could look like this for BAC, in 30 second buckets:
+For example, exchange volumes could look like this for BAC, for different business intervals:
 
 <label for="amount">Time Interval:</label>
 <input type="text" id="amount" />
 
 <div id="slider-range-min"></div>
 
-<img id="shareGIF" src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/anims/animationBAC1.gif">
+<img id="shareGIF" src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/anims/animationBAC10.gif">
 
 In the following correlation matrices (Pearson's), the exchanges are ordered such that:
 
@@ -406,8 +404,8 @@ The exchanges' volumes and market shares for each epoch of each trading day can 
 
 <script>
 $(function(){
-    var secondsToPrettyArray = ["1 second", "10 seconds", "2 minutes", "30 minutes", "1 hour", "6 hours"];
-  var secondsArray = [1, 10, 120, 1800, 3600, 21600];
+    var secondsToPrettyArray = ["10 trades", "50 trades", "100 trades"];
+  var secondsArray = [10, 50, 100];
     $("#slider-range-min").slider({
         range: "min",
         value: 0,
