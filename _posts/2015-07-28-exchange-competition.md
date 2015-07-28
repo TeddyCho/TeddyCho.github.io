@@ -99,21 +99,21 @@ Autocorrelation was computed using Pearson's formula.
 <div id="slides3">
       <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
       <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfBATS.BYX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfBATS.BZX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfBATS.EDGA.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfBATS.EDGX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfCBSX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfCHX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfNASDAQ.BX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfNASDAQ.PSX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfNASDAQ.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfNSX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfNYSE.Arca.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfNYSE.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfMakerTaker.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfTakerMaker.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/5Seconds/acfNonNYSEMakerTaker.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfBATS.BYX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfBATS.BZX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfBATS.EDGA.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfBATS.EDGX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfCBSX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfCHX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfNASDAQ.BX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfNASDAQ.PSX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfNASDAQ.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfNSX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfNYSE.Arca.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfNYSE.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfMakerTaker.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfTakerMaker.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfNonNYSEMakerTaker.png">
 </div>
 </div>
 
@@ -138,201 +138,6 @@ Autocorrelation was computed using Pearson's formula.
 </div>
 </div>
 
-<!---
-# Exchange Share Over Different Trade Burst Sizes
-
-Let us consider an investor's preference for exchanges to be consistent over time (based on bid/offer prices/volumes, fee structure). Perhaps the only reason all their volume may not be sent to their most preferred exchange is because their desired size is too big, which forces some of their size to their second preferred exchange, and then their third choice, and so on.
-
-To begin exploring this, a "trade burst" is considered to be all trades happening in a one-second interval. For a given exchange, each trade burst is plotted as a point to designate the total size of the trade burst and the given exchange's volume share.
-
-Trade bursts where the exchange had no representation were excluded. (Although this may be valuable.)
-
-The above was done for GOOG and BAC:
-
-#### GOOG
-
-<div id="slides">
-      <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
-      <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/NYSE.Arca.SMGOOGPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/Direct.Edge.XGOOGPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/BATSGOOGPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/NASDAQ.OMX.BXGOOGPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/BATS.YGOOGPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/Direct.Edge.AGOOGPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/NASDAQ.OMX.PSXGOOGPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/CBOEGOOGPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/NationalGOOGPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/goog/ChicagoGOOGPropVolumePlot.jpg">
-</div>
-
-#### BAC
-
-<div id="slides2">
-      <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
-      <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/Direct.Edge.XBACPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NASDAQ.OMXBACPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NYSEBACPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/BATSBACPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NYSE.Arca.SMBACPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/Direct.Edge.ABACPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NASDAQ.OMX.BXBACPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/BATS.YBACPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NASDAQ.OMX.PSXBACPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/NationalBACPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/ChicagoBACPropVolumePlot.jpg">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/propVsVolume/bac/CBOEBACPropVolumePlot.jpg">
-</div>
---->
-
-# Exchange Market Shares During Regular Trading
-
-## Between Stocks of Different Home Exchange
-When trades are grouped by their symbols' primary listing exchanges, we observe differences across their exchange market share profiles during regular hours. Notably, exchanges held higher market share for their primary listings:
-
-<div>
-<button class = "rad-button static light flat">Toggle To Table</button>
-
-<div id="tablediv1"></div>
-<div>
-    <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/breakdownCharts/perExchangeForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
-</div>
-</div>
-
-<!---
-To further support that primary exchange helps determine exchange market share profile, we expand each group by their constituent symbols.
-
-## NASDAQ Stocks
-Within NASDAQ stocks, exchange shares were consistent:
-
-<div>
-<button class = "rad-button static light flat">Toggle To Table</button>
-
-<div id="tablediv2"></div>
-<div>
-    <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/breakdownCharts/NASDAQSymbolsForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
-</div>
-</div>
-
-## Arca Stocks
-Consistency was found between our two Arca symbols, save for BATS Y, Direct Edge X, and Chicago:
-
-<div>
-<button class = "rad-button static light flat">Toggle To Table</button>
-
-<div id="tablediv3"></div>
-<div>
-    <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/breakdownCharts/ArcaSymbolsForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
-</div>
-</div>
-
-
-## NYSEMKT Stocks 
-Our NYSEMKT symbols appeared to represent two clusters of exchange market share profiles: one for CCF and ONVO, and one for LIQT and ONP:
-
-<div>
-<button class = "rad-button static light flat">Toggle To Table</button>
-
-<div id="tablediv4"></div>
-<div>
-  <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/breakdownCharts/NYSEMKTSymbolsForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
-</div>
-</div>
---->
-
-# Exchange Market Shares During Open and Close Auction
-
-In both the Open and Close epochs, exchange market shares were clearly different based on home exchange. The following graph aggregates stocks by listing exchange and shows volume share for both Open and Close combined:
-
-<div>
-<button class = "rad-button static light flat">Toggle To Table</button>
-
-<div id="tablediv5"></div>
-<div>
-<iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/breakdownCharts/perExchangeForOpenClose.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
-</div>
-</div>
-
-To explain why different symbols' open/close volumes adhere strongly to their home exchange, we can refer to the following documents:
-
-* <a href = "https://www.nyse.com/publicdocs/nyse/markets/nyse-arca/NYSE_Arca_Auctions_Brochure.pdf">NYSE Arca Auctions Brochure</a>:
-
-> The [NYSE Arca] Market Order Auction is run for NYSE Arca primary listed stocks.
-
-> The [NYSE Arca] Closing Auction is run for NYSE Arca primary listed stocks.
-
-* <a href="http://www1.nyse.com/pdfs/NYSEAmexEquitiesOpeningCollateral.pdf">NYSE AMEX (now NYSEMKT) Opening Auction factsheet</a>:
-
-> DMMs...open each security [on NYSE Opening Auctions]
-
-* <a href="https://www.nyse.com/publicdocs/nyse/markets/nyse/NYSE_Opening_and_Closing_Auctions_Fact_Sheet.pdf">NYSE Open and Closing Auctions Fact Sheet</a>:
-
-> Only NYSE and NYSE MKT-listed names can participate in the opening auction.
-
-Literature also suggests that exchanges' DMMs and LMMs oversee the opening/closing auctions and only deal with their respective exchanges' primary listings:
-
-* <a href="https://www.nyse.com/publicdocs/nyse/markets/liquidity-programs/arca_mm_orientation.pdf">Arca Market Maker Orientation</a>
-
-<!---
-# Exchange Market Shares During After-Hours
-
-When grouped by home exchange, we observe stark differences in the exchange share profiles:
-
-<iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/perExchangeForAfter-Hours.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
-
-Among NASDAQ listed stocks, we do see variability in their exchange share profiles for after-hours trading:
-
-<iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/NASDAQSymbolsForAfter-Hours.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
- 
- We also see some variability among NYSE listed stocks:
-
-<iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/NYSESymbolsForAfter-Hours.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
- 
- Finally, we see some variability among NYSE MKT stocks:
-
-<iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/NYSEMKTSymbolsForAfter-Hours.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
-
-# Exchange Volumes and Market Shares Over 2014
-The following graphs illustrate the extent of day-to-day consistency for the trends in the last rChart.
-
-With so many exchanges, it may be helpful to amalgamate categories:
-![Regular Hours Market Share](https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/Regular2014.png)
-We see similar exchange market share profiles for both the opening and closing auctions, with an overwhelming showing by NYSE:
-![Opening Auction Market Share](https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/Open2014.png)
-![Closing Auction Market Share](https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/Close2014.png)
-After-Hours trading has a different profile for exchange market shares:
-![After-Hours Market Share](https://raw.githubusercontent.com/TeddyCho/TeddyCho.github.io/master/_posts/img/After-Hours2014.png)
-
-
-# Overall Look at Exchange Market Shares
-Over all trades, the volumes were distributed across exhanges as such:
-
-<iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/AllStocks.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
-
-<table>
-  <thead>
-    <tr><th>Exchange</th><th>Percentage</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>BATS</td><td>6.0629</td></tr>
-    <tr><td>BATS Y</td><td>3.2154</td></tr>
-    <tr><td>CBOE</td><td>0.0877</td></tr>
-    <tr><td>Chicago</td><td>0.5438</td></tr>
-    <tr><td>Direct Edge A</td><td>3.2419</td></tr>
-    <tr><td>Direct Edge X</td><td>7.8300</td></tr>
-    <tr><td>FINRA</td><td>38.6281</td></tr>
-    <tr><td>NASDAQ</td><td>3.1614</td></tr>
-    <tr><td>NASDAQ OMX</td><td>8.6755</td></tr>
-    <tr><td>NASDAQ OMX BX</td><td>3.4933</td></tr>
-    <tr><td>NASDAQ OMX PSX</td><td>0.4877</td></tr>
-    <tr><td>National</td><td>0.2332</td></tr>
-    <tr><td>NYSE</td><td>17.1059</td></tr>
-    <tr><td>NYSE Arca SM</td><td>7.1251</td></tr>
-    <tr><td>NYSE MMKT</td><td>0.1082</td></tr>
-  </tbody>
-</table>
---->
 
 # Data
 The TAQ data covered the following time frame and symbols:
