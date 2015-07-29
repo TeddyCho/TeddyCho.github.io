@@ -66,6 +66,8 @@ We can get a sense of the business intervals' durations here:
 </div>
 </div>
 
+# Inter-Exchange Correlation
+
 In the following correlation matrices (Pearson's), the exchanges are ordered such that:
 
 * the very small-share exchanges take the first three spot (out of the way),
