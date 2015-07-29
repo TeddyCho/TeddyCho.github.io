@@ -63,8 +63,6 @@ We can get a sense of the business intervals' durations here:
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/businessIntervalLengths/2014-03-05-50-176.png">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/businessIntervalLengths/2014-03-05-100-88.png">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/businessIntervalLengths/2014-03-05-1000-8.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/businessIntervalLengths/2014-03-05-10000-0.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/businessIntervalLengths/2014-03-05-50000-0.png">
 </div>
 </div>
 
