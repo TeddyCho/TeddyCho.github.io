@@ -55,9 +55,18 @@ For example, exchange volumes could look like this for BAC, for different busine
 
 We can get a sense of the business intervals' durations here:
 
-<img id="shareGIF" src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/businessIntervalLengths/20140305-10-1000.png">
-
-
+<div style="width:480px;height:480px;">
+<div id="slides3">
+      <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
+      <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/businessIntervalLengths/2014-03-05-10-859.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/businessIntervalLengths/2014-03-05-50-176.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/businessIntervalLengths/2014-03-05-100-88.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/businessIntervalLengths/2014-03-05-1000-8.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/businessIntervalLengths/2014-03-05-10000-0.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/businessIntervalLengths/2014-03-05-50000-0.png">
+</div>
+</div>
 
 In the following correlation matrices (Pearson's), the exchanges are ordered such that:
 
@@ -320,6 +329,22 @@ function switchShareGIF(secVal)
       }
     );
   $("#slides6").slidesjs({
+      width: 480, height: 480,
+        navigation: {
+          active: false,
+          effect: "fade"
+        },
+        pagination: {
+          effect: "fade"
+        },
+        effect: {
+          fade: {
+            speed: 100
+          }
+        }
+      }
+    );
+  $("#slides7").slidesjs({
       width: 480, height: 480,
         navigation: {
           active: false,
