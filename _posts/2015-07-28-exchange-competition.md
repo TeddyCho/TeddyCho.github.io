@@ -56,7 +56,7 @@ For example, exchange volumes could look like this for BAC, for different busine
 We can get a sense of the business intervals' durations here:
 
 <div style="width:480px;height:480px;">
-<div id="slides3">
+<div id="slides7">
       <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
       <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/businessIntervalLengths/2014-03-05-10-859.png">
