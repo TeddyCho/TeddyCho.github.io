@@ -134,7 +134,6 @@ Autocorrelation was computed using Pearson's formula.
 </div>
 </div>
 
-<!--
 ## GOOG
 <div style="width:480px;height:480px;">
 <div id="slides4">
@@ -156,7 +155,7 @@ Autocorrelation was computed using Pearson's formula.
 </div>
 </div>
 
-
+<!--
 # Data
 The TAQ data covered the following time frame and symbols:
 <table>
