@@ -42,9 +42,8 @@ Trades were grouped sequentially in blocks of **_n_** trades as follows:
 
 <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/data/businesstimedemo.png">
 
-In the above example, n = 5. Note that partitioning pays no heed to volume or time.
+In the above example, n = _n_. Note that partitioning pays no heed to volume nor time.
 
-When studying the way exchange shares moved over time, we began with some filtering conditions to look at an uneventful, representative sample of regular trading (e.g., away from open/close, holidays).
 
 For example, exchange volumes could look like this for BAC, for different business intervals:
 
@@ -70,6 +69,9 @@ In the following correlation matrices (Pearson's), the exchanges are ordered suc
       <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/correlationMatrix.png">
       <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/50Business/correlationMatrix.png">
       <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/100Business/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/1000Business/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10000Business/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/50000Business/correlationMatrix.png">
 </div>
 </div>
 <br>
@@ -180,40 +182,21 @@ The TAQ data covered the following time frame and symbols:
     <tr bgcolor="#D3B5E3"><td>NSX</td><td><a href="http://www.nsx.com/images/documents/bylaws/FeeSchedule04152014.pdf">Taker/Maker</a></td><td>Electronic exchange which <a href="http://www.reuters.com/article/2015/02/13/us-nationalstockexchange-cboe-holdings-idUSKBN0LH2BF20150213">closed in May 2014</a>. Undergoing actions <a href="http://www.nsx.com/index.php/news-views/376-expedited-process-for-reinstatement-as-etp-holder">to be reinstated</a>.</td></tr>
   </tbody>
 </table>
-<!---
-Transforming the above data (129M rows) to per-day-per-timeOfDay exchange volumes took 991 seconds on a 2.4 GHz/4GB laptop. The raw output from the code is [here](https://github.com/TeddyCho/TAQ/blob/master/data/breakdown5aa0ce4b018e0067.csv).
-
-The exchanges' volumes and market shares for each epoch of each trading day can be found [here](https://github.com/TeddyCho/TAQ/blob/master/data/taskTwo.csv).
---->
 
 # Notes
-* A trade's time of day was inferred from Sale Condition as follows:
-<table>
-  <thead>
-    <tr>      <th>Time of Day</th>      <th>Sale Condition</th>    </tr>
-  </thead>
-  <tbody>
-    <tr>      <td>Open</td>      <td>O, Q</td>    </tr>
-    <tr>      <td>Close</td>      <td>M, 6</td>    </tr>
-    <tr>      <td>After-Hours</td>      <td>T, U</td>    </tr>
-    <tr>      <td>Regular</td>      <td>Everything else</td>    </tr>
-  </tbody>
+* 
+When studying the way exchange shares moved over time, we began with some filtering conditions to look at an uneventful, representative sample of regular trading (e.g., away from open/close, holidays).
 </table>
 
 * Some trades had an exchange code "Q", which did not exactly correspond to anything listed in the [spec sheet](www.nyxdata.com/doc/224904). We assumed "Q" referred to the NASDAQ exchange since "T/Q" corresponded to NASDAQ and "T" corresponded to NASDAQ OMX. Since NASDAQ only has three exchanges (BX, PSX, and NASDAQ), trades labeled as NASDAQ OMX and NASDAQ were combined into the NASDAQ label.
 
 * Trades of exchange type "FINRA" are trades which happened off-exchange. Such trades are reported for TAQ publication through FINRA's ADF, TRF, or ORF, as written [here](http://www.finra.org/industry/trade-reporting-faq#100). <strong>These trades are excluded from the analysis.</strong>
 
-* Remaining questions on pre-open and post-close trades. There is a T code for "extended hours" trades, so why do some trades have no condition codes? A lot of intermarket sweep order condition codes. Weird thing where two trades happen at the same time/exchange, and their volumes add up to a round number, but only one has a condition code.
-
-* BAC had F, T, blank, and a 4 for 250000 traded on CHX, GOOG had @, T, and @F. Weird.
-
-* Defend correlating proportions.
 
 <script>
 $(function(){
-    var secondsToPrettyArray = ["10 trades", "50 trades", "100 trades"];
-  var secondsArray = [10, 50, 100];
+    var secondsToPrettyArray = ["10 trades", "50 trades", "100 trades", "1000 trades", "10000 trades", "50000 trades"];
+  var secondsArray = [10, 50, 100, 1000, 10000, 50000];
     $("#slider-range-min").slider({
         range: "min",
         value: 0,
