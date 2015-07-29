@@ -44,7 +44,6 @@ Trades were grouped sequentially in blocks of **_n_** trades as follows:
 
 In the above example, _n_ = 6. Note that partitioning pays no heed to volume nor time.
 
-
 For example, exchange volumes could look like this for BAC, for different business intervals:
 
 <label for="amount">Business Interval:</label>
@@ -53,6 +52,12 @@ For example, exchange volumes could look like this for BAC, for different busine
 <div id="slider-range-min"></div>
 
 <img id="shareGIF" src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/anims/animationBAC10.gif">
+
+We can get a sense of the business intervals' durations here:
+
+<img id="shareGIF" src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/businessIntervalLengths/20140305-10-1000.png">
+
+
 
 In the following correlation matrices (Pearson's), the exchanges are ordered such that:
 
