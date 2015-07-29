@@ -31,10 +31,10 @@ unlisted: true
       overflow: hidden
     }
   </style>
-# Tasks
+# Goals
 > Find how exchange volume shares relate on prior shares and other exchanges' volume shares.
 
-# Correlations of Exchange Shares in Business Intervals
+# Exchange Shares in Business Intervals
 
 In the following analysis, trades were partitioned into intervals based on trading activity. These intervals are called **_business intervals_**.
 
@@ -44,7 +44,7 @@ Trades were grouped sequentially in blocks of **_n_** trades as follows:
 
 In the above example, _n_ = 6. Note that partitioning pays no heed to volume nor time.
 
-For example, exchange volumes could look like this for BAC, for different business intervals:
+For example, exchange volume shares could look like this for BAC, for different business intervals:
 
 <label for="amount">Business Interval:</label>
 <input type="text" id="amount" />
@@ -91,7 +91,6 @@ In the following correlation matrices (Pearson's), the exchanges are ordered suc
 <br>
 In BAC, of note are the negative correlations corresponding to the taker/maker exchanges (and NYSE) with the larger maker/taker exchanges. It suggests substituting going on between exchanges based on who they rebate.
 
-<!--
 ## GOOG
 <div style="width:480px;height:480px;">
 <div id="slides6">
@@ -100,12 +99,13 @@ In BAC, of note are the negative correlations corresponding to the taker/maker e
       <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/correlationMatrix.png">
       <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/50Business/correlationMatrix.png">
       <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/100Business/correlationMatrix.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/60Seconds/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/1000Business/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10000Business/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/50000Business/correlationMatrix.png">
 </div>
 </div>
 <br>
-In GOOG, of note are the positive relationships among taker/maker exchanges and the negative relationships among maker/taker exchanges. It suggest substituting going on among maker/taker exchanges and complementing going on among taker/maker exchanges.
--->
+<!--In GOOG, of note are the positive relationships among taker/maker exchanges and the negative relationships among maker/taker exchanges. It suggest substituting going on among maker/taker exchanges and complementing going on among taker/maker exchanges.-->
 
 # Autocorrelations of Exchange Shares
 
