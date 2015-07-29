@@ -198,7 +198,6 @@ The TAQ data covered the following time frame and symbols:
 # Notes
 * 
 When studying the way exchange shares moved over time, we began with some filtering conditions to look at an uneventful, representative sample of regular trading (e.g., away from open/close, holidays).
-</table>
 
 * Some trades had an exchange code "Q", which did not exactly correspond to anything listed in the [spec sheet](www.nyxdata.com/doc/224904). We assumed "Q" referred to the NASDAQ exchange since "T/Q" corresponded to NASDAQ and "T" corresponded to NASDAQ OMX. Since NASDAQ only has three exchanges (BX, PSX, and NASDAQ), trades labeled as NASDAQ OMX and NASDAQ were combined into the NASDAQ label.
 
