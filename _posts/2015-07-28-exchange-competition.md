@@ -42,7 +42,7 @@ Trades were grouped sequentially in blocks of **_n_** trades as follows:
 
 <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/data/businesstimedemo.png">
 
-In the above example, _n_ = 5. Note that partitioning pays no heed to volume nor time.
+In the above example, _n_ = 6. Note that partitioning pays no heed to volume nor time.
 
 
 For example, exchange volumes could look like this for BAC, for different business intervals:
