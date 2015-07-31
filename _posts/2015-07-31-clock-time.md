@@ -49,7 +49,7 @@ Empty intervals were populated with the last interval's information.
 
 For example, exchange volume shares could look like this for BAC, for different business intervals:
 
-<label for="amount">Business Interval:</label>
+<label for="amount">Clock Interval:</label>
 <input type="text" id="amount" />
 
 <div id="slider-range-min"></div>
