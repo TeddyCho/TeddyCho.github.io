@@ -72,6 +72,7 @@ In the following correlation matrices (Pearson's), the exchanges are ordered suc
 * the larger maker/taker exchanges take the remaining spots.
 
 ## BAC
+### Unlagged
 The following correlation matrix shows correlations between exchange share scores:
 
 <center><img src="http://www.sciweavers.org/tex2img.php?eq=r_%7Bab%7D%20%3D%20%5Cfrac%7B%5Csum_%7B1%7D%5E%7Bn%7D%20a_t%20b_%7Bt%7D%20-%20n%5Cbar%7Ba%7D%5Cbar%7Bb%7D%7D%7B%28n-1%29s_as_b%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="r_{ab} = \frac{\sum_{1}^{n} a_t b_{t} - n\bar{a}\bar{b}}{(n-1)s_as_b} " width="168" height="50" /></center>
@@ -94,6 +95,7 @@ where a_t and b_t are exchange volume share scores for exchange a and b at time 
 </div>
 <br>
 
+###Lagged
 The following correlation matrix shows correlations between lagged exchange share scores:
 
 <center><img src="http://www.sciweavers.org/upload/Tex2Img_1438364017/render.png" align="center" border="0" alt="r_{ab} = \frac{\sum_{1}^{n-1} a_t b_{t+1} - n\bar{a}\bar{b}}{(n-2)s_as_b} " width="204" height="53" /></center>
@@ -209,7 +211,6 @@ The TAQ data covered the following time frame and symbols:
     <tr bgcolor="#D3B5E3"><td>NSX</td><td><a href="http://www.nsx.com/images/documents/bylaws/FeeSchedule04152014.pdf">Taker/Maker</a></td><td>Electronic exchange which <a href="http://www.reuters.com/article/2015/02/13/us-nationalstockexchange-cboe-holdings-idUSKBN0LH2BF20150213">closed in May 2014</a>. Undergoing actions <a href="http://www.nsx.com/index.php/news-views/376-expedited-process-for-reinstatement-as-etp-holder">to be reinstated</a>.</td></tr>
   </tbody>
 </table>
--->
 
 # Notes
 * 
@@ -218,7 +219,7 @@ When studying the way exchange shares moved over time, we began with some filter
 * Some trades had an exchange code "Q", which did not exactly correspond to anything listed in the [spec sheet](www.nyxdata.com/doc/224904). We assumed "Q" referred to the NASDAQ exchange since "T/Q" corresponded to NASDAQ and "T" corresponded to NASDAQ OMX. Since NASDAQ only has three exchanges (BX, PSX, and NASDAQ), trades labeled as NASDAQ OMX and NASDAQ were combined into the NASDAQ label.
 
 * Trades of exchange type "FINRA" are trades which happened off-exchange. Such trades are reported for TAQ publication through FINRA's ADF, TRF, or ORF, as written [here](http://www.finra.org/industry/trade-reporting-faq#100). <strong>These trades are excluded from the analysis.</strong>
-
+-->
 
 <script>
 $(function(){
