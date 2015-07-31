@@ -50,7 +50,7 @@ Empty intervals were populated with the last interval's information. This was pr
 # What Are We Measuring?
 Instead of proportions, we are transforming exchange shares into scores reflecting their distance away from the exchange's mean share.
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=%24s_t%20%3D%20%5Cfrac%7Bp_t%20-%20%5Cbar%7Bp%7D%7D%7B%5Cbar%7Bp%7D%7D%24&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="$s_t = \frac{p_t - \bar{p}}{\bar{p}}$" width="74" height="31" />
+<center><img src="http://www.sciweavers.org/tex2img.php?eq=%24s_t%20%3D%20%5Cfrac%7Bp_t%20-%20%5Cbar%7Bp%7D%7D%7B%5Cbar%7Bp%7D%7D%24&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="$s_t = \frac{p_t - \bar{p}}{\bar{p}}$" width="74" height="31" /></center>
 
 where p_t is the proportion at time t, \bar{p} is the exchange's average proportion, and s_t is the score at time t.
 
