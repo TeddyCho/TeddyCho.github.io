@@ -67,6 +67,21 @@ In the following correlation matrices (Pearson's), the exchanges are ordered suc
 ## BAC
 
 <div style="width:480px;height:480px;">
+<div id="slides6">
+      <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
+      <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/1ClockNaN/correlationMatrixUnlagged.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10ClockNaN/correlationMatrixUnlagged.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/120ClockNaN/correlationMatrixUnlagged.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/1800ClockNaN/correlationMatrixUnlagged.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/3600ClockNaN/correlationMatrixUnlagged.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10800ClockNaN/correlationMatrixUnlagged.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/19800ClockNaN/correlationMatrixUnlagged.png">
+</div>
+</div>
+<br>
+
+<div style="width:480px;height:480px;">
 <div id="slides5">
       <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
       <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
@@ -81,20 +96,6 @@ In the following correlation matrices (Pearson's), the exchanges are ordered suc
 </div>
 <br>
 
-<div style="width:480px;height:480px;">
-<div id="slides6">
-      <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
-      <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/1ClockNaN/correlationMatrixUnlagged.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10ClockNaN/correlationMatrixUnlagged.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/120ClockNaN/correlationMatrixUnlagged.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/1800ClockNaN/correlationMatrixUnlagged.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/3600ClockNaN/correlationMatrixUnlagged.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10800ClockNaN/correlationMatrixUnlagged.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/19800ClockNaN/correlationMatrixUnlagged.png">
-</div>
-</div>
-<br>
 <!--In GOOG, of note are the positive relationships among taker/maker exchanges and the negative relationships among maker/taker exchanges. It suggest substituting going on among maker/taker exchanges and complementing going on among taker/maker exchanges.-->
 
 # Autocorrelations of Exchange Shares
