@@ -117,21 +117,21 @@ Autocorrelation was computed using Pearson's formula.
 <div id="slides3">
       <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
       <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfBATS.BYXBusinessTime.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfBATS.BZXBusinessTime.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfBATS.EDGABusinessTime.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfBATS.EDGXBusinessTime.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfCBSXBusinessTime.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfCHXBusinessTime.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfNASDAQ.BXBusinessTime.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfNASDAQ.PSXBusinessTime.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfNASDAQBusinessTime.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfNSXBusinessTime.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfNYSE.ArcaBusinessTime.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfNYSEBusinessTime.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfMakerTakerBusinessTime.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfTakerMakerBusinessTime.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfNonNYSEMakerTakerBusinessTime.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/10Business/acfBATS.BYXBusinessTime.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/10Business/acfBATS.BZXBusinessTime.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/10Business/acfBATS.EDGABusinessTime.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/10Business/acfBATS.EDGXBusinessTime.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/10Business/acfCBSXBusinessTime.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/10Business/acfCHXBusinessTime.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/10Business/acfNASDAQ.BXBusinessTime.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/10Business/acfNASDAQ.PSXBusinessTime.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/10Business/acfNASDAQBusinessTime.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/10Business/acfNSXBusinessTime.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/10Business/acfNYSE.ArcaBusinessTime.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/10Business/acfNYSEBusinessTime.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/10Business/acfMakerTakerBusinessTime.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/10Business/acfTakerMakerBusinessTime.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/10Business/acfNonNYSEMakerTakerBusinessTime.png">
 </div>
 </div>
 
