@@ -80,12 +80,12 @@ In the following correlation matrices (Pearson's), the exchanges are ordered suc
 <div id="slides5">
       <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
       <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/correlationMatrix.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/50Business/correlationMatrix.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/100Business/correlationMatrix.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/1000Business/correlationMatrix.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10000Business/correlationMatrix.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/50000Business/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/10Business/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/50Business/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/100Business/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/1000Business/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/10000Business/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/50000Business/correlationMatrix.png">
 </div>
 </div>
 <br>
@@ -97,12 +97,12 @@ In BAC, of note are the negative correlations corresponding to the taker/maker e
 <div id="slides6">
       <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
       <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/correlationMatrix.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/50Business/correlationMatrix.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/100Business/correlationMatrix.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/1000Business/correlationMatrix.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10000Business/correlationMatrix.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/50000Business/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/GOOG/10Business/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/GOOG/50Business/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/GOOG/100Business/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/GOOG/1000Business/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/GOOG/10000Business/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/GOOG/50000Business/correlationMatrix.png">
 </div>
 </div>
 <br>
