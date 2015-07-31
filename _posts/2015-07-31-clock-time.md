@@ -132,6 +132,7 @@ Autocorrelation was computed using Pearson's formula.
 </div>
 </div>
 
+<!--
 ## GOOG
 <div style="width:480px;height:480px;">
 <div id="slides4">
@@ -152,6 +153,7 @@ Autocorrelation was computed using Pearson's formula.
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10ClockNaN/acfTakerMaker.png">
 </div>
 </div>
+-->
 
 <!--
 # Data
@@ -171,6 +173,7 @@ The TAQ data covered the following time frame and symbols:
 </table>
 -->
 
+<!--
 # Exchanges
 
 <table>
@@ -193,6 +196,7 @@ The TAQ data covered the following time frame and symbols:
     <tr bgcolor="#D3B5E3"><td>NSX</td><td><a href="http://www.nsx.com/images/documents/bylaws/FeeSchedule04152014.pdf">Taker/Maker</a></td><td>Electronic exchange which <a href="http://www.reuters.com/article/2015/02/13/us-nationalstockexchange-cboe-holdings-idUSKBN0LH2BF20150213">closed in May 2014</a>. Undergoing actions <a href="http://www.nsx.com/index.php/news-views/376-expedited-process-for-reinstatement-as-etp-holder">to be reinstated</a>.</td></tr>
   </tbody>
 </table>
+-->
 
 # Notes
 * 
