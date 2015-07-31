@@ -210,7 +210,7 @@ When studying the way exchange shares moved over time, we began with some filter
 
 <script>
 $(function(){
-    var secondsToPrettyArray = ["10 trades", "50 trades", "100 trades", "1000 trades", "10000 trades", "50000 trades"];
+    var secondsToPrettyArray = ["1 second", "10 seconds", "120 seconds", "1800 seconds", "3600 seconds", "10800 seconds", "19800 seconds"];
   var secondsArray = [1, 10, 120, 1800, 3600, 10800, 19800];
     $("#slider-range-min").slider({
         range: "min",
