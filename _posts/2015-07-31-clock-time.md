@@ -70,13 +70,13 @@ In the following correlation matrices (Pearson's), the exchanges are ordered suc
 <div id="slides5">
       <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
       <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/1ClockNaN/correlationMatrixlagged.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10ClockNaN/correlationMatrixlagged.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/120ClockNaN/correlationMatrixlagged.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/1800ClockNaN/correlationMatrixlagged.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/3600ClockNaN/correlationMatrixlagged.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10800ClockNaN/correlationMatrixlagged.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/19800ClockNaN/correlationMatrixlagged.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/1ClockNaN/correlationMatrixLagged.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10ClockNaN/correlationMatrixLagged.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/120ClockNaN/correlationMatrixLagged.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/1800ClockNaN/correlationMatrixLagged.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/3600ClockNaN/correlationMatrixLagged.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10800ClockNaN/correlationMatrixLagged.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/19800ClockNaN/correlationMatrixLagged.png">
 </div>
 </div>
 <br>
