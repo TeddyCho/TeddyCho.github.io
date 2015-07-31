@@ -45,7 +45,7 @@ Empty intervals were left blank and did not contribute to correlation computatio
 Empty intervals were discarded such that valid intervals separated by empty intervals were now considered to be separated by 1 lag. This inflates autocorrelations, and results are not shown here.
 
 ## Persist Last Interval
-Empty intervals were populated with the last interval's information. This was previously used in [http://teddycho.github.io/2015/05/20/where-do-volumes-come-from/](this post).
+Empty intervals were populated with the last interval's information. This was previously used in [this post](http://teddycho.github.io/2015/05/20/where-do-volumes-come-from/).
 
 # What Are We Measuring?
 Instead of proportions, we are transforming exchange shares into scores reflecting their distance away from the exchange's mean share.
