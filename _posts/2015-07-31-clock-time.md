@@ -107,21 +107,21 @@ Autocorrelation was computed using Pearson's formula.
 <div id="slides3">
       <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
       <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfBATS.BYX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfBATS.BZX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfBATS.EDGA.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfBATS.EDGX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfCBSX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfCHX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfNASDAQ.BX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfNASDAQ.PSX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfNASDAQ.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfNSX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfNYSE.Arca.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfNYSE.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfMakerTaker.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfTakerMaker.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/acfNonNYSEMakerTaker.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10ClockNaN/acfBATS.BYX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10ClockNaN/acfBATS.BZX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10ClockNaN/acfBATS.EDGA.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10ClockNaN/acfBATS.EDGX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10ClockNaN/acfCBSX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10ClockNaN/acfCHX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10ClockNaN/acfNASDAQ.BX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10ClockNaN/acfNASDAQ.PSX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10ClockNaN/acfNASDAQ.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10ClockNaN/acfNSX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10ClockNaN/acfNYSE.Arca.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10ClockNaN/acfNYSE.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10ClockNaN/acfMakerTaker.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10ClockNaN/acfTakerMaker.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10ClockNaN/acfNonNYSEMakerTaker.png">
 </div>
 </div>
 
@@ -130,19 +130,19 @@ Autocorrelation was computed using Pearson's formula.
 <div id="slides4">
       <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
       <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfBATS.BYX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfBATS.BZX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfBATS.EDGA.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfBATS.EDGX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfCBSX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfCHX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfNASDAQ.BX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfNASDAQ.PSX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfNASDAQ.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfNSX.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfNYSE.Arca.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfMakerTaker.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfTakerMaker.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10ClockNaN/acfBATS.BYX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10ClockNaN/acfBATS.BZX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10ClockNaN/acfBATS.EDGA.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10ClockNaN/acfBATS.EDGX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10ClockNaN/acfCBSX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10ClockNaN/acfCHX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10ClockNaN/acfNASDAQ.BX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10ClockNaN/acfNASDAQ.PSX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10ClockNaN/acfNASDAQ.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10ClockNaN/acfNSX.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10ClockNaN/acfNYSE.Arca.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10ClockNaN/acfMakerTaker.png">
+    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10ClockNaN/acfTakerMaker.png">
 </div>
 </div>
 
