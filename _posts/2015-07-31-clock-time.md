@@ -73,7 +73,8 @@ In the following correlation matrices (Pearson's), the exchanges are ordered suc
 
 ## BAC
 The following correlation matrix shows correlations between exchange share scores:
-<img src="http://www.sciweavers.org/tex2img.php?eq=r_%7Bab%7D%20%3D%20%5Cfrac%7B%5Csum_%7B1%7D%5E%7Bn%7D%20a_t%20b_%7Bt%7D%20-%20n%5Cbar%7Ba%7D%5Cbar%7Bb%7D%7D%7B%28n-1%29s_as_b%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="r_{ab} = \frac{\sum_{1}^{n} a_t b_{t} - n\bar{a}\bar{b}}{(n-1)s_as_b} " width="168" height="50" />
+
+<center><img src="http://www.sciweavers.org/tex2img.php?eq=r_%7Bab%7D%20%3D%20%5Cfrac%7B%5Csum_%7B1%7D%5E%7Bn%7D%20a_t%20b_%7Bt%7D%20-%20n%5Cbar%7Ba%7D%5Cbar%7Bb%7D%7D%7B%28n-1%29s_as_b%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="r_{ab} = \frac{\sum_{1}^{n} a_t b_{t} - n\bar{a}\bar{b}}{(n-1)s_as_b} " width="168" height="50" /></center>
 
 where a_t and b_t are exchange volume share scores for exchange a and b at time t, and s_a and s_b are the sample standard deviations for a_t and b_t, respectively.
 
@@ -94,7 +95,8 @@ where a_t and b_t are exchange volume share scores for exchange a and b at time 
 <br>
 
 The following correlation matrix shows correlations between lagged exchange share scores:
-<img src="http://www.sciweavers.org/tex2img.php?eq=r_%7Bab%7D%20%3D%20%5Cfrac%7B%5Csum_%7B1%7D%5E%7Bn-1%7D%20a_t%20b_%7Bt%2B1%7D%20-%20n%5Cbar%7Ba%7D%5Cbar%7Bb%7D%7D%7B%28n-2%29s_as_b%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="r_{ab} = \frac{\sum_{1}^{n-1} a_t b_{t+1} - n\bar{a}\bar{b}}{(n-2)s_as_b} " width="204" height="53" />
+
+<center><img src="http://www.sciweavers.org/tex2img.php?eq=r_%7Bab%7D%20%3D%20%5Cfrac%7B%5Csum_%7B1%7D%5E%7Bn-1%7D%20a_t%20b_%7Bt%2B1%7D%20-%20n%5Cbar%7Ba%7D%5Cbar%7Bb%7D%7D%7B%28n-2%29s_as_b%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="r_{ab} = \frac{\sum_{1}^{n-1} a_t b_{t+1} - n\bar{a}\bar{b}}{(n-2)s_as_b} " width="204" height="53" /></center>
 
 where a_t and b_t are exchange volume share scores for exchange a and b at time t, and s_a and s_b are the sample standard deviations for a_t and b_t, respectively.
 
