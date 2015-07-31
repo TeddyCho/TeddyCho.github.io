@@ -54,7 +54,7 @@ Instead of proportions, we are transforming exchange shares into scores reflecti
 
 where p_t is the proportion at time t, \bar{p} is the exchange's average proportion, and s_t is the score at time t.
 
-For example, exchange volume shares could look like this for BAC, for different business intervals:
+For example, exchange volume share scores could look like this for BAC, for different business intervals:
 
 <label for="amount">Clock Interval:</label>
 <input type="text" id="amount" />
