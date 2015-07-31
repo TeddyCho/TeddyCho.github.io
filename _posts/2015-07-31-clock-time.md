@@ -56,19 +56,6 @@ For example, exchange volume shares could look like this for BAC, for different 
 
 <img id="shareGIF" src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/anims/animationBAC10.gif">
 
-We can get a sense of the business intervals' durations here:
-
-<div style="width:480px;height:480px;">
-<div id="slides7">
-      <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
-      <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/businessIntervalLengths/2014-03-05-10-859.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/businessIntervalLengths/2014-03-05-50-176.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/businessIntervalLengths/2014-03-05-100-88.png">
-    <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/businessIntervalLengths/2014-03-05-1000-8.png">
-</div>
-</div>
-
 # Inter-Exchange Correlation
 
 In the following correlation matrices (Pearson's), the exchanges are ordered such that:
@@ -83,28 +70,28 @@ In the following correlation matrices (Pearson's), the exchanges are ordered suc
 <div id="slides5">
       <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
       <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10Business/correlationMatrix.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/50Business/correlationMatrix.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/100Business/correlationMatrix.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/1000Business/correlationMatrix.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10000Business/correlationMatrix.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/50000Business/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/1ClockNaN/correlationMatrixlagged.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10ClockNaN/correlationMatrixlagged.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/120ClockNaN/correlationMatrixlagged.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/1800ClockNaN/correlationMatrixlagged.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/3600ClockNaN/correlationMatrixlagged.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10800ClockNaN/correlationMatrixlagged.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/19800ClockNaN/correlationMatrixlagged.png">
 </div>
 </div>
 <br>
-In BAC, of note are the negative correlations corresponding to the taker/maker exchanges (and NYSE) with the larger maker/taker exchanges. It suggests substituting going on between exchanges based on who they rebate.
 
-## GOOG
 <div style="width:480px;height:480px;">
 <div id="slides6">
       <a href="#" class="slidesjs-previous slidesjs-navigation">Previous</a>
       <a href="#" class="slidesjs-next slidesjs-navigation">Next</a>
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/correlationMatrix.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/50Business/correlationMatrix.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/100Business/correlationMatrix.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/1000Business/correlationMatrix.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10000Business/correlationMatrix.png">
-      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/50000Business/correlationMatrix.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/1ClockNaN/correlationMatrixUnlagged.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10ClockNaN/correlationMatrixUnlagged.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/120ClockNaN/correlationMatrixUnlagged.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/1800ClockNaN/correlationMatrixUnlagged.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/3600ClockNaN/correlationMatrixUnlagged.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/10800ClockNaN/correlationMatrixUnlagged.png">
+      <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/BAC/19800ClockNaN/correlationMatrixUnlagged.png">
 </div>
 </div>
 <br>
