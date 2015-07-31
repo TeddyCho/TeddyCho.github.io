@@ -49,7 +49,7 @@ Empty intervals were populated with the last interval's information.
 
 # What Are We Measuring?
 Instead of proportions, we are transforming exchange shares into scores reflecting their distance away from the exchange's mean share.
-$s_t = \frac{p_t - \bar{p}}{\bar{p}}$
+<img src="http://www.sciweavers.org/tex2img.php?eq=%24s_t%20%3D%20%5Cfrac%7Bp_t%20-%20%5Cbar%7Bp%7D%7D%7B%5Cbar%7Bp%7D%7D%24&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="$s_t = \frac{p_t - \bar{p}}{\bar{p}}$" width="74" height="31" />
 
 For example, exchange volume shares could look like this for BAC, for different business intervals:
 
