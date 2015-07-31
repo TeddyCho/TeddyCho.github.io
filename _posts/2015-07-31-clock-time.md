@@ -54,7 +54,7 @@ For example, exchange volume shares could look like this for BAC, for different 
 
 <div id="slider-range-min"></div>
 
-<img id="shareGIF" src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation\BAC\10ClockNaN\animation.gif">
+<img id="shareGIF" src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/anims/animationBAC10.gif">
 
 We can get a sense of the business intervals' durations here:
 
@@ -227,9 +227,9 @@ $(function(){
 
 function switchShareGIF(secVal)
 {
-  myFilePrefix = "https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation\"
-  mySymbol = "BAC\"
-  $("#shareGIF").attr("src",myFilePrefix.concat(mySymbol).concat(secVal).concat("ClockNaN\animation.gif"));  
+  myFilePrefix = "https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/anims/animation"
+  mySymbol = "BAC"
+  $("#shareGIF").attr("src",myFilePrefix.concat(mySymbol).concat(secVal).concat(".gif"));  
 }
 
   $('#tablediv1').hide();
