@@ -129,9 +129,11 @@ Autocorrelation was computed using Pearson's formula.
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/10Business/acfNSXBusinessTime.png">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/10Business/acfNYSE.ArcaBusinessTime.png">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/10Business/acfNYSEBusinessTime.png">
+<!--
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/10Business/acfMakerTakerBusinessTime.png">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/10Business/acfTakerMakerBusinessTime.png">
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/8ed251b43b40c0d4b9f2a2249a4b205faaaf7764/output/correlation/BAC/10Business/acfNonNYSEMakerTakerBusinessTime.png">
+-->
 </div>
 </div>
 
