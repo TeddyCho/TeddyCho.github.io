@@ -91,6 +91,7 @@ In the following correlation matrices (Pearson's), the exchanges are ordered suc
 <br>
 In BAC, of note are the negative correlations corresponding to the taker/maker exchanges (and NYSE) with the larger maker/taker exchanges. It suggests substituting going on between exchanges based on who they rebate.
 
+
 ## GOOG
 <div style="width:480px;height:480px;">
 <div id="slides6">
@@ -134,6 +135,7 @@ Autocorrelation was computed using Pearson's formula.
 </div>
 </div>
 
+<!--
 ## GOOG
 <div style="width:480px;height:480px;">
 <div id="slides4">
@@ -154,7 +156,7 @@ Autocorrelation was computed using Pearson's formula.
     <img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/output/correlation/GOOG/10Business/acfTakerMakerBusinessTime.png">
 </div>
 </div>
-
+-->
 <!--
 # Data
 The TAQ data covered the following time frame and symbols:
