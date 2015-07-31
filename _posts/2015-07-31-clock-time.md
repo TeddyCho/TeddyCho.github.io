@@ -47,6 +47,10 @@ Empty intervals were discarded such that valid intervals separated by empty inte
 ## Persist Last Interval
 Empty intervals were populated with the last interval's information.
 
+# What Are We Measuring?
+Instead of proportions, we are transforming exchange shares into scores reflecting their distance away from the exchange's mean share.
+$s_t = \frac{p_t - \bar{p}}{\bar{p}}$
+
 For example, exchange volume shares could look like this for BAC, for different business intervals:
 
 <label for="amount">Clock Interval:</label>
