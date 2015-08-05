@@ -183,7 +183,7 @@ The above was done for GOOG and BAC:
 # Exchange Market Shares During Regular Trading
 
 ## Between Stocks of Different Home Exchange
-When trades are grouped by their symbols' primary listing exchanges, we observe differences across their exchange market share profiles during regular hours. Notably, exchanges held higher market share for their primary listings:
+When trades are grouped by their symbols' primary listing exchanges, we observe differences across their exchange market share profiles during regular hours. (The x-axis represents the groupings for stocks based on primary listing exchange.) Notably, exchanges held higher market share for their primary listings:
 
 <div>
 <button class = "rad-button static light flat">Toggle To Table</button>
