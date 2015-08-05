@@ -194,7 +194,6 @@ When trades are grouped by their symbols' primary listing exchanges, we observe 
 </div>
 </div>
 
-<!---
 To further support that primary exchange helps determine exchange market share profile, we expand each group by their constituent symbols.
 
 ## NASDAQ Stocks
@@ -233,7 +232,7 @@ Our NYSEMKT symbols appeared to represent two clusters of exchange market share 
   <iframe src = ' https://rawgit.com/TeddyCho/TAQ/master/output/breakdownCharts/NYSEMKTSymbolsForRegular.html ' scrolling='no' frameBorder='0' width="800" height="400"> </iframe>
 </div>
 </div>
---->
+
 
 # Exchange Market Shares During Open and Close Auction
 
