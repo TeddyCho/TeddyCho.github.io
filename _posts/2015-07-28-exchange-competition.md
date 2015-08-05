@@ -40,7 +40,7 @@ In the following analysis, trades were partitioned into intervals based on tradi
 
 Trades were grouped sequentially in blocks of **_n_** trades as follows:
 
-<img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/data/businesstimedemo.png">
+<img src="https://raw.githubusercontent.com/TeddyCho/TAQ/master/data/old/businesstimedemo.png">
 
 In the above example, _n_ = 6. Note that partitioning pays no heed to volume nor time.
 
