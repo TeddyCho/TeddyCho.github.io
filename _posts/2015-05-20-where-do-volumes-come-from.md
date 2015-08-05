@@ -31,9 +31,10 @@ unlisted: true
       overflow: hidden
     }
   </style>
-# Tasks
-> Using NYSE Trades and Quotes (TAQ) data for a representative sample of stocks, find the exchange market shares based on stock, time of day, and date.
+# Goals
+> Using Trades and Quotes (TAQ) data for a representative sample of stocks, find how trading volumes are dispersed over exchanges.
 
+<!--
 # Correlations of Exchange Shares in Time Buckets
 When studying the way exchange shares moved over time, we began with some filtering conditions to look at an uneventful, representative sample of regular trading (e.g., away from open/close, holidays).
 
@@ -131,7 +132,7 @@ Autocorrelation was computed using Pearson's formula.
 </div>
 </div>
 
-<!---
+
 # Exchange Share Over Different Trade Burst Sizes
 
 Let us consider an investor's preference for exchanges to be consistent over time (based on bid/offer prices/volumes, fee structure). Perhaps the only reason all their volume may not be sent to their most preferred exchange is because their desired size is too big, which forces some of their size to their second preferred exchange, and then their third choice, and so on.
