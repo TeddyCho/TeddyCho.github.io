@@ -16,9 +16,9 @@ unlisted: true
   <CENTER>
     <form>
   <label for="fbaInterval">FBA Interval: </label><select name = "fbaInterval" onFocus="this.select()"  onchange="switchInterval(this.value)"> 
-    <option value = "1">1 second</option>
     <option value = "120">120 seconds</option>
     <option value = "360">360 seconds</option>
+    <option value = "1">1 second</option>
 </select>
     </form>
     <br>
